@@ -1,0 +1,7191 @@
+{
+  "modules": {
+    "cce:/internal/x/cc": {
+      "mTimestamp": 18227.7992,
+      "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
+      "imports": [
+        {
+          "value": "cce:/internal/x/cc-fu/base",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 14
+            },
+            "end": {
+              "line": 1,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-webgl",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 14
+            },
+            "end": {
+              "line": 2,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-webgl2",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 14
+            },
+            "end": {
+              "line": 3,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-empty",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 14
+            },
+            "end": {
+              "line": 4,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-webgpu",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 14
+            },
+            "end": {
+              "line": 5,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/3d",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 14
+            },
+            "end": {
+              "line": 6,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/animation",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 14
+            },
+            "end": {
+              "line": 7,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/skeletal-animation",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/2d",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 14
+            },
+            "end": {
+              "line": 9,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/sorting",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 14
+            },
+            "end": {
+              "line": 10,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/rich-text",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 14
+            },
+            "end": {
+              "line": 11,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/mask",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 14
+            },
+            "end": {
+              "line": 12,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/graphics",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 14
+            },
+            "end": {
+              "line": 13,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/ui-skew",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 14
+            },
+            "end": {
+              "line": 14,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/ui",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 14
+            },
+            "end": {
+              "line": 15,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/affine-transform",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 14
+            },
+            "end": {
+              "line": 16,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/sorting-2d",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 14
+            },
+            "end": {
+              "line": 17,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/particle",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 14
+            },
+            "end": {
+              "line": 18,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/particle-2d",
+          "resolved": "__unresolved_18",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 14
+            },
+            "end": {
+              "line": 19,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-framework",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 14
+            },
+            "end": {
+              "line": 20,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-cannon",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 14
+            },
+            "end": {
+              "line": 21,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-physx",
+          "resolved": "__unresolved_21",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 14
+            },
+            "end": {
+              "line": 22,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-ammo",
+          "resolved": "__unresolved_22",
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 14
+            },
+            "end": {
+              "line": 23,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-builtin",
+          "resolved": "__unresolved_23",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 14
+            },
+            "end": {
+              "line": 24,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+          "resolved": "__unresolved_24",
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 14
+            },
+            "end": {
+              "line": 25,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-box2d-jsb",
+          "resolved": "__unresolved_25",
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 14
+            },
+            "end": {
+              "line": 26,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-box2d",
+          "resolved": "__unresolved_26",
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 14
+            },
+            "end": {
+              "line": 27,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-builtin",
+          "resolved": "__unresolved_27",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 14
+            },
+            "end": {
+              "line": 28,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-box2d-wasm",
+          "resolved": "__unresolved_28",
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 14
+            },
+            "end": {
+              "line": 29,
+              "column": 59
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/intersection-2d",
+          "resolved": "__unresolved_29",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 14
+            },
+            "end": {
+              "line": 30,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/primitive",
+          "resolved": "__unresolved_30",
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 14
+            },
+            "end": {
+              "line": 31,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/profiler",
+          "resolved": "__unresolved_31",
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 14
+            },
+            "end": {
+              "line": 32,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/geometry-renderer",
+          "resolved": "__unresolved_32",
+          "loc": {
+            "start": {
+              "line": 33,
+              "column": 14
+            },
+            "end": {
+              "line": 33,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/audio",
+          "resolved": "__unresolved_33",
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 14
+            },
+            "end": {
+              "line": 34,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/video",
+          "resolved": "__unresolved_34",
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 14
+            },
+            "end": {
+              "line": 35,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/xr",
+          "resolved": "__unresolved_35",
+          "loc": {
+            "start": {
+              "line": 36,
+              "column": 14
+            },
+            "end": {
+              "line": 36,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/light-probe",
+          "resolved": "__unresolved_36",
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 14
+            },
+            "end": {
+              "line": 37,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/terrain",
+          "resolved": "__unresolved_37",
+          "loc": {
+            "start": {
+              "line": 38,
+              "column": 14
+            },
+            "end": {
+              "line": 38,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/webview",
+          "resolved": "__unresolved_38",
+          "loc": {
+            "start": {
+              "line": 39,
+              "column": 14
+            },
+            "end": {
+              "line": 39,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tween",
+          "resolved": "__unresolved_39",
+          "loc": {
+            "start": {
+              "line": 40,
+              "column": 14
+            },
+            "end": {
+              "line": 40,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tiled-map",
+          "resolved": "__unresolved_40",
+          "loc": {
+            "start": {
+              "line": 41,
+              "column": 14
+            },
+            "end": {
+              "line": 41,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/vendor-google",
+          "resolved": "__unresolved_41",
+          "loc": {
+            "start": {
+              "line": 42,
+              "column": 14
+            },
+            "end": {
+              "line": 42,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/spine",
+          "resolved": "__unresolved_42",
+          "loc": {
+            "start": {
+              "line": 43,
+              "column": 14
+            },
+            "end": {
+              "line": 43,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/dragon-bones",
+          "resolved": "__unresolved_43",
+          "loc": {
+            "start": {
+              "line": 44,
+              "column": 14
+            },
+            "end": {
+              "line": 44,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/custom-pipeline",
+          "resolved": "__unresolved_44",
+          "loc": {
+            "start": {
+              "line": 45,
+              "column": 14
+            },
+            "end": {
+              "line": 45,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/custom-pipeline-post-process",
+          "resolved": "__unresolved_45",
+          "loc": {
+            "start": {
+              "line": 46,
+              "column": 14
+            },
+            "end": {
+              "line": 46,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/legacy-pipeline",
+          "resolved": "__unresolved_46",
+          "loc": {
+            "start": {
+              "line": 47,
+              "column": 14
+            },
+            "end": {
+              "line": 47,
+              "column": 53
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/base"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-empty"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgpu"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/3d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/skeletal-animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/sorting"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/rich-text"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/mask"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/graphics"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/ui-skew"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/ui"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/affine-transform"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/sorting-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-cannon"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-physx"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-ammo"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-builtin"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d-jsb"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-builtin"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d-wasm"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/primitive"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/profiler"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/geometry-renderer"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/audio"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/video"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/xr"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/light-probe"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/terrain"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/webview"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tween"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/vendor-google"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/spine"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/custom-pipeline"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/custom-pipeline-post-process"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/legacy-pipeline"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/x/prerequisite-imports": {
+      "mTimestamp": 28754829.6484,
+      "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
+      "imports": [
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 35
+            },
+            "end": {
+              "line": 5,
+              "column": 174
+            }
+          }
+        },
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 190
+            },
+            "end": {
+              "line": 5,
+              "column": 334
+            }
+          }
+        },
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 350
+            },
+            "end": {
+              "line": 5,
+              "column": 498
+            }
+          }
+        },
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 514
+            },
+            "end": {
+              "line": 5,
+              "column": 659
+            }
+          }
+        },
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 675
+            },
+            "end": {
+              "line": 5,
+              "column": 814
+            }
+          }
+        },
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 830
+            },
+            "end": {
+              "line": 5,
+              "column": 962
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/AtlasNumber.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 978
+            },
+            "end": {
+              "line": 5,
+              "column": 1101
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/BossRushManager.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1117
+            },
+            "end": {
+              "line": 5,
+              "column": 1244
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/BuildingTrigger.ts",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1260
+            },
+            "end": {
+              "line": 5,
+              "column": 1387
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Bullet.ts",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1403
+            },
+            "end": {
+              "line": 5,
+              "column": 1521
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CameraFollow.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1537
+            },
+            "end": {
+              "line": 5,
+              "column": 1661
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Coin.ts",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1677
+            },
+            "end": {
+              "line": 5,
+              "column": 1793
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinCounterUI.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1809
+            },
+            "end": {
+              "line": 5,
+              "column": 1934
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinEvents.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1950
+            },
+            "end": {
+              "line": 5,
+              "column": 2072
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinGroundStack.ts",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2088
+            },
+            "end": {
+              "line": 5,
+              "column": 2215
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinPool.ts",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2231
+            },
+            "end": {
+              "line": 5,
+              "column": 2351
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinSpawnController.ts",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2367
+            },
+            "end": {
+              "line": 5,
+              "column": 2498
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinStack.ts",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2514
+            },
+            "end": {
+              "line": 5,
+              "column": 2635
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/DoorAutoOpen.ts",
+          "resolved": "__unresolved_18",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2651
+            },
+            "end": {
+              "line": 5,
+              "column": 2775
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/DoorHealth.ts",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2791
+            },
+            "end": {
+              "line": 5,
+              "column": 2913
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/FallingCoinVisual.ts",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2929
+            },
+            "end": {
+              "line": 5,
+              "column": 3058
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/FollowerFormation.ts",
+          "resolved": "__unresolved_21",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 3074
+            },
+            "end": {
+              "line": 5,
+              "column": 3203
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/FollowerGhostState.ts",
+          "resolved": "__unresolved_22",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 3219
+            },
+            "end": {
+              "line": 5,
+              "column": 3349
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/FollowerMovement.ts",
+          "resolved": "__unresolved_23",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 3365
+            },
+            "end": {
+              "line": 5,
+              "column": 3493
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/GameManager.ts",
+          "resolved": "__unresolved_24",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 3509
+            },
+            "end": {
+              "line": 5,
+              "column": 3632
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/GuideCompass.ts",
+          "resolved": "__unresolved_25",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 3648
+            },
+            "end": {
+              "line": 5,
+              "column": 3772
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/HitEffect.ts",
+          "resolved": "__unresolved_26",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 3788
+            },
+            "end": {
+              "line": 5,
+              "column": 3909
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/JoystickUI.ts",
+          "resolved": "__unresolved_27",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 3925
+            },
+            "end": {
+              "line": 5,
+              "column": 4047
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MapBounds.ts",
+          "resolved": "__unresolved_28",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 4063
+            },
+            "end": {
+              "line": 5,
+              "column": 4184
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Monster.ts",
+          "resolved": "__unresolved_29",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 4200
+            },
+            "end": {
+              "line": 5,
+              "column": 4319
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterHealthBar.ts",
+          "resolved": "__unresolved_30",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 4335
+            },
+            "end": {
+              "line": 5,
+              "column": 4463
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterHealthBarManager.ts",
+          "resolved": "__unresolved_31",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 4479
+            },
+            "end": {
+              "line": 5,
+              "column": 4614
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterHpBarView.ts",
+          "resolved": "__unresolved_32",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 4630
+            },
+            "end": {
+              "line": 5,
+              "column": 4758
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterSpawner.ts",
+          "resolved": "__unresolved_33",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 4774
+            },
+            "end": {
+              "line": 5,
+              "column": 4900
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Player.ts",
+          "resolved": "__unresolved_34",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 4916
+            },
+            "end": {
+              "line": 5,
+              "column": 5034
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/RushPath.ts",
+          "resolved": "__unresolved_35",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 5050
+            },
+            "end": {
+              "line": 5,
+              "column": 5170
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Socket.ts",
+          "resolved": "__unresolved_36",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 5186
+            },
+            "end": {
+              "line": 5,
+              "column": 5304
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/SocketGauge.ts",
+          "resolved": "__unresolved_37",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 5320
+            },
+            "end": {
+              "line": 5,
+              "column": 5443
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/SocketGuideArrow.ts",
+          "resolved": "__unresolved_38",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 5459
+            },
+            "end": {
+              "line": 5,
+              "column": 5587
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/SocketManager.ts",
+          "resolved": "__unresolved_39",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 5603
+            },
+            "end": {
+              "line": 5,
+              "column": 5728
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/SocketPreviewSlots.ts",
+          "resolved": "__unresolved_40",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 5744
+            },
+            "end": {
+              "line": 5,
+              "column": 5874
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/StructureHealthBar.ts",
+          "resolved": "__unresolved_41",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 5890
+            },
+            "end": {
+              "line": 5,
+              "column": 6020
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/StructureHealthBarManager.ts",
+          "resolved": "__unresolved_42",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 6036
+            },
+            "end": {
+              "line": 5,
+              "column": 6173
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/TowerAttack.ts",
+          "resolved": "__unresolved_43",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 6189
+            },
+            "end": {
+              "line": 5,
+              "column": 6312
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/TriggerId.ts",
+          "resolved": "__unresolved_44",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 6328
+            },
+            "end": {
+              "line": 5,
+              "column": 6449
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/UIAutoFit.ts",
+          "resolved": "__unresolved_45",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 6465
+            },
+            "end": {
+              "line": 5,
+              "column": 6586
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/UnitSocketManager.ts",
+          "resolved": "__unresolved_46",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 6602
+            },
+            "end": {
+              "line": 5,
+              "column": 6731
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/VirtualWall.ts",
+          "resolved": "__unresolved_47",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 6747
+            },
+            "end": {
+              "line": 5,
+              "column": 6870
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/WorldUIAnchor.ts",
+          "resolved": "__unresolved_48",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 6886
+            },
+            "end": {
+              "line": 5,
+              "column": 7011
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/AtlasNumber.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/BossRushManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/BuildingTrigger.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Bullet.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CameraFollow.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Coin.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinCounterUI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinEvents.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinGroundStack.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinPool.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinSpawnController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinStack.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/DoorAutoOpen.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/DoorHealth.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/FallingCoinVisual.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/FollowerFormation.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/FollowerGhostState.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/FollowerMovement.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/GameManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/GuideCompass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/HitEffect.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/JoystickUI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MapBounds.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Monster.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterHealthBar.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterHealthBarManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterHpBarView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterSpawner.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Player.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/RushPath.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Socket.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/SocketGauge.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/SocketGuideArrow.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/SocketManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/SocketPreviewSlots.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/StructureHealthBar.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/StructureHealthBarManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/TowerAttack.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/TriggerId.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/UIAutoFit.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/UnitSocketManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/VirtualWall.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/WorldUIAnchor.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts": {
+      "mTimestamp": {
+        "mtime": 1787726641043.4456,
+        "uuid": "11f3130e-c08c-47bb-a209-71d114594e6d"
+      },
+      "chunkId": "50ec684ab28702df18cf262b25c26ec6d899c3a5",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 7
+            },
+            "end": {
+              "line": 28,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 23
+            },
+            "end": {
+              "line": 30,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-settings",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 7
+            },
+            "end": {
+              "line": 34,
+              "column": 36
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-pass",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 38,
+              "column": 7
+            },
+            "end": {
+              "line": 38,
+              "column": 32
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 45,
+              "column": 7
+            },
+            "end": {
+              "line": 45,
+              "column": 27
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts": {
+      "mTimestamp": {
+        "mtime": 1787726641053.2952,
+        "uuid": "6f94083c-fc92-438b-a15b-a20ec61666c7"
+      },
+      "chunkId": "b18130d786bcadd1d0cb653401afdf2ede79b799",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 7
+            },
+            "end": {
+              "line": 30,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-settings",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 40
+            },
+            "end": {
+              "line": 32,
+              "column": 69
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 23
+            },
+            "end": {
+              "line": 34,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts": {
+      "mTimestamp": {
+        "mtime": 1787726641054.303,
+        "uuid": "de1c2107-70c8-4021-8459-6399f24d01c6"
+      },
+      "chunkId": "e2831fde95d58c09916d0f882742b7597544b8d1",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 7
+            },
+            "end": {
+              "line": 28,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 23
+            },
+            "end": {
+              "line": 30,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-types",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 7
+            },
+            "end": {
+              "line": 35,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts": {
+      "mTimestamp": {
+        "mtime": 1787726641055.8086,
+        "uuid": "cbf30902-517f-40dc-af90-a550bac27cf1"
+      },
+      "chunkId": "7dd5f1b51da4ae6cb44c6f9d41d8fc719b109223",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 49
+            },
+            "end": {
+              "line": 31,
+              "column": 53
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": {
+      "mTimestamp": {
+        "mtime": 1787726641059.3386,
+        "uuid": "ff9b0199-ce04-4cfe-86cc-6c719f08d6e4"
+      },
+      "chunkId": "fd74c742a972dbbcd3691d204a338b19a4515b62",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 7
+            },
+            "end": {
+              "line": 29,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 30
+            },
+            "end": {
+              "line": 31,
+              "column": 38
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-types",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 7
+            },
+            "end": {
+              "line": 37,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": {
+      "mTimestamp": {
+        "mtime": 1787726641334.7148,
+        "uuid": "b2bd1fa7-8d7c-49c5-a158-df29a6d3a594"
+      },
+      "chunkId": "621a159ce4a7bac550092546e00c97e12458f12b",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 220
+            },
+            "end": {
+              "line": 1,
+              "column": 224
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Bullet.ts": {
+      "mTimestamp": {
+        "mtime": 1788511551383.0088,
+        "uuid": "03a0cb05-a047-479e-b605-33b03e896a4e"
+      },
+      "chunkId": "6cea83acb44d6093250e59e70c3e9e96c29040c5",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 90
+            },
+            "end": {
+              "line": 1,
+              "column": 94
+            }
+          }
+        },
+        {
+          "value": "./Monster",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 35
+            }
+          }
+        },
+        {
+          "value": "./HitEffect",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 43
+            },
+            "end": {
+              "line": 3,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Monster.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/HitEffect.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/GameManager.ts": {
+      "mTimestamp": {
+        "mtime": 1788515769283.2952,
+        "uuid": "d73a4bc0-4c1a-47f8-a51f-5f5319148eef"
+      },
+      "chunkId": "22ed57bf8c37548263234bf5ceae632bef10d1a0",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./CoinEvents",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 42
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./MonsterSpawner",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 31
+            },
+            "end": {
+              "line": 3,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./JoystickUI",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 27
+            },
+            "end": {
+              "line": 4,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "./StructureHealthBar",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 35
+            },
+            "end": {
+              "line": 5,
+              "column": 57
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinEvents.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterSpawner.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/JoystickUI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/StructureHealthBar.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/JoystickUI.ts": {
+      "mTimestamp": {
+        "mtime": 1788510711525.8562,
+        "uuid": "17180cf9-b1fe-4fd8-9a08-92c40fec9c48"
+      },
+      "chunkId": "7ee5641c6ebff48f97bc00f47d600930d72259ee",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 106
+            },
+            "end": {
+              "line": 1,
+              "column": 110
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Monster.ts": {
+      "mTimestamp": {
+        "mtime": 1788514222904.5386,
+        "uuid": "bf306af4-cc35-4072-b76c-95fdb411d603"
+      },
+      "chunkId": "c2ed99b148d2db7339ab733ab89dcbed8c632ddc",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 60
+            },
+            "end": {
+              "line": 2,
+              "column": 64
+            }
+          }
+        },
+        {
+          "value": "./GameManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 28
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./VirtualWall",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 28
+            },
+            "end": {
+              "line": 5,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./DoorHealth",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 27
+            },
+            "end": {
+              "line": 6,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/GameManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/VirtualWall.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/DoorHealth.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterSpawner.ts": {
+      "mTimestamp": {
+        "mtime": 1788511571595.7573,
+        "uuid": "f4d8269d-47a4-46f4-b5f7-91b630d85a56"
+      },
+      "chunkId": "adbdbc741a9d2ca5574d35b91fa0ef4fe0f5c6e4",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 65
+            },
+            "end": {
+              "line": 1,
+              "column": 69
+            }
+          }
+        },
+        {
+          "value": "./Monster",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 35
+            }
+          }
+        },
+        {
+          "value": "./RushPath",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 25
+            },
+            "end": {
+              "line": 3,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./CoinEvents",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 42
+            },
+            "end": {
+              "line": 4,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./MonsterHealthBar",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 33
+            },
+            "end": {
+              "line": 5,
+              "column": 53
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Monster.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/RushPath.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinEvents.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterHealthBar.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Player.ts": {
+      "mTimestamp": {
+        "mtime": 1788515129864.2822,
+        "uuid": "74a91172-39e2-4fdc-a994-d81c18099031"
+      },
+      "chunkId": "4d6ecff01e56320de40b8f36605badf7a405ce52",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 67
+            },
+            "end": {
+              "line": 2,
+              "column": 71
+            }
+          }
+        },
+        {
+          "value": "./MonsterSpawner",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 31
+            },
+            "end": {
+              "line": 3,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./Bullet",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 23
+            },
+            "end": {
+              "line": 4,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "./JoystickUI",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 27
+            },
+            "end": {
+              "line": 6,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "./MapBounds",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 26
+            },
+            "end": {
+              "line": 7,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "./VirtualWall",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 28
+            },
+            "end": {
+              "line": 8,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterSpawner.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Bullet.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/JoystickUI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MapBounds.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/VirtualWall.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/UIAutoFit.ts": {
+      "mTimestamp": {
+        "mtime": 1788139868036.37,
+        "uuid": "071cfb3a-8179-423f-a47d-223688537f10"
+      },
+      "chunkId": "34a62a5239a78e17c35a4151efa35b135d29f656",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 71
+            },
+            "end": {
+              "line": 1,
+              "column": 75
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/code-quality/cr.mjs": {
+      "mTimestamp": 1788487044797,
+      "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/RushPath.ts": {
+      "mTimestamp": {
+        "mtime": 1788152686987.927,
+        "uuid": "2b9ef3fd-e430-4904-9142-e064fe1d147b"
+      },
+      "chunkId": "85cf4bdd34e9f75fdaa19c4bcf297b00cc477404",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/RushStartTrigger.ts": {
+      "mTimestamp": {
+        "mtime": 1788336055544.6523,
+        "uuid": "8765133e-94aa-4f3b-ad3d-7be19e006b0f"
+      },
+      "chunkId": "68d39f59da0dfa820f83747fd5796905c17f6d9a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 38
+            },
+            "end": {
+              "line": 1,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "./MonsterSpawner",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./CoinEvents",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 42
+            },
+            "end": {
+              "line": 3,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterSpawner.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinEvents.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/WorldUIAnchor.ts": {
+      "mTimestamp": {
+        "mtime": 1788158501021.3164,
+        "uuid": "baac7954-f558-4ac9-b349-12f7bb98a838"
+      },
+      "chunkId": "f4390ff36f129c7076777e420c48ff33ab7ef6b4",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 71
+            },
+            "end": {
+              "line": 1,
+              "column": 75
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CameraFollow.ts": {
+      "mTimestamp": {
+        "mtime": 1788160790518.3584,
+        "uuid": "4fd77123-64db-48d6-8791-7e7e01a28426"
+      },
+      "chunkId": "c023c1ff359015f7babab61aafb3a0a7dce644d5",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 50
+            },
+            "end": {
+              "line": 1,
+              "column": 54
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CameraAspectFit.ts": {
+      "mTimestamp": {
+        "mtime": 1788160180924.2205,
+        "uuid": "6b897d3d-db5c-4247-b1b5-3161477cb5f4"
+      },
+      "chunkId": "35148e7f5eaf863a2f1754c195d2c0625d5d36fe",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 52
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/HitEffect.ts": {
+      "mTimestamp": {
+        "mtime": 1788172029185.751,
+        "uuid": "82f2f20f-c3e6-48f1-b1e5-e0e7f3cbca58"
+      },
+      "chunkId": "72568570ecf8ef3df9570326ddfb064d075d9e0c",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 100
+            },
+            "end": {
+              "line": 1,
+              "column": 104
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MapBounds.ts": {
+      "mTimestamp": {
+        "mtime": 1788229649334.1577,
+        "uuid": "49fbb469-27e3-4518-864c-59ecdbd67e9a"
+      },
+      "chunkId": "574f6cf008f5930e61f132364fd857db8971be6f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 86
+            },
+            "end": {
+              "line": 1,
+              "column": 90
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 38
+            },
+            "end": {
+              "line": 2,
+              "column": 46
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Coin.ts": {
+      "mTimestamp": {
+        "mtime": 1788511480466.2754,
+        "uuid": "b1171445-9473-45bc-b300-16657598dea9"
+      },
+      "chunkId": "288aab2c571dd495f7a33343a693c74c41a08672",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 67
+            },
+            "end": {
+              "line": 1,
+              "column": 71
+            }
+          }
+        },
+        {
+          "value": "./CoinEvents",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 42
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinEvents.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinEvents.ts": {
+      "mTimestamp": {
+        "mtime": 1788511579561.9277,
+        "uuid": "7536dd2e-9e9b-49d9-802d-448ee396b7b4"
+      },
+      "chunkId": "46df8d9ff07b94e47d99a1626fa0659a524480c7",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 28
+            },
+            "end": {
+              "line": 1,
+              "column": 32
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinPool.ts": {
+      "mTimestamp": {
+        "mtime": 1788511488613.1187,
+        "uuid": "00d0607b-b92b-4bc9-a365-166bd3594623"
+      },
+      "chunkId": "514222908e2a0528d6d97564c94e2a6c699c16d3",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 71
+            },
+            "end": {
+              "line": 1,
+              "column": 75
+            }
+          }
+        },
+        {
+          "value": "./Coin",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 33
+            },
+            "end": {
+              "line": 2,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Coin.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinSpawnController.ts": {
+      "mTimestamp": {
+        "mtime": 1788511756699.9155,
+        "uuid": "b2233e12-364a-41c8-8282-3e08eff19f59"
+      },
+      "chunkId": "63a245a444934cadab44b72b3574807ae2495fd7",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 50
+            },
+            "end": {
+              "line": 1,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "./CoinEvents",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 42
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./CoinPool",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 25
+            },
+            "end": {
+              "line": 3,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./CoinStack",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 26
+            },
+            "end": {
+              "line": 4,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "./Player",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 23
+            },
+            "end": {
+              "line": 5,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "./TowerAttack",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 28
+            },
+            "end": {
+              "line": 6,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinEvents.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinPool.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinStack.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Player.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/TowerAttack.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinStack.ts": {
+      "mTimestamp": {
+        "mtime": 1788511466034.6768,
+        "uuid": "dfd23e5d-ce37-45a2-bfa8-0692ee879a9f"
+      },
+      "chunkId": "b2a11717e12a85a8dd3deed28ae6ff71aa632c05",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 71
+            },
+            "end": {
+              "line": 1,
+              "column": 75
+            }
+          }
+        },
+        {
+          "value": "./CoinEvents",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 42
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinEvents.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/FallingCoinVisual.ts": {
+      "mTimestamp": {
+        "mtime": 1788258387087.818,
+        "uuid": "365e081c-d240-491c-9965-f6219dbafc82"
+      },
+      "chunkId": "612fa8dea19308661f146ebacb8460a35b15d243",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 50
+            },
+            "end": {
+              "line": 1,
+              "column": 54
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Socket.ts": {
+      "mTimestamp": {
+        "mtime": 1788507956196.8545,
+        "uuid": "55591f93-076f-400f-8c48-b3e15e22acc3"
+      },
+      "chunkId": "16cecd2f5708493644b30097544327c40fe466b9",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 92
+            },
+            "end": {
+              "line": 1,
+              "column": 96
+            }
+          }
+        },
+        {
+          "value": "./CoinStack",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "./Player",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 23
+            },
+            "end": {
+              "line": 3,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "./FollowerMovement",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 33
+            },
+            "end": {
+              "line": 5,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "./FollowerGhostState",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 35
+            },
+            "end": {
+              "line": 6,
+              "column": 57
+            }
+          }
+        },
+        {
+          "value": "./SocketPreviewSlots",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 35
+            },
+            "end": {
+              "line": 7,
+              "column": 57
+            }
+          }
+        },
+        {
+          "value": "./SocketGuideArrow",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 33
+            },
+            "end": {
+              "line": 8,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "./FallingCoinVisual",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 52
+            },
+            "end": {
+              "line": 9,
+              "column": 73
+            }
+          }
+        },
+        {
+          "value": "./AtlasNumber",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 28
+            },
+            "end": {
+              "line": 10,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./SocketGauge",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 28
+            },
+            "end": {
+              "line": 11,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./CoinEvents",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 42
+            },
+            "end": {
+              "line": 12,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinStack.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Player.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/FollowerMovement.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/FollowerGhostState.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/SocketPreviewSlots.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/SocketGuideArrow.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/FallingCoinVisual.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/AtlasNumber.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/SocketGauge.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinEvents.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/SocketManager.ts": {
+      "mTimestamp": {
+        "mtime": 1788510121497.8955,
+        "uuid": "d1e53d71-8c5f-4282-94de-12af14dc4bf5"
+      },
+      "chunkId": "ca15fc69325b2752c73c29fe76822bc6d777d751",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 71
+            },
+            "end": {
+              "line": 1,
+              "column": 75
+            }
+          }
+        },
+        {
+          "value": "./Socket",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "./FollowerFormation",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "./TriggerId",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 26
+            },
+            "end": {
+              "line": 4,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "./CoinEvents",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 42
+            },
+            "end": {
+              "line": 5,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Socket.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/FollowerFormation.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/TriggerId.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinEvents.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/FollowerFormation.ts": {
+      "mTimestamp": {
+        "mtime": 1788337202655.7441,
+        "uuid": "c6078f27-e5be-4ab6-956a-df0a511ed3d2"
+      },
+      "chunkId": "35d5eaf648bf54e964eabb1f1fbb1ace35f0e2ea",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 99
+            },
+            "end": {
+              "line": 1,
+              "column": 103
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 38
+            },
+            "end": {
+              "line": 2,
+              "column": 46
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/FollowerMovement.ts": {
+      "mTimestamp": {
+        "mtime": 1788249384962.0408,
+        "uuid": "887a1c06-e349-41d9-ba90-1cb616d35fb2"
+      },
+      "chunkId": "edb08dc2045c74d5e495dccf80ddcd5900d9c2ef",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 50
+            },
+            "end": {
+              "line": 1,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "./Player",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Player.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/AtlasNumber.ts": {
+      "mTimestamp": {
+        "mtime": 1788261067360.6377,
+        "uuid": "ce780ab4-958c-4732-96b4-e3bcc6119844"
+      },
+      "chunkId": "2a9f10c4b51b97584ae037f2a722c09763287335",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 80
+            },
+            "end": {
+              "line": 1,
+              "column": 84
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/SocketGauge.ts": {
+      "mTimestamp": {
+        "mtime": 1788328787636.1152,
+        "uuid": "8d7e82b1-7751-4428-810c-05ce7d0577e6"
+      },
+      "chunkId": "18e5df11ef0ff41f895ca00264c1a081b3ebb297",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 38
+            },
+            "end": {
+              "line": 1,
+              "column": 42
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/FollowerGhostState.ts": {
+      "mTimestamp": {
+        "mtime": 1788341546821.7368,
+        "uuid": "6da1f37c-4c0c-4159-bc6e-15995952d567"
+      },
+      "chunkId": "5fae5ccd6342aa81ab7ae4b4a296fa3f92c8eba8",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 69
+            },
+            "end": {
+              "line": 1,
+              "column": 73
+            }
+          }
+        },
+        {
+          "value": "./Player",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Player.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/SocketPreviewSlots.ts": {
+      "mTimestamp": {
+        "mtime": 1788341567936.3447,
+        "uuid": "700dc4d5-9edb-4774-aa09-8c3903474d6e"
+      },
+      "chunkId": "8003d9ab3ad5edc1a7f5fcf05d315f330e42fcb3",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 99
+            },
+            "end": {
+              "line": 1,
+              "column": 103
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 38
+            },
+            "end": {
+              "line": 2,
+              "column": 46
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/SocketGuideArrow.ts": {
+      "mTimestamp": {
+        "mtime": 1788405164363.1228,
+        "uuid": "a3aeb945-a91b-471d-91d0-82907da6eb25"
+      },
+      "chunkId": "c4ee059258dac786482fbcc89d6d80bcbdc40148",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 91
+            },
+            "end": {
+              "line": 1,
+              "column": 95
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/GuideCompass.ts": {
+      "mTimestamp": {
+        "mtime": 1788415527955.5005,
+        "uuid": "79596b13-009b-4472-9d1c-e2abf12cc68b"
+      },
+      "chunkId": "b06b2a144a4c1be299a1696810fc47c7af36dbee",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 82
+            },
+            "end": {
+              "line": 1,
+              "column": 86
+            }
+          }
+        },
+        {
+          "value": "./Socket",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Socket.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/_TempGuideTest.ts": {
+      "mTimestamp": {
+        "mtime": 1788415551483.546,
+        "uuid": "7a86528a-edcb-4aac-b6c8-d49df3a88453"
+      },
+      "chunkId": "4ee4e5db65010706bb093f7d7ed11e3f2dbb1156",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./Socket",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Socket.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/BuildingTrigger.ts": {
+      "mTimestamp": {
+        "mtime": 1788514240604.2273,
+        "uuid": "238aa87f-11f8-45d1-9996-7f59bee891bb"
+      },
+      "chunkId": "4c9ebf4bc3060a719f854251e1d98811615ed726",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 99
+            },
+            "end": {
+              "line": 1,
+              "column": 103
+            }
+          }
+        },
+        {
+          "value": "./CoinEvents",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 42
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./TriggerId",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 26
+            },
+            "end": {
+              "line": 3,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "./TowerAttack",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 28
+            },
+            "end": {
+              "line": 4,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./DoorAutoOpen",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 29
+            },
+            "end": {
+              "line": 5,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "./DoorHealth",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 27
+            },
+            "end": {
+              "line": 6,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "./VirtualWall",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 28
+            },
+            "end": {
+              "line": 7,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinEvents.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/TriggerId.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/TowerAttack.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/DoorAutoOpen.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/DoorHealth.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/VirtualWall.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/TriggerId.ts": {
+      "mTimestamp": {
+        "mtime": 1788418338404.0627,
+        "uuid": "ce66d8cd-aa04-4c94-98a0-4d23f023574a"
+      },
+      "chunkId": "e23ee5ca62f402364b4601e1b3d24afffcd22c34",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 21
+            },
+            "end": {
+              "line": 1,
+              "column": 25
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/_TempTriggerTest.ts": {
+      "mTimestamp": {
+        "mtime": 1788418801045.9558,
+        "uuid": "4781bb75-6e3f-4ec6-b319-3167ff17c43c"
+      },
+      "chunkId": "05f567f372ff4c50b797791415ea8666f233c9eb",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 38
+            },
+            "end": {
+              "line": 1,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "./CoinEvents",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 42
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinEvents.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/TowerAttack.ts": {
+      "mTimestamp": {
+        "mtime": 1788511770542.0398,
+        "uuid": "5a5eea84-e94c-4d5e-a780-157fa1bbb82a"
+      },
+      "chunkId": "8d86ac75b9f21552aa99b1aad4ed60e8f19c54d7",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 108
+            },
+            "end": {
+              "line": 1,
+              "column": 112
+            }
+          }
+        },
+        {
+          "value": "./MonsterSpawner",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./Bullet",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 23
+            },
+            "end": {
+              "line": 3,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "./CoinGroundStack",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 32
+            },
+            "end": {
+              "line": 5,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterSpawner.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Bullet.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinGroundStack.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/BoneMeshSync.ts": {
+      "mTimestamp": {
+        "mtime": 1788430892906.146,
+        "uuid": "ca28ccd7-8603-4545-8b87-795c0a765dff"
+      },
+      "chunkId": "10840c4e964e29c034daefca51c8b9ebeb607f51",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/UnitSocketManager.ts": {
+      "mTimestamp": {
+        "mtime": 1788507962198.5376,
+        "uuid": "2e97ce93-1b7e-4220-8bd8-8327c72f51ed"
+      },
+      "chunkId": "0f535765eb4456c19e6c09d10d1e1863d7007743",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 65
+            },
+            "end": {
+              "line": 1,
+              "column": 69
+            }
+          }
+        },
+        {
+          "value": "./Socket",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "./SocketManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 30
+            },
+            "end": {
+              "line": 3,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "./FollowerFormation",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 34
+            },
+            "end": {
+              "line": 4,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "./MonsterSpawner",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 31
+            },
+            "end": {
+              "line": 5,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./TriggerId",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 26
+            },
+            "end": {
+              "line": 6,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "./CoinEvents",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 42
+            },
+            "end": {
+              "line": 7,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Socket.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/SocketManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/FollowerFormation.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterSpawner.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/TriggerId.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinEvents.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/BossRushManager.ts": {
+      "mTimestamp": {
+        "mtime": 1788441510904.6042,
+        "uuid": "0a38dd76-9c55-4d47-b370-0c5c60947e53"
+      },
+      "chunkId": "7eb986862bb3611c323b8509422cd5269ac4703b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./CoinEvents",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 42
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./TriggerId",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 26
+            },
+            "end": {
+              "line": 3,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "./MonsterSpawner",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 31
+            },
+            "end": {
+              "line": 4,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinEvents.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/TriggerId.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterSpawner.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinCounterUI.ts": {
+      "mTimestamp": {
+        "mtime": 1788489827278.7705,
+        "uuid": "0a47fe6c-2fb1-44eb-9bfe-1363d8719130"
+      },
+      "chunkId": "b6636e8a21bc07deafcf25a659e8ca7f5a90630a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 45
+            },
+            "end": {
+              "line": 1,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./CoinEvents",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 42
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./CoinStack",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 26
+            },
+            "end": {
+              "line": 3,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinEvents.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinStack.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterHealthBarManager.ts": {
+      "mTimestamp": {
+        "mtime": 1788490922224.6526,
+        "uuid": "970e85aa-397c-4304-aa02-22ec108e9434"
+      },
+      "chunkId": "8478c7f1bf6e9bf0d11d4beb31c0b24ea5fd66d5",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 73
+            },
+            "end": {
+              "line": 1,
+              "column": 77
+            }
+          }
+        },
+        {
+          "value": "./MonsterHpBarView",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 33
+            },
+            "end": {
+              "line": 2,
+              "column": 53
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterHpBarView.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterHpBarView.ts": {
+      "mTimestamp": {
+        "mtime": 1788506179730.6826,
+        "uuid": "eb621347-6478-4fa9-9f5e-dfd1f2cc8bff"
+      },
+      "chunkId": "a3b2da4d389563717e627c05a4876f16deb365e2",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 66
+            },
+            "end": {
+              "line": 1,
+              "column": 70
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterHealthBar.ts": {
+      "mTimestamp": {
+        "mtime": 1788506733572.312,
+        "uuid": "2cab6ff9-63c7-4f7d-b354-9fc5fbe0d323"
+      },
+      "chunkId": "c37306007c031cbac6b68b9815916f04a5fca96d",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 38
+            },
+            "end": {
+              "line": 1,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "./MonsterHealthBarManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 40
+            },
+            "end": {
+              "line": 2,
+              "column": 67
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterHealthBarManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/BuildingObstacle.ts": {
+      "mTimestamp": {
+        "mtime": 1788496662554.7166,
+        "uuid": "8a2cd58a-bcf6-483c-860f-91aecfb72d0b"
+      },
+      "chunkId": "45d37ff12a0ff34aab3bf6f6aa2f3de2dbd9d82f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 86
+            },
+            "end": {
+              "line": 1,
+              "column": 90
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 38
+            },
+            "end": {
+              "line": 2,
+              "column": 46
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/DoorAutoOpen.ts": {
+      "mTimestamp": {
+        "mtime": 1788512820480.1165,
+        "uuid": "d1656c5c-7096-4374-ac01-79343b0a9d83"
+      },
+      "chunkId": "cd0fc8f93152f3ce74a927418bf716d14eee1005",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 94
+            },
+            "end": {
+              "line": 1,
+              "column": 98
+            }
+          }
+        },
+        {
+          "value": "./Player",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/Player.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/VirtualWall.ts": {
+      "mTimestamp": {
+        "mtime": 1788515120070.4868,
+        "uuid": "c9879f3b-d9f3-46eb-b422-78d80943f703"
+      },
+      "chunkId": "51dd7a37e118ade69ade386b95b0aea441f89308",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 93
+            },
+            "end": {
+              "line": 1,
+              "column": 97
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 38
+            },
+            "end": {
+              "line": 2,
+              "column": 46
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinGroundStack.ts": {
+      "mTimestamp": {
+        "mtime": 1788512796961.4753,
+        "uuid": "adedd917-9fae-4c20-995d-befd38f05040"
+      },
+      "chunkId": "96c386d33ac215ba1d613abdc09eb2984584f977",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 71
+            },
+            "end": {
+              "line": 1,
+              "column": 75
+            }
+          }
+        },
+        {
+          "value": "./CoinEvents",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 42
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./CoinStack",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 43
+            },
+            "end": {
+              "line": 3,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./CoinPool",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 25
+            },
+            "end": {
+              "line": 4,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinEvents.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinStack.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/CoinPool.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/DoorHealth.ts": {
+      "mTimestamp": {
+        "mtime": 1788515785075.166,
+        "uuid": "1c572e45-ef17-4571-89dc-e5939241951d"
+      },
+      "chunkId": "54c2725dbfb76ff7aa4d142e7d0280afe1d0c25b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 38
+            },
+            "end": {
+              "line": 1,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "./VirtualWall",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./StructureHealthBar",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 35
+            },
+            "end": {
+              "line": 3,
+              "column": 57
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/VirtualWall.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/StructureHealthBar.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/StructureHealthBar.ts": {
+      "mTimestamp": {
+        "mtime": 1788515741584.6824,
+        "uuid": "29013ab9-fa21-491a-b730-e8d600464f77"
+      },
+      "chunkId": "7d2524295f70dade8381c93172c9ca0511a2aece",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 38
+            },
+            "end": {
+              "line": 1,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "./StructureHealthBarManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 42
+            },
+            "end": {
+              "line": 2,
+              "column": 71
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/StructureHealthBarManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/StructureHealthBarManager.ts": {
+      "mTimestamp": {
+        "mtime": 1788515730359.1333,
+        "uuid": "c1971eea-9f46-49cc-924c-944c0cfcf5ea"
+      },
+      "chunkId": "5817154e498c74632465c4b44d569e65e429695e",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 73
+            },
+            "end": {
+              "line": 1,
+              "column": 77
+            }
+          }
+        },
+        {
+          "value": "./MonsterHpBarView",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 33
+            },
+            "end": {
+              "line": 2,
+              "column": 53
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject/assets/scripts/MonsterHpBarView.ts"
+          },
+          "messages": []
+        }
+      ]
+    }
+  }
+}

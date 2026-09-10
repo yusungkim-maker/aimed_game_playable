@@ -1,0 +1,177 @@
+[
+    1,
+    [
+        "51a66360-a584-4f4f-8fb0-643ac9abc1e5@6c48a",
+        "a7612b54-35e3-4238-a1a9-4a7b54635839"
+    ],
+    [
+        "mainTexture",
+        "shadeMap1",
+        "shadeMap2",
+        "_effectAsset"
+    ],
+    [
+        [
+            "cc.Material",
+            [
+                "_name",
+                "_states",
+                "_defines",
+                "_props"
+            ],
+            0,
+            12
+        ]
+    ],
+    [
+        [
+            0,
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    ],
+    [
+        [
+            0,
+            "Crossbow01",
+            [
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                }
+            ],
+            [
+                {
+                    "USE_OUTLINE_PASS": true
+                },
+                {
+                    "USE_BASE_COLOR_MAP": true,
+                    "USE_1ST_SHADE_MAP": true,
+                    "USE_2ND_SHADE_MAP": true
+                },
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            [
+                [
+                    {},
+                    [
+                        {},
+                        "specular",
+                        8,
+                        [
+                            4,
+                            1275068416
+                        ],
+                        "mainTexture",
+                        6,
+                        0,
+                        "shadeMap1",
+                        6,
+                        1,
+                        "shadeMap2",
+                        6,
+                        2
+                    ],
+                    {},
+                    {},
+                    {},
+                    {},
+                    {}
+                ],
+                0,
+                11,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        ]
+    ],
+    0,
+    0,
+    [
+        0,
+        0,
+        0,
+        0
+    ],
+    [
+        0,
+        1,
+        2,
+        3
+    ],
+    [
+        0,
+        0,
+        0,
+        1
+    ]
+]

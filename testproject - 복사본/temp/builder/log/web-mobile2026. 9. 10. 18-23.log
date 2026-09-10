@@ -1,0 +1,509 @@
+2026. 9. 10. 18:23:49 - debug: =================================== build Task (web-mobile) Start ================================
+2026. 9. 10. 18:23:49 - debug: Start build task, options:{"name":"testproject","server":"","engineModulesConfigKey":"defaultConfig","platform":"web-mobile","buildPath":"project://build","debug":false,"buildMode":"normal","mangleProperties":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"overwriteProjectSettings":{"includeModules":{"gfx-webgl2":"on","physics":"inherit-project-setting","physics-2d":"inherit-project-setting"},"macroConfig":{"cleanupImageCache":"inherit-project-setting"}},"nativeCodeBundleMode":"both","polyfills":{"asyncFunctions":true},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"inlineEnum":true,"useBuiltinServer":false,"md5CacheOptions":{"excludes":[],"includes":[],"replaceOnly":[],"handleTemplateMd5Link":true},"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"9a7278e2-6711-4206-9a5a-ab66fac64e6b","outputName":"web-mobile","taskName":"web-mobile","scenes":[{"url":"db://assets/scene.scene","uuid":"9a7278e2-6711-4206-9a5a-ab66fac64e6b"}],"wasmCompressionMode":false,"binGroupConfig":{"threshold":16,"enable":false},"packages":{"web-mobile":{"useWebGPU":false,"orientation":"auto","embedWebDebugger":false,"__version__":"1.0.1"},"adsense-h5g-plugin":{"enableAdsense":false,"enableTestAd":false,"__version__":"1.0.1","AFPHostPropertyCode":"ca-host-pub-5396158963872751","AFPHostDomain":"douyougame.com","otherAFPHostPropertyCode":"","otherAFPDomain":""},"cocos-service":{"configID":"2bb5fb","services":[],"__version__":"3.0.9"}},"__version__":"1.3.9","logDest":"project://temp/builder/log/web-mobile2026. 9. 10. 18-23.log"}
+2026. 9. 10. 18:23:49 - debug: Build with Cocos Creator 3.8.8
+2026. 9. 10. 18:23:49 - debug: cocos-service:(onBeforeBuild) start..., progress: 0%
+2026. 9. 10. 18:23:49 - debug: // ---- build task cocos-service：onBeforeBuild ----
+2026. 9. 10. 18:23:50 - debug: // ---- build task cocos-service：onBeforeBuild ---- (946ms)
+2026. 9. 10. 18:23:50 - debug: cocos-service:(onBeforeBuild) in 946 ms ✓, progress: 2%
+2026. 9. 10. 18:23:50 - debug: scene:(onBeforeBuild) start..., progress: 2%
+2026. 9. 10. 18:23:50 - debug: // ---- build task scene：onBeforeBuild ----
+2026. 9. 10. 18:23:51 - debug: // ---- build task scene：onBeforeBuild ---- (1232ms)
+2026. 9. 10. 18:23:51 - debug: scene:(onBeforeBuild) in 1232 ms ✓, progress: 4%
+2026. 9. 10. 18:23:51 - debug: playable-ads-adapter:(onBeforeBuild) start..., progress: 4%
+2026. 9. 10. 18:23:51 - debug: // ---- build task playable-ads-adapter：onBeforeBuild ----
+2026. 9. 10. 18:23:51 - log: {"name":"testproject","server":"","engineModulesConfigKey":"defaultConfig","platform":"web-mobile","buildPath":"project://build","debug":false,"buildMode":"normal","mangleProperties":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"overwriteProjectSettings":{"includeModules":{"gfx-webgl2":"on","physics":"inherit-project-setting","physics-2d":"inherit-project-setting"},"macroConfig":{"cleanupImageCache":"inherit-project-setting"}},"nativeCodeBundleMode":"both","polyfills":{"asyncFunctions":true},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"inlineEnum":true,"useBuiltinServer":false,"md5CacheOptions":{"excludes":[],"includes":[],"replaceOnly":[],"handleTemplateMd5Link":true},"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"9a7278e2-6711-4206-9a5a-ab66fac64e6b","outputName":"web-mobile","taskName":"web-mobile","scenes":[{"url":"db://assets/scene.scene","uuid":"9a7278e2-6711-4206-9a5a-ab66fac64e6b"}],"wasmCompressionMode":false,"binGroupConfig":{"threshold":16,"enable":false},"packages":{"web-mobile":{"useWebGPU":false,"orientation":"auto","embedWebDebugger":false,"__version__":"1.0.1"},"adsense-h5g-plugin":{"enableAdsense":false,"enableTestAd":false,"__version__":"1.0.1","AFPHostPropertyCode":"ca-host-pub-5396158963872751","AFPHostDomain":"douyougame.com","otherAFPHostPropertyCode":"","otherAFPDomain":""},"cocos-service":{"configID":"2bb5fb","services":[],"__version__":"3.0.9"}},"__version__":"1.3.9","logDest":"project://temp/builder/log/web-mobile2026. 9. 10. 18-23.log"}
+2026. 9. 10. 18:23:51 - log: playable-ads-adapter 进行预构建处理
+2026. 9. 10. 18:23:51 - log: playable-ads-adapter 跳过预构建处理
+2026. 9. 10. 18:23:52 - debug: // ---- build task playable-ads-adapter：onBeforeBuild ---- (813ms)
+2026. 9. 10. 18:23:52 - debug: playable-ads-adapter:(onBeforeBuild) in 813 ms ✓, progress: 5%
+2026. 9. 10. 18:23:52 - debug: Start lock asset db..., progress: 5%
+2026. 9. 10. 18:23:52 - log: Asset DB is paused with build!
+2026. 9. 10. 18:23:52 - debug: Query all assets info in project
+2026. 9. 10. 18:23:53 - debug: init custom config: keepNodeUuid: false, useCache: true
+2026. 9. 10. 18:23:53 - debug: web-mobile:(onAfterInit) start..., progress: 5%
+2026. 9. 10. 18:23:53 - debug: // ---- build task web-mobile：onAfterInit ----
+2026. 9. 10. 18:23:54 - debug: // ---- build task web-mobile：onAfterInit ---- (447ms)
+2026. 9. 10. 18:23:54 - debug: web-mobile:(onAfterInit) in 447 ms ✓, progress: 7%
+2026. 9. 10. 18:23:54 - debug: cocos-service:(onAfterInit) start..., progress: 7%
+2026. 9. 10. 18:23:54 - debug: // ---- build task cocos-service：onAfterInit ----
+2026. 9. 10. 18:23:55 - debug: // ---- build task cocos-service：onAfterInit ---- (1488ms)
+2026. 9. 10. 18:23:55 - debug: cocos-service:(onAfterInit) in 1488 ms ✓, progress: 9%
+2026. 9. 10. 18:23:55 - debug: Skip compress image, progress: 0%
+2026. 9. 10. 18:23:55 - debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 9%
+2026. 9. 10. 18:23:55 - debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 0%
+2026. 9. 10. 18:23:55 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
+2026. 9. 10. 18:23:56 - debug: [adsense-h5g-plugin] remove script success
+2026. 9. 10. 18:23:56 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (1199ms)
+2026. 9. 10. 18:23:56 - debug: adsense-h5g-plugin:(onBeforeBundleInit) in 1199 ms ✓, progress: 9%
+2026. 9. 10. 18:23:56 - debug: adsense-h5g-plugin:(onBeforeBundleInit) in 1199 ms ✓, progress: 7%
+2026. 9. 10. 18:23:57 - debug: Init all bundles start..., progress: 9%
+2026. 9. 10. 18:23:57 - debug: Init all bundles start..., progress: 7%
+2026. 9. 10. 18:23:57 - debug: Num of bundles: 2..., progress: 9%
+2026. 9. 10. 18:23:57 - debug: Num of bundles: 2..., progress: 7%
+2026. 9. 10. 18:23:57 - debug: web-mobile:(onAfterBundleInit) start..., progress: 9%
+2026. 9. 10. 18:23:57 - debug: web-mobile:(onAfterBundleInit) start..., progress: 7%
+2026. 9. 10. 18:23:57 - debug: // ---- build task web-mobile：onAfterBundleInit ----
+2026. 9. 10. 18:23:58 - debug: // ---- build task web-mobile：onAfterBundleInit ---- (1301ms)
+2026. 9. 10. 18:23:58 - debug: web-mobile:(onAfterBundleInit) in 1301 ms ✓, progress: 9%
+2026. 9. 10. 18:23:58 - debug: web-mobile:(onAfterBundleInit) in 1301 ms ✓, progress: 13%
+2026. 9. 10. 18:23:58 - debug: Query asset bundle start, progress: 9%
+2026. 9. 10. 18:23:58 - debug: // ---- build task Query asset bundle ----
+2026. 9. 10. 18:23:58 - debug: Init bundle root assets start..., progress: 9%
+2026. 9. 10. 18:23:58 - debug: Init bundle root assets start..., progress: 13%
+2026. 9. 10. 18:24:01 - debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,511d2633-09a7-4bdd-ac42-f778032124b3,5d45aa00-e064-4938-b314-4265f0c2258c,9361fd90-ba52-4f84-aa93-6e878fd576ca,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,d1346436-ac96-4271-b863-1f4fdead95b0,971bdb23-3ff6-43eb-b422-1c30165a3663,17debcc3-0a6b-4b8a-b00b-dc58b885581e,711ebe11-f673-4cd9-9a83-63c60ba54c5b,c0143906-9aed-447e-9436-2ae8512d1b6e,14da1725-c4c2-42b4-ab08-ee0aeb6898b3,081cab31-dccd-428e-8652-f2404cc81c47,78e0584a-4343-4727-8f37-e14e65c2a2db,871c3b6c-7379-419d-bda3-794b239ab90d,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1,5c601d96-e4c7-4698-991b-7ee674b11079
+2026. 9. 10. 18:24:01 - debug:   Number of all scenes: 2
+2026. 9. 10. 18:24:01 - debug:   Number of all scripts: 63
+2026. 9. 10. 18:24:01 - debug:   Number of other assets: 647
+2026. 9. 10. 18:24:01 - debug: Init bundle root assets success..., progress: 9%
+2026. 9. 10. 18:24:01 - debug: Init bundle root assets success..., progress: 13%
+2026. 9. 10. 18:24:01 - debug: reload all scripts.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] reload before lock
+2026. 9. 10. 18:24:01 - debug: Set detail map pack:///resolution-detail-map.json: {}
+2026. 9. 10. 18:24:01 - groupCollapsed: Invalidate all modules
+2026. 9. 10. 18:24:01 - debug: Unregister BuiltinPipelineSettings
+2026. 9. 10. 18:24:01 - debug: Unregister BuiltinPipelinePassBuilder
+2026. 9. 10. 18:24:01 - debug: Unregister BuiltinDepthOfFieldPass
+2026. 9. 10. 18:24:01 - debug: Unregister DebugViewRuntimeControl
+2026. 9. 10. 18:24:01 - debug: Unregister AtlasNumber
+2026. 9. 10. 18:24:01 - debug: Unregister CoinStack
+2026. 9. 10. 18:24:01 - debug: Unregister Coin
+2026. 9. 10. 18:24:01 - debug: Unregister CoinPool
+2026. 9. 10. 18:24:01 - debug: Unregister CoinGroundStack
+2026. 9. 10. 18:24:01 - debug: Unregister SfxSegment
+2026. 9. 10. 18:24:01 - debug: Unregister AudioManager
+2026. 9. 10. 18:24:01 - debug: Unregister CameraFollow
+2026. 9. 10. 18:24:01 - debug: Unregister HitEffect
+2026. 9. 10. 18:24:01 - debug: Unregister Bullet
+2026. 9. 10. 18:24:01 - debug: Unregister JoystickUI
+2026. 9. 10. 18:24:01 - debug: Unregister MapBounds
+2026. 9. 10. 18:24:01 - debug: Unregister VirtualWall
+2026. 9. 10. 18:24:01 - debug: Unregister Player
+2026. 9. 10. 18:24:01 - debug: Unregister TowerAttack
+2026. 9. 10. 18:24:01 - debug: Unregister CoinSpawnController
+2026. 9. 10. 18:24:01 - debug: Unregister EndingEffect
+2026. 9. 10. 18:24:01 - debug: Unregister MonsterHpBarView
+2026. 9. 10. 18:24:01 - debug: Unregister StructureHealthBarManager
+2026. 9. 10. 18:24:01 - debug: Unregister StructureHealthBar
+2026. 9. 10. 18:24:01 - debug: Unregister StructureHitFlash
+2026. 9. 10. 18:24:01 - debug: Unregister GameManager
+2026. 9. 10. 18:24:01 - debug: Unregister DoorHealth
+2026. 9. 10. 18:24:01 - debug: Unregister MonsterDeadEffect
+2026. 9. 10. 18:24:01 - debug: Unregister MonsterDeadEffectSpawner
+2026. 9. 10. 18:24:01 - debug: Unregister Monster
+2026. 9. 10. 18:24:01 - debug: Unregister RushPath
+2026. 9. 10. 18:24:01 - debug: Unregister MonsterHealthBarManager
+2026. 9. 10. 18:24:01 - debug: Unregister MonsterHealthBar
+2026. 9. 10. 18:24:01 - debug: Unregister RushGroup
+2026. 9. 10. 18:24:01 - debug: Unregister RushConfig
+2026. 9. 10. 18:24:01 - debug: Unregister RushCycle
+2026. 9. 10. 18:24:01 - debug: Unregister MonsterSpawner
+2026. 9. 10. 18:24:01 - debug: Unregister BossRushEntry
+2026. 9. 10. 18:24:01 - debug: Unregister BossRushManager
+2026. 9. 10. 18:24:01 - debug: Unregister DoorAutoOpen
+2026. 9. 10. 18:24:01 - debug: Unregister BuildingTrigger
+2026. 9. 10. 18:24:01 - debug: Unregister CoinCounterUI
+2026. 9. 10. 18:24:01 - debug: Unregister CoinCourier
+2026. 9. 10. 18:24:01 - debug: Unregister CourierRoute
+2026. 9. 10. 18:24:01 - debug: Unregister CoinCourierManager
+2026. 9. 10. 18:24:01 - debug: Unregister CtaClick
+2026. 9. 10. 18:24:01 - debug: Unregister FallingCoinVisual
+2026. 9. 10. 18:24:01 - debug: Unregister FollowerFormation
+2026. 9. 10. 18:24:01 - debug: Unregister FollowerGhostState
+2026. 9. 10. 18:24:01 - debug: Unregister FollowerMovement
+2026. 9. 10. 18:24:01 - debug: Unregister GameStartTrigger
+2026. 9. 10. 18:24:01 - debug: Unregister SocketPreviewSlots
+2026. 9. 10. 18:24:01 - debug: Unregister SocketGuideArrow
+2026. 9. 10. 18:24:01 - debug: Unregister SocketGauge
+2026. 9. 10. 18:24:01 - debug: Unregister Socket
+2026. 9. 10. 18:24:01 - debug: Unregister GuideCompass
+2026. 9. 10. 18:24:01 - debug: Unregister PlayerMoveTrigger
+2026. 9. 10. 18:24:01 - debug: Unregister PulseScale
+2026. 9. 10. 18:24:01 - debug: Unregister SocketConfig
+2026. 9. 10. 18:24:01 - debug: Unregister SocketManager
+2026. 9. 10. 18:24:01 - debug: Unregister StructureUpgradeManager
+2026. 9. 10. 18:24:01 - debug: Unregister UIAutoFit
+2026. 9. 10. 18:24:01 - debug: Unregister UnitSocketConfig
+2026. 9. 10. 18:24:01 - debug: Unregister UnitSocketManager
+2026. 9. 10. 18:24:01 - debug: Unregister WebglGuard
+2026. 9. 10. 18:24:01 - debug: Unregister WorldUIAnchor
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/50/50ec684ab28702df18cf262b25c26ec6d899c3a5.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/e2/e2831fde95d58c09916d0f882742b7597544b8d1.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/b1/b18130d786bcadd1d0cb653401afdf2ede79b799.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/fd/fd74c742a972dbbcd3691d204a338b19a4515b62.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/7d/7dd5f1b51da4ae6cb44c6f9d41d8fc719b109223.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/62/621a159ce4a7bac550092546e00c97e12458f12b.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/a9/a9700e7946ff3882834b1161ba78d69018cb6830.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/8d/8de2d340d8fe48e578656398eefb88af2fe579e6.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/6e/6e3250e2822ee4ea90e08963a4308f603505b88e.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/75/752748d752a0b16effb6a4aeefa45673d9cb46b1.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/e6/e6b9ba075427513acd16447bf0e2553a866be2fa.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/7e/7ef7b0752495a91292f3a29664342336852b496e.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/57/578892ceb6f79b4d248649ccdd2ebaa8bbf92fa7.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/72/7246510f6d4e483f64ab54194493de8bd5f19a9e.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/ac/ac5d80b55f8c15f044d6089f23651aad8876514c.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/99/994d58a242f93a5476ed58fcf0eaad173898ecf3.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/6d/6d1751ce06d3331fbd177e3ec13ee87dff5f258b.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/a0/a05f976e9313e30570750f8e8a9e1491dc01d6ef.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/f9/f94b3c549629637e6819c34f556930d033075def.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/2e/2e4e8644c42a859d3a47599bb682770200852475.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/ac/ac65c23bc6236222c3ca5a1b949a339b221e4e7b.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/09/09511a970db066b8d25e11aedad08398a44b8156.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/b9/b9f9c5a9bdbecd95cd9203d85ad1818b5b20019a.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/89/8949548ddd199e761e6a7a78a30d7da5652aab32.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/0e/0e7deb3a67ea7aa2d7b862e622ac747982e25c7d.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/83/83402b89778bb28002f7b9fe29ad50dab66274c3.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/d4/d4f3a468a432e75e0585896f0157deb262b25d93.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/4a/4a920d36eb8da180af21c3bff140fe607810836e.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/ca/caf3e34bb2f4eb50795db7f76adc9caa483ee1e8.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/59/59b31f181eac0cd20f624cd7227a5b33a1b216e5.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/e5/e56e7440b69abe57a05a7a85dfe2914fea053474.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/0d/0d514117e61cd162bcacc18d5080474f1bd75f32.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/e6/e63ca609160abce6451785d506b5662cd107f73d.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/d2/d2fc72cdc5de04ca516e4d795f84fab56cf9e80b.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/a3/a33a8b66b60080abdb54cc71881b915c5a7bbb7e.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/5f/5fee852ff8fc4159c04ba13f708a5e76e3b4f545.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/24/24e25e2bdcb45e3b49021f4a02a36626ce0c2dfe.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/94/945f3ba32a68e6772960a3ff91c36710d92b0dd1.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/7f/7f8cf438f76a286de7cba12084d2bdf2f89c4f54.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/c7/c77c5a380b582e054d1bfe50c90a63ec2ff6be27.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/f4/f44c540d36fea3fe8efb101a90498037ed4ed272.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/6d/6ddc559a79c003ee969bea9a93c327f027c03d2a.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/8d/8dc98fc7b19aa69ef4b6d2b5d20ace5ffa6fb1ad.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/11/112ca4829486b0445cc078220b2dc4bbc80414de.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/6a/6a680188df85d4b838c407eb87b67a636c263ecc.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/dc/dc96f02df96cbf8711e0b29b05ab9d16fb8043ec.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/d4/d4d3e1a6563cdb9d645a70faa2a48f47ffc236c4.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/1c/1c4b44b5e784a819c7d1f7353664da250ac71458.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/19/190f190450b20088b823cef0a1fe426c171043f0.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/55/55cb400c8c6e796af395af97f09c632c52855223.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/0a/0a8a2a7be903151c0d252f4be7242a80003a2633.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/d9/d91f428f3564b414350fbee4d51617ca979c943f.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/10/10cc51df9ee244c1b0bb9d1a6269ea4b8fa1e8e9.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/32/32994ac933fa0ac2ad2338730101ccb1686487ab.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/f3/f334600b285d6172b246b865a2a326be0274c758.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/d4/d4fc5f7077a12b511847d8554f3bb23048b7d106.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/17/17557adf5c00aed6dd5fa183f7c545964567c19e.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/07/074eb79cf27055750076a3d7b22784ff3e71c462.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/98/98879bd212af01071b93bff17d889365eaa69496.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/9c/9cf4bf9d996ac41f9cff796e0fb7ebfdc5a6462a.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/ff/ff38111c632198f8b2b48f25ee74debe159926b7.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/27/2733837501bd2d005ef85b42ee603b97fa68da2f.js'
+2026. 9. 10. 18:24:01 - debug: Invalidating 'pack:///chunks/06/06d6fd2a060dae4dbeb1382938beb0423ad5dd7e.js'
+2026. 9. 10. 18:24:01 - groupEnd: Invalidate all modules
+2026. 9. 10. 18:24:01 - groupCollapsed: Imports all modules
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/7d/7dd5f1b51da4ae6cb44c6f9d41d8fc719b109223.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register BuiltinPipelineSettings
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/e2/e2831fde95d58c09916d0f882742b7597544b8d1.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register BuiltinPipelinePassBuilder
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/b1/b18130d786bcadd1d0cb653401afdf2ede79b799.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/fd/fd74c742a972dbbcd3691d204a338b19a4515b62.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register BuiltinDepthOfFieldPass
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/50/50ec684ab28702df18cf262b25c26ec6d899c3a5.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register DebugViewRuntimeControl
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/62/621a159ce4a7bac550092546e00c97e12458f12b.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register AtlasNumber
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/a9/a9700e7946ff3882834b1161ba78d69018cb6830.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/6e/6e3250e2822ee4ea90e08963a4308f603505b88e.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register CoinStack
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/7e/7ef7b0752495a91292f3a29664342336852b496e.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register Coin
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/72/7246510f6d4e483f64ab54194493de8bd5f19a9e.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register CoinPool
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/57/578892ceb6f79b4d248649ccdd2ebaa8bbf92fa7.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register CoinGroundStack
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/75/752748d752a0b16effb6a4aeefa45673d9cb46b1.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/e6/e6b9ba075427513acd16447bf0e2553a866be2fa.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register SfxSegment
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register AudioManager
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/8d/8de2d340d8fe48e578656398eefb88af2fe579e6.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register CameraFollow
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/83/83402b89778bb28002f7b9fe29ad50dab66274c3.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register HitEffect
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/7f/7f8cf438f76a286de7cba12084d2bdf2f89c4f54.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register Bullet
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/24/24e25e2bdcb45e3b49021f4a02a36626ce0c2dfe.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register JoystickUI
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/ca/caf3e34bb2f4eb50795db7f76adc9caa483ee1e8.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register MapBounds
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/94/945f3ba32a68e6772960a3ff91c36710d92b0dd1.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register VirtualWall
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/ac/ac65c23bc6236222c3ca5a1b949a339b221e4e7b.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register Player
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/d2/d2fc72cdc5de04ca516e4d795f84fab56cf9e80b.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register TowerAttack
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/a3/a33a8b66b60080abdb54cc71881b915c5a7bbb7e.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register CoinSpawnController
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/d4/d4f3a468a432e75e0585896f0157deb262b25d93.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register EndingEffect
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/4a/4a920d36eb8da180af21c3bff140fe607810836e.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register MonsterHpBarView
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/e6/e63ca609160abce6451785d506b5662cd107f73d.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register StructureHealthBarManager
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/5f/5fee852ff8fc4159c04ba13f708a5e76e3b4f545.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register StructureHealthBar
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/59/59b31f181eac0cd20f624cd7227a5b33a1b216e5.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register StructureHitFlash
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/e5/e56e7440b69abe57a05a7a85dfe2914fea053474.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register GameManager
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/2e/2e4e8644c42a859d3a47599bb682770200852475.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register DoorHealth
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/09/09511a970db066b8d25e11aedad08398a44b8156.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register MonsterDeadEffect
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/0d/0d514117e61cd162bcacc18d5080474f1bd75f32.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register MonsterDeadEffectSpawner
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/b9/b9f9c5a9bdbecd95cd9203d85ad1818b5b20019a.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register Monster
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/6d/6d1751ce06d3331fbd177e3ec13ee87dff5f258b.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/89/8949548ddd199e761e6a7a78a30d7da5652aab32.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register RushPath
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/a0/a05f976e9313e30570750f8e8a9e1491dc01d6ef.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register MonsterHealthBarManager
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/0e/0e7deb3a67ea7aa2d7b862e622ac747982e25c7d.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register MonsterHealthBar
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/f9/f94b3c549629637e6819c34f556930d033075def.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register RushGroup
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register RushConfig
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register RushCycle
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register MonsterSpawner
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/99/994d58a242f93a5476ed58fcf0eaad173898ecf3.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register BossRushEntry
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register BossRushManager
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/ac/ac5d80b55f8c15f044d6089f23651aad8876514c.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register DoorAutoOpen
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/f4/f44c540d36fea3fe8efb101a90498037ed4ed272.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register BuildingTrigger
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/c7/c77c5a380b582e054d1bfe50c90a63ec2ff6be27.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register CoinCounterUI
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/6d/6ddc559a79c003ee969bea9a93c327f027c03d2a.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register CoinCourier
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/8d/8dc98fc7b19aa69ef4b6d2b5d20ace5ffa6fb1ad.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register CourierRoute
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register CoinCourierManager
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/11/112ca4829486b0445cc078220b2dc4bbc80414de.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register CtaClick
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/6a/6a680188df85d4b838c407eb87b67a636c263ecc.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register FallingCoinVisual
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/dc/dc96f02df96cbf8711e0b29b05ab9d16fb8043ec.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register FollowerFormation
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/d4/d4d3e1a6563cdb9d645a70faa2a48f47ffc236c4.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register FollowerGhostState
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/1c/1c4b44b5e784a819c7d1f7353664da250ac71458.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register FollowerMovement
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/19/190f190450b20088b823cef0a1fe426c171043f0.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register GameStartTrigger
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/55/55cb400c8c6e796af395af97f09c632c52855223.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register SocketPreviewSlots
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/10/10cc51df9ee244c1b0bb9d1a6269ea4b8fa1e8e9.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register SocketGuideArrow
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/32/32994ac933fa0ac2ad2338730101ccb1686487ab.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register SocketGauge
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/f3/f334600b285d6172b246b865a2a326be0274c758.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register Socket
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/d9/d91f428f3564b414350fbee4d51617ca979c943f.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register GuideCompass
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/0a/0a8a2a7be903151c0d252f4be7242a80003a2633.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register PlayerMoveTrigger
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/d4/d4fc5f7077a12b511847d8554f3bb23048b7d106.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register PulseScale
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/17/17557adf5c00aed6dd5fa183f7c545964567c19e.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register SocketConfig
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register SocketManager
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/07/074eb79cf27055750076a3d7b22784ff3e71c462.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register StructureUpgradeManager
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/98/98879bd212af01071b93bff17d889365eaa69496.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register UIAutoFit
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/9c/9cf4bf9d996ac41f9cff796e0fb7ebfdc5a6462a.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register UnitSocketConfig
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register UnitSocketManager
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/ff/ff38111c632198f8b2b48f25ee74debe159926b7.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register WebglGuard
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/27/2733837501bd2d005ef85b42ee603b97fa68da2f.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Register WorldUIAnchor
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/06/06d6fd2a060dae4dbeb1382938beb0423ad5dd7e.js" loaded.
+2026. 9. 10. 18:24:01 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2026. 9. 10. 18:24:01 - groupEnd: Imports all modules
+2026. 9. 10. 18:24:01 - debug: [[Executor]] after unlock
+2026. 9. 10. 18:24:01 - debug: Incremental keys: 
+2026. 9. 10. 18:24:01 - debug: Init bundle share assets start..., progress: 9%
+2026. 9. 10. 18:24:01 - debug: Init bundle share assets start..., progress: 13%
+2026. 9. 10. 18:24:01 - debug: Init bundle share assets success..., progress: 9%
+2026. 9. 10. 18:24:01 - debug: Init bundle share assets success..., progress: 13%
+2026. 9. 10. 18:24:02 - debug: handle json group in bundle internal
+2026. 9. 10. 18:24:02 - debug: handle json group in bundle internal success
+2026. 9. 10. 18:24:02 - debug: handle json group in bundle main
+2026. 9. 10. 18:24:02 - debug: init image compress task 0 in bundle internal
+2026. 9. 10. 18:24:02 - debug: handle json group in bundle main success
+2026. 9. 10. 18:24:02 - debug: init image compress task 0 in bundle main
+2026. 9. 10. 18:24:02 - debug: // ---- build task Query asset bundle ---- (3991ms)
+2026. 9. 10. 18:24:02 - log: run build task Query asset bundle success in 3 s√, progress: 14%
+2026. 9. 10. 18:24:02 - debug: [Build Memory track]: Query asset bundle start:250.10MB, end 254.28MB, increase: 4.18MB
+2026. 9. 10. 18:24:02 - debug: Query asset bundle start, progress: 14%
+2026. 9. 10. 18:24:02 - debug: // ---- build task Query asset bundle ----
+2026. 9. 10. 18:24:04 - debug: // ---- build task Query asset bundle ---- (1249ms)
+2026. 9. 10. 18:24:04 - log: run build task Query asset bundle success in 1 s√, progress: 19%
+2026. 9. 10. 18:24:04 - debug: [Build Memory track]: Query asset bundle start:254.31MB, end 252.45MB, increase: -1906.82KB
+2026. 9. 10. 18:24:04 - debug: Build script start, progress: 19%
+2026. 9. 10. 18:24:04 - debug: // ---- build task Build script ----
+2026. 9. 10. 18:24:04 - log: [buildPolyfillsCommand]enter sub process 29164, 9229, see: chrome://inspect/#devices
+2026. 9. 10. 18:24:07 - debug: execute-script-end with buildPolyfillsCommand 3635ms
+2026. 9. 10. 18:24:07 - debug: Generate systemJs..., progress: 19%
+2026. 9. 10. 18:24:10 - debug: execute-script-end with buildSystemJsCommand 3030ms
+2026. 9. 10. 18:24:10 - debug: Build project script start..., progress: 19%
+2026. 9. 10. 18:24:10 - debug: Build project script start..., progress: 13%
+2026. 9. 10. 18:24:14 - warn: [buildScriptCommand][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/MonsterSpawner.ts -> file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/Monster.ts -> file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/GameManager.ts -> file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/CoinSpawnController.ts -> file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/Player.ts -> file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/MonsterSpawner.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/Monster.ts -> file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/GameManager.ts -> file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/CoinSpawnController.ts -> file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/Player.ts -> file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/Bullet.ts -> file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/Monster.ts
+2026. 9. 10. 18:24:14 - warn: [buildScriptCommand][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/MonsterSpawner.ts -> file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/Monster.ts -> file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/GameManager.ts -> file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/CoinSpawnController.ts -> file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/TowerAttack.ts -> file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/MonsterSpawner.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/MonsterSpawner.ts -> file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/Monster.ts -> file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/GameManager.ts -> file:///C:/Users/%EA%B9%80%EC%9C%A0%EC%84%B1/Desktop/cocos%20creator%20practice/testproject%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8/assets/scripts/MonsterSpawner.ts
+2026. 9. 10. 18:24:17 - log: [buildScriptCommand]Number of non-entry chunks: 2
+2026. 9. 10. 18:24:17 - debug: execute-script-end with buildScriptCommand 5950ms
+2026. 9. 10. 18:24:17 - debug: Copy externalScripts success!
+2026. 9. 10. 18:24:17 - debug: Build project script in (6815 ms) √, progress: 19%
+2026. 9. 10. 18:24:17 - debug: Build project script in (6815 ms) √, progress: 13%
+2026. 9. 10. 18:24:17 - debug: Build engine start..., progress: 19%
+2026. 9. 10. 18:24:17 - debug: Error: Exit process with code:null, signal:SIGTERM in task build-script    at ChildProcess.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar\builtin\builder\dist\worker\worker-pools\sub-process-manager.ccc:1:2409)    at ChildProcess.emit (node:events:519:28)    at Process.ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2026. 9. 10. 18:24:18 - debug: mangleProperties is enabled, found engine-mangle-config.json, use it
+2026. 9. 10. 18:24:18 - debug: Use cache engine: {link(C:\Users\김유성\AppData\Local\Temp\CocosCreator\3.8.8\builder\engine\3076da116178f153c26f2c39d96bc23b)}
+2026. 9. 10. 18:24:18 - debug: Use cache, md5String: debug=false,sourceMaps=false,includeModules=["2d","3d","affine-transform","animation","audio","base","custom-pipeline","gfx-webgl","graphics","intersection-2d","light-probe","marionette","mask","particle","particle-2d","primitive","profiler","rich-text","skeletal-animation","spine-3.8","tween","ui","ui-skew","video","websocket","webview","gfx-webgl2","custom-pipeline-builtin-scripts"],engineVersion="3.8.8",platformType="HTML5",split=false,nativeCodeBundleMode="both",targets=undefined,entry="C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine",noDeprecatedFeatures=undefined,loose=true,assetURLFormat="runtime-resolved",flags={"DEBUG":false,"LOAD_BULLET_MANUALLY":false,"LOAD_SPINE_MANUALLY":false,"WEBGPU":false},preserveType=undefined,wasmCompressionMode=false,enableNamedRegisterForSystemJSModuleFormat=undefined,mangleProperties=false,inlineEnum=true,
+2026. 9. 10. 18:24:18 - debug: Use cache, options: {  "entry": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine",  "debug": false,  "mangleProperties": false,  "inlineEnum": true,  "sourceMaps": false,  "includeModules": [    "2d",    "3d",    "affine-transform",    "animation",    "audio",    "base",    "custom-pipeline",    "gfx-webgl",    "graphics",    "intersection-2d",    "light-probe",    "marionette",    "mask",    "particle",    "particle-2d",    "primitive",    "profiler",    "rich-text",    "skeletal-animation",    "spine-3.8",    "tween",    "ui",    "ui-skew",    "video",    "websocket",    "webview",    "gfx-webgl2",    "custom-pipeline-builtin-scripts"  ],  "engineVersion": "3.8.8",  "md5Map": [],  "engineName": "cocos-js",  "output": "C:\\Users\\김유성\\Desktop\\cocos creator practice\\testproject - 복사본\\build\\web-mobile\\cocos-js",  "platformType": "HTML5",  "useCache": true,  "nativeCodeBundleMode": "both",  "wasmCompressionMode": false,  "split": false,  "assetURLFormat": "runtime-resolved",  "flags": {    "DEBUG": false,    "LOAD_BULLET_MANUALLY": false,    "LOAD_SPINE_MANUALLY": false,    "WEBGPU": false  }}
+2026. 9. 10. 18:24:18 - debug: Build engine in (1433 ms) √, progress: 19%
+2026. 9. 10. 18:24:18 - debug: Copy plugin script ..., progress: 19%
+2026. 9. 10. 18:24:18 - debug: Generate import-map..., progress: 19%
+2026. 9. 10. 18:24:20 - debug: // ---- build task Build script ---- (16369ms)
+2026. 9. 10. 18:24:20 - log: run build task Build script success in 16 s√, progress: 24%
+2026. 9. 10. 18:24:20 - debug: [Build Memory track]: Build script start:252.58MB, end 253.16MB, increase: 594.07KB
+2026. 9. 10. 18:24:20 - debug: Build Assets start, progress: 24%
+2026. 9. 10. 18:24:20 - debug: // ---- build task Build Assets ----
+2026. 9. 10. 18:24:20 - debug: Build bundles..., progress: 24%
+2026. 9. 10. 18:24:20 - debug: Pack Images start, progress: 24%
+2026. 9. 10. 18:24:20 - debug: Pack Images start, progress: 13%
+2026. 9. 10. 18:24:20 - debug: Number of pac assets: 1
+2026. 9. 10. 18:24:20 - debug: No pack results
+2026. 9. 10. 18:24:20 - debug: Compress image start..., progress: 24%
+2026. 9. 10. 18:24:20 - debug: Compress image start..., progress: 13%
+2026. 9. 10. 18:24:20 - group: Compress image...
+2026. 9. 10. 18:24:20 - debug: sort compress task {}
+2026. 9. 10. 18:24:20 - debug: Num of all image compress task 0, really: 0, configTasks: 0
+2026. 9. 10. 18:24:20 - debug: No image need to compress
+2026. 9. 10. 18:24:20 - groupEnd: Compress image...
+2026. 9. 10. 18:24:20 - debug: Compress image success..., progress: 24%
+2026. 9. 10. 18:24:20 - debug: Compress image success..., progress: 13%
+2026. 9. 10. 18:24:20 - debug: Output asset in bundles start, progress: 24%
+2026. 9. 10. 18:24:20 - debug: Output asset in bundles start, progress: 13%
+2026. 9. 10. 18:24:20 - debug: Handle all json groups in bundle internal
+2026. 9. 10. 18:24:20 - debug: handle json group
+2026. 9. 10. 18:24:20 - debug: Handle all json groups in bundle main
+2026. 9. 10. 18:24:20 - debug: handle json group
+2026. 9. 10. 18:24:20 - debug: Json group(04ec3aad6) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: Json group(0fbb7864d) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: Json group(02165708c) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: Json group(0c3f5fed8) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: handle single json
+2026. 9. 10. 18:24:20 - debug: Json group(05585f294) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: Json group(0cbf66900) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: Json group(0701b2420) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: Json group(0a9a94f17) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: Json group(062486f90) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: Json group(0fff12fcc) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: Json group(048ece1ab) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: Json group(0eb7203a5) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: Json group(0e2ff6830) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: Json group(08aac890c) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: Json group(02d735585) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: Json group(0960743af) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: Json group(0ca9e2691) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: Json group(0336fe772) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: Json group(0ccb665ef) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: Json group(08140c62b) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: Json group(03a06e2f9) compile success，json number: 6
+2026. 9. 10. 18:24:20 - debug: handle single json
+2026. 9. 10. 18:24:21 - debug: Output asset in bundles success, progress: 24%
+2026. 9. 10. 18:24:21 - debug: Output asset in bundles success, progress: 13%
+2026. 9. 10. 18:24:21 - debug: Output asset in bundles start, progress: 24%
+2026. 9. 10. 18:24:21 - debug: Output asset in bundles start, progress: 13%
+2026. 9. 10. 18:24:21 - debug: compress config of bundle internal...
+2026. 9. 10. 18:24:21 - debug: compress config of bundle internal success
+2026. 9. 10. 18:24:21 - debug: compress config of bundle main...
+2026. 9. 10. 18:24:21 - debug: compress config of bundle main success
+2026. 9. 10. 18:24:21 - debug: output config of bundle internal
+2026. 9. 10. 18:24:21 - debug: output config of bundle internal success
+2026. 9. 10. 18:24:21 - debug: output config of bundle main
+2026. 9. 10. 18:24:21 - debug: output config of bundle main success
+2026. 9. 10. 18:24:21 - debug: Output asset in bundles success, progress: 24%
+2026. 9. 10. 18:24:21 - debug: Output asset in bundles success, progress: 13%
+2026. 9. 10. 18:24:25 - debug: // ---- build task Build Assets ---- (5426ms)
+2026. 9. 10. 18:24:25 - log: run build task Build Assets success in 5 s√, progress: 29%
+2026. 9. 10. 18:24:25 - debug: [Build Memory track]: Build Assets start:253.19MB, end 279.87MB, increase: 26.68MB
+2026. 9. 10. 18:24:25 - debug: Sort some build options to settings.json start, progress: 29%
+2026. 9. 10. 18:24:25 - debug: // ---- build task Sort some build options to settings.json ----
+2026. 9. 10. 18:24:26 - debug: // ---- build task Sort some build options to settings.json ---- (830ms)
+2026. 9. 10. 18:24:26 - log: run build task Sort some build options to settings.json success in 830 ms√, progress: 31%
+2026. 9. 10. 18:24:26 - debug: [Build Memory track]: Sort some build options to settings.json start:279.97MB, end 280.69MB, increase: 739.74KB
+2026. 9. 10. 18:24:26 - debug: Fill script data to settings start, progress: 31%
+2026. 9. 10. 18:24:26 - debug: // ---- build task Fill script data to settings ----
+2026. 9. 10. 18:24:27 - debug: // ---- build task Fill script data to settings ---- (1273ms)
+2026. 9. 10. 18:24:27 - log: run build task Fill script data to settings success in 1 s√, progress: 32%
+2026. 9. 10. 18:24:27 - debug: [Build Memory track]: Fill script data to settings start:280.72MB, end 281.79MB, increase: 1.07MB
+2026. 9. 10. 18:24:27 - debug: Sort some build options to settings.json start, progress: 32%
+2026. 9. 10. 18:24:27 - debug: // ---- build task Sort some build options to settings.json ----
+2026. 9. 10. 18:24:30 - debug: // ---- build task Sort some build options to settings.json ---- (2069ms)
+2026. 9. 10. 18:24:30 - log: run build task Sort some build options to settings.json success in 2 s√, progress: 34%
+2026. 9. 10. 18:24:30 - debug: [Build Memory track]: Sort some build options to settings.json start:281.82MB, end 243.04MB, increase: -39707.55KB
+2026. 9. 10. 18:24:30 - debug: web-mobile:(onBeforeCompressSettings) start..., progress: 34%
+2026. 9. 10. 18:24:30 - debug: // ---- build task web-mobile：onBeforeCompressSettings ----
+2026. 9. 10. 18:24:30 - debug: // ---- build task web-mobile：onBeforeCompressSettings ---- (882ms)
+2026. 9. 10. 18:24:30 - debug: web-mobile:(onBeforeCompressSettings) in 882 ms ✓, progress: 36%
+2026. 9. 10. 18:24:30 - debug: cocos-service:(onBeforeCompressSettings) start..., progress: 36%
+2026. 9. 10. 18:24:30 - debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+2026. 9. 10. 18:24:32 - debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (1833ms)
+2026. 9. 10. 18:24:32 - debug: cocos-service:(onBeforeCompressSettings) in 1833 ms ✓, progress: 38%
+2026. 9. 10. 18:24:32 - debug: Sort build template start, progress: 38%
+2026. 9. 10. 18:24:32 - debug: // ---- build task Sort build template ----
+2026. 9. 10. 18:24:34 - debug: // ---- build task Sort build template ---- (1355ms)
+2026. 9. 10. 18:24:34 - log: run build task Sort build template success in 1 s√, progress: 43%
+2026. 9. 10. 18:24:34 - debug: [Build Memory track]: Sort build template start:245.29MB, end 242.94MB, increase: -2405.94KB
+2026. 9. 10. 18:24:34 - debug: cocos-service:(onAfterCompressSettings) start..., progress: 43%
+2026. 9. 10. 18:24:34 - debug: // ---- build task cocos-service：onAfterCompressSettings ----
+2026. 9. 10. 18:24:35 - debug: // ---- build task cocos-service：onAfterCompressSettings ---- (1642ms)
+2026. 9. 10. 18:24:35 - debug: cocos-service:(onAfterCompressSettings) in 1642 ms ✓, progress: 45%
+2026. 9. 10. 18:24:35 - debug: web-mobile:(onBeforeCopyBuildTemplate) start..., progress: 45%
+2026. 9. 10. 18:24:35 - debug: // ---- build task web-mobile：onBeforeCopyBuildTemplate ----
+2026. 9. 10. 18:24:36 - debug: // ---- build task web-mobile：onBeforeCopyBuildTemplate ---- (917ms)
+2026. 9. 10. 18:24:36 - debug: web-mobile:(onBeforeCopyBuildTemplate) in 917 ms ✓, progress: 46%
+2026. 9. 10. 18:24:36 - debug: Add md5 suffix to assets start, progress: 46%
+2026. 9. 10. 18:24:36 - debug: // ---- build task Add md5 suffix to assets ----
+2026. 9. 10. 18:24:37 - debug: // ---- build task Add md5 suffix to assets ---- (1336ms)
+2026. 9. 10. 18:24:37 - log: run build task Add md5 suffix to assets success in 1 s√, progress: 56%
+2026. 9. 10. 18:24:37 - debug: [Build Memory track]: Add md5 suffix to assets start:247.32MB, end 243.04MB, increase: -4387.47KB
+2026. 9. 10. 18:24:37 - debug: web-mobile:(onAfterBuild) start..., progress: 56%
+2026. 9. 10. 18:24:37 - debug: // ---- build task web-mobile：onAfterBuild ----
+2026. 9. 10. 18:24:39 - debug: // ---- build task web-mobile：onAfterBuild ---- (1747ms)
+2026. 9. 10. 18:24:39 - debug: web-mobile:(onAfterBuild) in 1747 ms ✓, progress: 58%
+2026. 9. 10. 18:24:39 - debug: cocos-service:(onAfterBuild) start..., progress: 58%
+2026. 9. 10. 18:24:39 - debug: // ---- build task cocos-service：onAfterBuild ----
+2026. 9. 10. 18:24:41 - debug: // ---- build task cocos-service：onAfterBuild ---- (2063ms)
+2026. 9. 10. 18:24:41 - debug: cocos-service:(onAfterBuild) in 2063 ms ✓, progress: 60%
+2026. 9. 10. 18:24:41 - debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 60%
+2026. 9. 10. 18:24:41 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
+2026. 9. 10. 18:24:43 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (1236ms)
+2026. 9. 10. 18:24:43 - debug: adsense-h5g-plugin:(onAfterBuild) in 1236 ms ✓, progress: 62%
+2026. 9. 10. 18:24:43 - debug: playable-ads-adapter:(onAfterBuild) start..., progress: 62%
+2026. 9. 10. 18:24:43 - debug: // ---- build task playable-ads-adapter：onAfterBuild ----
+2026. 9. 10. 18:24:43 - log: {"name":"testproject","server":"","engineModulesConfigKey":"defaultConfig","platform":"web-mobile","buildPath":"project://build","debug":false,"buildMode":"normal","mangleProperties":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"overwriteProjectSettings":{"includeModules":{"gfx-webgl2":"on","physics":"inherit-project-setting","physics-2d":"inherit-project-setting"},"macroConfig":{"cleanupImageCache":"inherit-project-setting"}},"nativeCodeBundleMode":"both","polyfills":{"asyncFunctions":true},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"inlineEnum":true,"useBuiltinServer":false,"md5CacheOptions":{"excludes":[],"includes":[],"replaceOnly":[],"handleTemplateMd5Link":true},"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"9a7278e2-6711-4206-9a5a-ab66fac64e6b","outputName":"web-mobile","taskName":"web-mobile","scenes":[{"url":"db://assets/scene.scene","uuid":"9a7278e2-6711-4206-9a5a-ab66fac64e6b"}],"wasmCompressionMode":false,"binGroupConfig":{"threshold":16,"enable":false},"packages":{"web-mobile":{"useWebGPU":false,"orientation":"auto","embedWebDebugger":false,"__version__":"1.0.1"},"adsense-h5g-plugin":{"enableAdsense":false,"enableTestAd":false,"__version__":"1.0.1","AFPHostPropertyCode":"ca-host-pub-5396158963872751","AFPHostDomain":"douyougame.com","otherAFPHostPropertyCode":"","otherAFPDomain":""},"cocos-service":{"configID":"2bb5fb","services":[],"__version__":"3.0.9"}},"__version__":"1.3.9","logDest":"project://temp/builder/log/web-mobile2026. 9. 10. 18-23.log"}
+2026. 9. 10. 18:24:43 - log: 支持Worker，将开启子线程适配
+2026. 9. 10. 18:24:43 - log: 不支持Worker，将开启主线程适配
+2026. 9. 10. 18:24:43 - warn: Compression not enabled，aborting the image compression process
+2026. 9. 10. 18:24:44 - log: 【Origin Pkg Size】11075696【Compressed Pkg Size】4317696
+2026. 9. 10. 18:24:44 - log: 【Compressed】6758000
+2026. 9. 10. 18:24:46 - warn(2): The given path does not exist, please provide the correct path
+2026. 9. 10. 18:24:59 - log: playable-ads-adapter 适配完成，共耗时17秒
+2026. 9. 10. 18:25:00 - debug: // ---- build task playable-ads-adapter：onAfterBuild ---- (17721ms)
+2026. 9. 10. 18:25:00 - debug: playable-ads-adapter:(onAfterBuild) in 17721 ms ✓, progress: 64%
+2026. 9. 10. 18:25:00 - log: Asset DB is resume!
+2026. 9. 10. 18:25:01 - debug: builder:build-project-total (72486ms)
+2026. 9. 10. 18:25:01 - debug: build task(web-mobile) in 72486!
+2026. 9. 10. 18:25:02 - debug: [Build Memory track]: builder:build-project-total start:249.95MB, end 622.23MB, increase: 372.28MB
+2026. 9. 10. 18:25:02 - debug: ================================ build Task (web-mobile) Finished in (1 min 13 s)ms ================================

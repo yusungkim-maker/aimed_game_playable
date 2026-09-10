@@ -1,0 +1,81 @@
+[
+    1,
+    [
+        "aeU6dLnj1L+b3BLWQv/1Mq@6c48a",
+        "fcLPazj3RJSJn+q3BvhGaG"
+    ],
+    [
+        "mainTexture",
+        "_effectAsset"
+    ],
+    [
+        [
+            "cc.Material",
+            [
+                "_name",
+                "_states",
+                "_defines",
+                "_props"
+            ],
+            0,
+            12
+        ]
+    ],
+    [
+        [
+            0,
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    ],
+    [
+        [
+            0,
+            "FollowerGhostBody",
+            [
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                }
+            ],
+            [
+                {}
+            ],
+            [
+                [
+                    [
+                        {
+                            "ghostAlpha": 0.7
+                        },
+                        "mainTexture",
+                        6,
+                        0
+                    ]
+                ],
+                11
+            ]
+        ]
+    ],
+    0,
+    0,
+    [
+        0,
+        0
+    ],
+    [
+        0,
+        1
+    ],
+    [
+        0,
+        1
+    ]
+]

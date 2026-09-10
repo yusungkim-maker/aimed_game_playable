@@ -1,0 +1,2 @@
+# Local backups of the previous per-project git repos (git internals, not source)
+.git_backup/

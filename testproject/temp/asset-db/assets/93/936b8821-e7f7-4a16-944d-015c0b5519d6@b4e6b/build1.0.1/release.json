@@ -1,0 +1,143 @@
+[
+    1,
+    [
+        "52Gr2M6bdPhK0ocRixkTzz@6c48a",
+        "c89m0XNRpI2qEsAhLShXXE"
+    ],
+    [
+        "mainTexture",
+        "_effectAsset"
+    ],
+    [
+        [
+            "cc.Material",
+            [
+                "_states",
+                "_defines",
+                "_props"
+            ],
+            1,
+            12
+        ]
+    ],
+    [
+        [
+            0,
+            0,
+            1,
+            2,
+            3
+        ]
+    ],
+    [
+        [
+            0,
+            [
+                {
+                    "rasterizerState": {
+                        "cullMode": 0
+                    },
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                }
+            ],
+            [
+                {
+                    "USE_ALBEDO_MAP": true
+                },
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            [
+                [
+                    [
+                        {
+                            "roughness": 1,
+                            "specularIntensity": 0
+                        },
+                        "mainTexture",
+                        6,
+                        0
+                    ],
+                    {},
+                    {},
+                    {},
+                    {},
+                    {}
+                ],
+                11,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        ]
+    ],
+    0,
+    0,
+    [
+        0,
+        0
+    ],
+    [
+        0,
+        1
+    ],
+    [
+        0,
+        1
+    ]
+]

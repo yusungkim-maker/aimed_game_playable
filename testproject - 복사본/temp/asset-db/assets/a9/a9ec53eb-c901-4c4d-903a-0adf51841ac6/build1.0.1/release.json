@@ -1,0 +1,113 @@
+[
+    1,
+    [
+        "dd+ybT+lRFdJcDkTdnap+b@6c48a",
+        "a3zQCfCrBCDZJ4uf2rk5u8"
+    ],
+    [
+        "mainTexture",
+        "_effectAsset"
+    ],
+    [
+        [
+            "cc.Material",
+            [
+                "_name",
+                "_techIdx",
+                "_states",
+                "_defines",
+                "_props"
+            ],
+            -1,
+            12
+        ]
+    ],
+    [
+        [
+            0,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    ],
+    [
+        [
+            0,
+            "FxHit",
+            2,
+            [
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {
+                        "depthTest": false,
+                        "depthWrite": false
+                    },
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {
+                        "depthTest": false,
+                        "depthWrite": false
+                    },
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                }
+            ],
+            [
+                {
+                    "USE_TEXTURE": true
+                },
+                {
+                    "USE_TEXTURE": true
+                }
+            ],
+            [
+                [
+                    [
+                        {},
+                        "tilingOffset",
+                        8,
+                        [
+                            2,
+                            0.5,
+                            0.5,
+                            0,
+                            0
+                        ],
+                        "mainTexture",
+                        6,
+                        0
+                    ],
+                    {}
+                ],
+                11,
+                0
+            ]
+        ]
+    ],
+    0,
+    0,
+    [
+        0,
+        0
+    ],
+    [
+        0,
+        1
+    ],
+    [
+        0,
+        1
+    ]
+]

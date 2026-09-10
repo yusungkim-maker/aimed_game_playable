@@ -1,0 +1,89 @@
+// 알파 PNG 기반 발광 이펙트용 셰이더.
+//
+// 알파가 0인 부분은 아무것도 더하지 않고, 보이는 부분만 emissiveIntensity 배로 밝아진다
+// (가산 합성이라 배경 위에 얹히면서 빛나 보인다 — 이 프로젝트엔 블룸 후처리가 없으므로
+//  "강한 이미션"은 이 방식이 실질적으로 유일하다).
+//
+// builtin-standard를 쓰지 않는 이유: 이 프로젝트/엔진 버전에서 builtin-standard는 GLSL
+// 컴파일에 실패해 메시가 아예 렌더되지 않는다(리플렉션 프로브 매크로 버그). 대신 이미
+// 정상 동작이 확인된 legacy/unlit 계열로 짜되, 스키닝 메시(SkinnedMeshRenderer)를 지원해야
+// 하므로 정점 입력만 legacy/input-standard를 쓴다 — StructureHit.effect와 같은 구성.
+CCEffect %{
+  techniques:
+  - name: glow
+    passes:
+    - vert: glow-vs:vert
+      frag: glow-fs:frag
+      depthStencilState:
+        depthTest: true
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one
+          blendSrcAlpha: src_alpha
+          blendDstAlpha: one
+      properties:
+        mainTexture:       { value: grey }
+        tilingOffset:      { value: [1.0, 1.0, 0.0, 0.0] }
+        mainColor:         { value: [1.0, 1.0, 1.0, 1.0], linear: true, editor: { type: color } }
+        emissiveIntensity: { value: 2.0, target: glowParams.x, editor: { displayName: EmissiveIntensity, range: [0, 10], slide: true } }
+        alphaScale:        { value: 1.0, target: glowParams.y, editor: { displayName: AlphaScale, range: [0, 1], slide: true } }
+}%
+
+CCProgram glow-vs %{
+  precision highp float;
+  #include <legacy/input-standard>
+  #include <builtin/uniforms/cc-global>
+  #include <legacy/decode-base>
+  #include <legacy/local-batch>
+
+  out vec2 v_uv;
+
+  uniform TexCoords {
+    vec4 tilingOffset;
+  };
+
+  vec4 vert () {
+    StandardVertInput In;
+    CCVertInput(In);
+
+    mat4 matWorld, matWorldIT;
+    CCGetWorldMatrixFull(matWorld, matWorldIT);
+
+    vec4 worldPos = matWorld * In.position;
+    v_uv = a_texCoord * tilingOffset.xy + tilingOffset.zw;
+    #if SAMPLE_FROM_RT
+      CC_HANDLE_RT_SAMPLE_FLIP(v_uv);
+    #endif
+
+    return cc_matProj * (cc_matView * worldPos);
+  }
+}%
+
+CCProgram glow-fs %{
+  precision highp float;
+  #include <builtin/uniforms/cc-global>
+  #include <legacy/output-standard>
+
+  in vec2 v_uv;
+
+  uniform sampler2D mainTexture;
+
+  uniform GlowConstant {
+    vec4 mainColor;
+    vec4 glowParams; // x: emissiveIntensity, y: alphaScale
+  };
+
+  vec4 frag () {
+    vec4 texColor = texture(mainTexture, v_uv);
+    texColor.rgb = SRGBToLinear(texColor.rgb);
+
+    vec4 o = mainColor * texColor;
+    o.rgb *= glowParams.x;   // 발광 세기
+    o.a   *= glowParams.y;   // 페이드아웃(가산 합성이라 알파가 곧 기여도)
+
+    return CCFragOutput(o);
+  }
+}%

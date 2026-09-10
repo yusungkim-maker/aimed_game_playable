@@ -1,0 +1,147 @@
+[
+    1,
+    [
+        "6442m4M/NLPJ5E8TueUmd8@6c48a",
+        "8btmjpw5lEL6IaivZXT/p7@6c48a",
+        "c89m0XNRpI2qEsAhLShXXE"
+    ],
+    [
+        "mainTexture",
+        "normalMap",
+        "_effectAsset"
+    ],
+    [
+        [
+            "cc.Material",
+            [
+                "_states",
+                "_defines",
+                "_props"
+            ],
+            1,
+            12
+        ]
+    ],
+    [
+        [
+            0,
+            0,
+            1,
+            2,
+            3
+        ]
+    ],
+    [
+        [
+            0,
+            [
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                }
+            ],
+            [
+                {
+                    "USE_NORMAL_MAP": true,
+                    "USE_ALBEDO_MAP": true
+                },
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            [
+                [
+                    [
+                        {},
+                        "mainTexture",
+                        6,
+                        0,
+                        "normalMap",
+                        6,
+                        1
+                    ],
+                    {},
+                    {},
+                    {},
+                    {},
+                    {}
+                ],
+                11,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        ]
+    ],
+    0,
+    0,
+    [
+        0,
+        0,
+        0
+    ],
+    [
+        0,
+        1,
+        2
+    ],
+    [
+        0,
+        1,
+        2
+    ]
+]
