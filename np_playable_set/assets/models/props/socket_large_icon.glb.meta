@@ -1,0 +1,165 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "5ecbfce3-064a-4a6f-851e-83bbaba984a9",
+  "files": [],
+  "subMetas": {
+    "77656": {
+      "importer": "gltf-material",
+      "uuid": "5ecbfce3-064a-4a6f-851e-83bbaba984a9@77656",
+      "displayName": "",
+      "id": "77656",
+      "name": "guage.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c5c89": {
+      "importer": "gltf-mesh",
+      "uuid": "5ecbfce3-064a-4a6f-851e-83bbaba984a9@c5c89",
+      "displayName": "",
+      "id": "c5c89",
+      "name": "Plane.009.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 18
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a5f8b": {
+      "importer": "gltf-mesh",
+      "uuid": "5ecbfce3-064a-4a6f-851e-83bbaba984a9@a5f8b",
+      "displayName": "",
+      "id": "a5f8b",
+      "name": "Plane.001.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 2
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5cf41": {
+      "importer": "gltf-mesh",
+      "uuid": "5ecbfce3-064a-4a6f-851e-83bbaba984a9@5cf41",
+      "displayName": "",
+      "id": "5cf41",
+      "name": "Plane.008.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 138
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7a04f": {
+      "importer": "gltf-material",
+      "uuid": "5ecbfce3-064a-4a6f-851e-83bbaba984a9@7a04f",
+      "displayName": "",
+      "id": "7a04f",
+      "name": "icon_s_socket.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "22afc": {
+      "importer": "gltf-material",
+      "uuid": "5ecbfce3-064a-4a6f-851e-83bbaba984a9@22afc",
+      "displayName": "",
+      "id": "22afc",
+      "name": "socket.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b9224": {
+      "importer": "gltf-scene",
+      "uuid": "5ecbfce3-064a-4a6f-851e-83bbaba984a9@b9224",
+      "displayName": "",
+      "id": "b9224",
+      "name": "socket_large_icon.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "5ecbfce3-064a-4a6f-851e-83bbaba984a9@c5c89",
+        "5ecbfce3-064a-4a6f-851e-83bbaba984a9@a5f8b",
+        "5ecbfce3-064a-4a6f-851e-83bbaba984a9@5cf41"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "5ecbfce3-064a-4a6f-851e-83bbaba984a9@77656",
+        "5ecbfce3-064a-4a6f-851e-83bbaba984a9@7a04f",
+        "5ecbfce3-064a-4a6f-851e-83bbaba984a9@22afc"
+      ],
+      "scenes": [
+        "5ecbfce3-064a-4a6f-851e-83bbaba984a9@b9224"
+      ]
+    }
+  }
+}

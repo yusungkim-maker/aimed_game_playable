@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "1c438b1b-8772-4b9e-a3bc-0148a39a5206",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "6982a": {
+      "importer": "gltf-animation",
+      "uuid": "1c438b1b-8772-4b9e-a3bc-0148a39a5206@6982a",
+      "displayName": "",
+      "id": "6982a",
+      "name": "Axe_Idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "a51b4": {
+      "importer": "gltf-scene",
+      "uuid": "1c438b1b-8772-4b9e-a3bc-0148a39a5206@a51b4",
+      "displayName": "",
+      "id": "a51b4",
+      "name": "@Axe_Idle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "Axe_Idle",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Axe_Idle",
+            "from": 0,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "6982a"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "1c438b1b-8772-4b9e-a3bc-0148a39a5206@a51b4"
+      ]
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "a3daca99-9ead-4c14-9e76-095d4d5cd995",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "26f0f": {
+      "importer": "gltf-animation",
+      "uuid": "a3daca99-9ead-4c14-9e76-095d4d5cd995@26f0f",
+      "displayName": "",
+      "id": "26f0f",
+      "name": "Stick_Attack.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "aa55c": {
+      "importer": "gltf-scene",
+      "uuid": "a3daca99-9ead-4c14-9e76-095d4d5cd995@aa55c",
+      "displayName": "",
+      "id": "aa55c",
+      "name": "@Stick_Attack.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "Stick_Attack",
+        "duration": 1,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Stick_Attack",
+            "from": 0,
+            "to": 1,
+            "wrapMode": 2,
+            "previousId": "26f0f"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "a3daca99-9ead-4c14-9e76-095d4d5cd995@aa55c"
+      ]
+    }
+  }
+}

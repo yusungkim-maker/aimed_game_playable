@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "d52a8e2e-594a-4a91-b194-db573d85762c",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "1e4c1": {
+      "importer": "gltf-animation",
+      "uuid": "d52a8e2e-594a-4a91-b194-db573d85762c@1e4c1",
+      "displayName": "",
+      "id": "1e4c1",
+      "name": "Stick_Dead.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "acdb3": {
+      "importer": "gltf-scene",
+      "uuid": "d52a8e2e-594a-4a91-b194-db573d85762c@acdb3",
+      "displayName": "",
+      "id": "acdb3",
+      "name": "@Stick_Dead.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "Stick_Dead",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Stick_Dead",
+            "from": 0,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "1e4c1"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "d52a8e2e-594a-4a91-b194-db573d85762c@acdb3"
+      ]
+    }
+  }
+}

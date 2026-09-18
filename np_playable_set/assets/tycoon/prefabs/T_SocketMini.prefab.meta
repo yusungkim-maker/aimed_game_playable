@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.50",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "436ddb72-ba84-4722-b08a-5b83fc3157c8",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "T_SocketMini",
+    "hasIcon": false
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "shadow_angle_degrees": 15,
+  "shadow_opacity": 0.34901960784313724,
+  "size": [
+    1024,
+    1024
+  ],
+  "anchor_pixels": [
+    360,
+    820
+  ],
+  "camera": "orthographic target elevation 45 yaw +/-45; generative approximation",
+  "shadow_method": "complete silhouette projected toward screen right/up15; hidden geometry approximated",
+  "files": {
+    "01_메인기지\\HQ_Basic_Left45_Body.png": "a5438edd8e8a018728e4b2928ea04d8255519237ec64bfc09642866d060a2647",
+    "01_메인기지\\HQ_Basic_Left45_Shadow.png": "df852021ac4fad34970d33385651a3ad724971072a3e01a6ad02182ccc653b87",
+    "01_메인기지\\HQ_Basic_Right45_Body.png": "4d28546c2409e164530ff70f0a3ea137e6707188852e471cbee6662c190a3e0b",
+    "01_메인기지\\HQ_Basic_Right45_Shadow.png": "91798b970726017bdf2c2413d16f91468b39173f3bb3767d94a558724542a014",
+    "01_메인기지\\HQ_Expanded_Left45_Body.png": "ea75651651cd224f71a056d778627c5e6fa8b0cffaa82983536fd4502a878b74",
+    "01_메인기지\\HQ_Expanded_Left45_Shadow.png": "5e957a68f20afc3904e10a4fb64276a472a93b3eea07c552d6fdecbc7e3c3f79",
+    "01_메인기지\\HQ_Expanded_Right45_Body.png": "77c7e2d74c88dd167971e4421eb513ff14a4c20e6a84a24bb61518a43a4332d4",
+    "01_메인기지\\HQ_Expanded_Right45_Shadow.png": "fefbd5beee489114729ac2f09d681ba866656efec4e347b5ddad1a66af068bbb",
+    "02_고용소\\HiringOffice_Basic_Left45_Body.png": "353dbe6748d7b2ef65c0ed241b029f4b2efe3d81f87fa0d838de51e9da948db5",
+    "02_고용소\\HiringOffice_Basic_Left45_Shadow.png": "8ca3df8e0420b60d78ff4f29c335cab9dab68a7667cabebff98b74b25d033d68",
+    "02_고용소\\HiringOffice_Basic_Right45_Body.png": "39914897760a69d17f49ee4c74ae42cd47452cca3ae62cd6f333ec86489f1a11",
+    "02_고용소\\HiringOffice_Basic_Right45_Shadow.png": "1d0691c44c7cdad8c93376696bdb483bdba8a9639bfaeaa1aa24c51a2bbbb102",
+    "02_고용소\\HiringOffice_Expanded_Left45_Body.png": "e48df33306635e23efa5b456a1e2fed89c48420247e0df0bcc89f67f1d3b7495",
+    "02_고용소\\HiringOffice_Expanded_Left45_Shadow.png": "da2918422208ada88876f1c6e8c92232c421c6b4910d006cdc6b5ab6a69b9b51",
+    "02_고용소\\HiringOffice_Expanded_Right45_Body.png": "d70532502bda2f0751f6a4842c96ea54ca67960e9a3bb76ca74b827e0533315b",
+    "02_고용소\\HiringOffice_Expanded_Right45_Shadow.png": "8de80cd717e1f06254379a5f2b0b702b99b37c1f8e70b4f7cc6f513e64d6332e",
+    "03_목재창고\\LumberWarehouse_Basic_Left45_Body.png": "4ac0f4576df2c6a6f3ea507bcf5b225a9fee98a25bb0da979a3b51547f2005b8",
+    "03_목재창고\\LumberWarehouse_Basic_Left45_Shadow.png": "f7385e33ba86c2884f2c7058eaa08f114b7fc285494fcaf8f68196fa380bb42d",
+    "03_목재창고\\LumberWarehouse_Basic_Right45_Body.png": "9f602ada5859f54d55cc1068d72655d6e343d2c01fcad57056cdb6aea546cd5a",
+    "03_목재창고\\LumberWarehouse_Basic_Right45_Shadow.png": "09a73ade41b63b946aa70c1c0b535be0aa1628a487f5bd0c67517e76af6e55c6",
+    "03_목재창고\\LumberWarehouse_Expanded_Left45_Body.png": "a93dc22d5920478dda07561230bbbd9f61871825f8b0e9616b5e4ad916448ba7",
+    "03_목재창고\\LumberWarehouse_Expanded_Left45_Shadow.png": "ec8734067f9c3f3fa6310c9c19245516c354c0c9b0f5ff8c050476ff41f6f0a1",
+    "03_목재창고\\LumberWarehouse_Expanded_Right45_Body.png": "b9eac37cf69a2b951897965c2bb0da0c270f4f402603572fb6c1ff21660a8ab4",
+    "03_목재창고\\LumberWarehouse_Expanded_Right45_Shadow.png": "1aecc31cdf5a9e7de4ea4e57e1a4acd221c315957a6dc2d272e97489fb8e0cac",
+    "04_철광산\\IronMine_Active_Left45_Body.png": "98a961fefdd0670ded15907fa19f601d474762c0a0c1a2fd23b6608bf25093ec",
+    "04_철광산\\IronMine_Active_Left45_Shadow.png": "a964ae733033f44d8c099b9b2f5b594c4b45fddd22b8be0286e23ff446bea470",
+    "04_철광산\\IronMine_Active_Right45_Body.png": "0ae9ebf0255a02a1fd981904a1e902eb002074aae813a3b1eba74acf63d64943",
+    "04_철광산\\IronMine_Active_Right45_Shadow.png": "cf97007f5ed392e034b64e73b5eff3acb1f3a06a87de138a648656c740160ca5",
+    "04_철광산\\IronMine_Inactive_Left45_Body.png": "56fae8b46ee4bb9d28873aad4e9f7fbf197378e8bd360961efab47ac0b52cd05",
+    "04_철광산\\IronMine_Inactive_Left45_Shadow.png": "a964ae733033f44d8c099b9b2f5b594c4b45fddd22b8be0286e23ff446bea470",
+    "04_철광산\\IronMine_Inactive_Right45_Body.png": "e43546af54eb9e5cd7b351cc04a927994da63046af672ab21a5139147aa4d66c",
+    "04_철광산\\IronMine_Inactive_Right45_Shadow.png": "cf97007f5ed392e034b64e73b5eff3acb1f3a06a87de138a648656c740160ca5",
+    "05_대장간\\Blacksmith_Basic_Left45_Body.png": "882ccd664e53369319822bd471797c03e965069b67160d3de23678b0a3a1f23a",
+    "05_대장간\\Blacksmith_Basic_Left45_Shadow.png": "a4cff2da1f208431d95422cd75d2a5bcc75fa8ad2497ba060d6bcd27a3858aae",
+    "05_대장간\\Blacksmith_Basic_Right45_Body.png": "6cfe656b7e91b49dbe48ea6d481f582704fe1eb19a2846bde30b158b9fc5a108",
+    "05_대장간\\Blacksmith_Basic_Right45_Shadow.png": "c9b41aee0a7f7f758dd071be1e0fbc80156da56fa83e7e76f91dd176fad87315",
+    "05_대장간\\Blacksmith_Expanded_Left45_Body.png": "b14983aba7e99a913038441a8f575f3aef4ff24ee3b17596991d5fb8cd65e5e4",
+    "05_대장간\\Blacksmith_Expanded_Left45_Shadow.png": "b93959d4e921c989a4f909f8fbbaeafc8a1f2ac84ab32c731a93c3b8aad96dad",
+    "05_대장간\\Blacksmith_Expanded_Right45_Body.png": "8e1f1ae248c059841194d34d61b259a00a9e2635766c7db158ad2333e3ea2ab2",
+    "05_대장간\\Blacksmith_Expanded_Right45_Shadow.png": "719eb35b668b2f08027da137d299aee21b8e1cec698a5bc168ed9252086092dc",
+    "06_무기판매소\\SwordShop_Basic_Left45_Body.png": "a995edbda3b67b01694d8e80e21a5f8b41f5d507856aa580355f61a768018c91",
+    "06_무기판매소\\SwordShop_Basic_Left45_Shadow.png": "4e8b0f9191dd96d47125fc940421ee000ed46ed8af7046f71cdd3d95f8508288",
+    "06_무기판매소\\SwordShop_Basic_Right45_Body.png": "fd8483cc3b26f315e03916d2c5dd759e6762dd61d474c62553a2f350eaba0048",
+    "06_무기판매소\\SwordShop_Basic_Right45_Shadow.png": "1731d3090d39ba34fb81ffd7a11e67481f6bdfa042c2d1b0e36453ce61b45a26",
+    "06_무기판매소\\SwordShop_Expanded_Left45_Body.png": "5fcf2180b152361c7b32c6cf299f62d5f77c3819669d2aee11658981b8a54cc3",
+    "06_무기판매소\\SwordShop_Expanded_Left45_Shadow.png": "6581df263a9362b1182e848f3bb04c6df58ae63fe4dd29f8bbc02507a543ac94",
+    "06_무기판매소\\SwordShop_Expanded_Right45_Body.png": "a172abe7216525f7a66ca3c9f0c37cee2c9b3ec147cf1b39da362d8088cfe7b4",
+    "06_무기판매소\\SwordShop_Expanded_Right45_Shadow.png": "bc3093bf327e21f46213e1f1a1c8f891a9fe12a4acf59cb468dfe9f8b8429dec"
+  },
+  "mine_checks": {
+    "0": {
+      "alpha_identical": true,
+      "shadow_identical": true,
+      "difference_bbox": [
+        270,
+        612,
+        350,
+        731
+      ]
+    },
+    "1": {
+      "alpha_identical": true,
+      "shadow_identical": true,
+      "difference_bbox": [
+        371,
+        612,
+        454,
+        731
+      ]
+    }
+  }
+}

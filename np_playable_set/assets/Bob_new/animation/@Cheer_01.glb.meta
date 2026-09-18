@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "1ec0ede1-ba4c-45be-bd7c-aced8a665d64",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "149af": {
+      "importer": "gltf-animation",
+      "uuid": "1ec0ede1-ba4c-45be-bd7c-aced8a665d64@149af",
+      "displayName": "",
+      "id": "149af",
+      "name": "Cheer_01.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.1333333253860474
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "11c85": {
+      "importer": "gltf-scene",
+      "uuid": "1ec0ede1-ba4c-45be-bd7c-aced8a665d64@11c85",
+      "displayName": "",
+      "id": "11c85",
+      "name": "@Cheer_01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "Cheer_01",
+        "duration": 1.1333333253860474,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Cheer_01",
+            "from": 0,
+            "to": 1.1333333253860474,
+            "wrapMode": 2,
+            "previousId": "149af"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "1ec0ede1-ba4c-45be-bd7c-aced8a665d64@11c85"
+      ]
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "5bc6efdb-6d82-476e-9127-8f6b64f49049",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "6b154": {
+      "importer": "gltf-animation",
+      "uuid": "5bc6efdb-6d82-476e-9127-8f6b64f49049@6b154",
+      "displayName": "",
+      "id": "6b154",
+      "name": "Wagon_Dead.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.4666666984558105
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "fcde1": {
+      "importer": "gltf-scene",
+      "uuid": "5bc6efdb-6d82-476e-9127-8f6b64f49049@fcde1",
+      "displayName": "",
+      "id": "fcde1",
+      "name": "@Wagon_Dead.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "Wagon_Dead",
+        "duration": 1.4666666984558105,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Wagon_Dead",
+            "from": 0,
+            "to": 1.4666666984558105,
+            "wrapMode": 2,
+            "previousId": "6b154"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "5bc6efdb-6d82-476e-9127-8f6b64f49049@fcde1"
+      ]
+    }
+  }
+}

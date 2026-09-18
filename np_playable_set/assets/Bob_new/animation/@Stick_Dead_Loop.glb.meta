@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "28e19d91-e6f0-4149-8ab7-2afc00214129",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "210c6": {
+      "importer": "gltf-animation",
+      "uuid": "28e19d91-e6f0-4149-8ab7-2afc00214129@210c6",
+      "displayName": "",
+      "id": "210c6",
+      "name": "Stick_Dead_Loop.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "411b2": {
+      "importer": "gltf-scene",
+      "uuid": "28e19d91-e6f0-4149-8ab7-2afc00214129@411b2",
+      "displayName": "",
+      "id": "411b2",
+      "name": "@Stick_Dead_Loop.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "Stick_Dead_Loop",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Stick_Dead_Loop",
+            "from": 0,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "210c6"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "28e19d91-e6f0-4149-8ab7-2afc00214129@411b2"
+      ]
+    }
+  }
+}

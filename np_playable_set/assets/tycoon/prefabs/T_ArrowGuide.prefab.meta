@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.50",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "364a5379-188c-4b71-94ff-0a60c01b1c32",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "T_ArrowGuide",
+    "hasIcon": false
+  }
+}

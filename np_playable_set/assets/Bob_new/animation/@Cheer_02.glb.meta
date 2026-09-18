@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "d54f4386-b05f-4028-b00e-5a2f9854d71f",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "230ec": {
+      "importer": "gltf-animation",
+      "uuid": "d54f4386-b05f-4028-b00e-5a2f9854d71f@230ec",
+      "displayName": "",
+      "id": "230ec",
+      "name": "Cheer_02.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.1333333253860474
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "7726b": {
+      "importer": "gltf-scene",
+      "uuid": "d54f4386-b05f-4028-b00e-5a2f9854d71f@7726b",
+      "displayName": "",
+      "id": "7726b",
+      "name": "@Cheer_02.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "Cheer_02",
+        "duration": 1.1333333253860474,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Cheer_02",
+            "from": 0,
+            "to": 1.1333333253860474,
+            "wrapMode": 2,
+            "previousId": "230ec"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "d54f4386-b05f-4028-b00e-5a2f9854d71f@7726b"
+      ]
+    }
+  }
+}

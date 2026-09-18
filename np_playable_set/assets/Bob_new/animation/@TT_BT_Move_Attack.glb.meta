@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "2ad4358c-d34c-4b31-8d7f-b683eb5143b8",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "73163": {
+      "importer": "gltf-scene",
+      "uuid": "2ad4358c-d34c-4b31-8d7f-b683eb5143b8@73163",
+      "displayName": "",
+      "id": "73163",
+      "name": "@TT_BT_Move_Attack.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7919e": {
+      "importer": "gltf-animation",
+      "uuid": "2ad4358c-d34c-4b31-8d7f-b683eb5143b8@7919e",
+      "displayName": "",
+      "id": "7919e",
+      "name": "TT_BT_Move_Attack.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.5666666626930237
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "TT_BT_Move_Attack",
+        "duration": 0.5666666626930237,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "TT_BT_Move_Attack",
+            "from": 0,
+            "to": 0.5666666626930237,
+            "wrapMode": 2,
+            "previousId": "7919e"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "2ad4358c-d34c-4b31-8d7f-b683eb5143b8@73163"
+      ]
+    }
+  }
+}

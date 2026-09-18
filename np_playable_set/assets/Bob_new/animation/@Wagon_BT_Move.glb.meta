@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "c9b8709a-4cf8-4ba2-b1f0-221c07febb45",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "24be0": {
+      "importer": "gltf-animation",
+      "uuid": "c9b8709a-4cf8-4ba2-b1f0-221c07febb45@24be0",
+      "displayName": "",
+      "id": "24be0",
+      "name": "Wagon_BT_Move.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.8666666746139526
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "7fe66": {
+      "importer": "gltf-scene",
+      "uuid": "c9b8709a-4cf8-4ba2-b1f0-221c07febb45@7fe66",
+      "displayName": "",
+      "id": "7fe66",
+      "name": "@Wagon_BT_Move.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "Wagon_BT_Move",
+        "duration": 0.8666666746139526,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Wagon_BT_Move",
+            "from": 0,
+            "to": 0.8666666746139526,
+            "wrapMode": 2,
+            "previousId": "24be0"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "c9b8709a-4cf8-4ba2-b1f0-221c07febb45@7fe66"
+      ]
+    }
+  }
+}

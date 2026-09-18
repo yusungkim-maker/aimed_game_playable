@@ -1,0 +1,15 @@
+{
+  "sun_rotation_xyz_degrees": [
+    0.0,
+    -27.00000075134345,
+    19.99999941818584
+  ],
+  "ray_direction_negative_local_z": [
+    0.4266115427017212,
+    0.155273899435997,
+    -0.8910065293312073
+  ],
+  "camera_type": "ORTHO",
+  "camera_elevation_degrees": 45,
+  "sun_angular_diameter_degrees": 0
+}

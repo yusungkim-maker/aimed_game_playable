@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "15a305fd-4d2a-47fd-8b5f-fe84730a17e2",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "3f52c": {
+      "importer": "gltf-animation",
+      "uuid": "15a305fd-4d2a-47fd-8b5f-fe84730a17e2@3f52c",
+      "displayName": "",
+      "id": "3f52c",
+      "name": "Hammer_Dead.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.0666667222976685
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "c8d16": {
+      "importer": "gltf-scene",
+      "uuid": "15a305fd-4d2a-47fd-8b5f-fe84730a17e2@c8d16",
+      "displayName": "",
+      "id": "c8d16",
+      "name": "@Hammer_Dead.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "Hammer_Dead",
+        "duration": 1.0666667222976685,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hammer_Dead",
+            "from": 0,
+            "to": 1.0666667222976685,
+            "wrapMode": 2,
+            "previousId": "3f52c"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "15a305fd-4d2a-47fd-8b5f-fe84730a17e2@c8d16"
+      ]
+    }
+  }
+}

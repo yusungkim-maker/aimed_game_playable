@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "cf381110-f91e-46c5-a528-b675bb6c4726",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "1bb0f": {
+      "importer": "gltf-animation",
+      "uuid": "cf381110-f91e-46c5-a528-b675bb6c4726@1bb0f",
+      "displayName": "",
+      "id": "1bb0f",
+      "name": "Hammer.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.46666666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "9766a": {
+      "importer": "gltf-scene",
+      "uuid": "cf381110-f91e-46c5-a528-b675bb6c4726@9766a",
+      "displayName": "",
+      "id": "9766a",
+      "name": "@Hammer.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "Hammer",
+        "duration": 0.46666666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hammer",
+            "from": 0,
+            "to": 0.46666666865348816,
+            "wrapMode": 2,
+            "previousId": "1bb0f"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "cf381110-f91e-46c5-a528-b675bb6c4726@9766a"
+      ]
+    }
+  }
+}

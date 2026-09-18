@@ -1,0 +1,93 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "a4cdd294-55e8-4238-9df0-68fcfec7e0c2",
+  "files": [],
+  "subMetas": {
+    "32aeb": {
+      "importer": "gltf-mesh",
+      "uuid": "a4cdd294-55e8-4238-9df0-68fcfec7e0c2@32aeb",
+      "displayName": "",
+      "id": "32aeb",
+      "name": "Plane.014.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 124
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fe35a": {
+      "importer": "gltf-material",
+      "uuid": "a4cdd294-55e8-4238-9df0-68fcfec7e0c2@fe35a",
+      "displayName": "",
+      "id": "fe35a",
+      "name": "sword.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8dd83": {
+      "importer": "gltf-scene",
+      "uuid": "a4cdd294-55e8-4238-9df0-68fcfec7e0c2@8dd83",
+      "displayName": "",
+      "id": "8dd83",
+      "name": "sword.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "a4cdd294-55e8-4238-9df0-68fcfec7e0c2@32aeb"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "a4cdd294-55e8-4238-9df0-68fcfec7e0c2@fe35a"
+      ],
+      "scenes": [
+        "a4cdd294-55e8-4238-9df0-68fcfec7e0c2@8dd83"
+      ]
+    }
+  }
+}

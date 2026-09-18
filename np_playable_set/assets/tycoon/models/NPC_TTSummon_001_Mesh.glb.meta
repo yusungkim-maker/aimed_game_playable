@@ -1,0 +1,314 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "02344e9b-bf8b-4e18-affd-1764d3d315a6",
+  "files": [],
+  "subMetas": {
+    "17318": {
+      "importer": "gltf-mesh",
+      "uuid": "02344e9b-bf8b-4e18-affd-1764d3d315a6@17318",
+      "displayName": "",
+      "id": "17318",
+      "name": "Hammer.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 92
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "30732": {
+      "importer": "gltf-skeleton",
+      "uuid": "02344e9b-bf8b-4e18-affd-1764d3d315a6@30732",
+      "displayName": "",
+      "id": "30732",
+      "name": "UnnamedSkeleton-0.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 27
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "62756": {
+      "importer": "gltf-skeleton",
+      "uuid": "02344e9b-bf8b-4e18-affd-1764d3d315a6@62756",
+      "displayName": "",
+      "id": "62756",
+      "name": "UnnamedSkeleton-5.skeleton",
+      "userData": {
+        "gltfIndex": 5,
+        "jointsLength": 1
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e66be": {
+      "importer": "gltf-mesh",
+      "uuid": "02344e9b-bf8b-4e18-affd-1764d3d315a6@e66be",
+      "displayName": "",
+      "id": "e66be",
+      "name": "NPC_Summon_001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2102
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0809f": {
+      "importer": "gltf-mesh",
+      "uuid": "02344e9b-bf8b-4e18-affd-1764d3d315a6@0809f",
+      "displayName": "",
+      "id": "0809f",
+      "name": "Prop_Axe01.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 390
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "08975": {
+      "importer": "gltf-mesh",
+      "uuid": "02344e9b-bf8b-4e18-affd-1764d3d315a6@08975",
+      "displayName": "",
+      "id": "08975",
+      "name": "Wagon.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 1576
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c1fef": {
+      "importer": "gltf-mesh",
+      "uuid": "02344e9b-bf8b-4e18-affd-1764d3d315a6@c1fef",
+      "displayName": "",
+      "id": "c1fef",
+      "name": "crossbow001.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 1356
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "900f2": {
+      "importer": "gltf-mesh",
+      "uuid": "02344e9b-bf8b-4e18-affd-1764d3d315a6@900f2",
+      "displayName": "",
+      "id": "900f2",
+      "name": "crossbow002.mesh",
+      "userData": {
+        "gltfIndex": 5,
+        "triangleCount": 1356
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f1394": {
+      "importer": "gltf-skeleton",
+      "uuid": "02344e9b-bf8b-4e18-affd-1764d3d315a6@f1394",
+      "displayName": "",
+      "id": "f1394",
+      "name": "UnnamedSkeleton-1.skeleton",
+      "userData": {
+        "gltfIndex": 1,
+        "jointsLength": 1
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "75ee4": {
+      "importer": "gltf-skeleton",
+      "uuid": "02344e9b-bf8b-4e18-affd-1764d3d315a6@75ee4",
+      "displayName": "",
+      "id": "75ee4",
+      "name": "UnnamedSkeleton-2.skeleton",
+      "userData": {
+        "gltfIndex": 2,
+        "jointsLength": 3
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a72ab": {
+      "importer": "gltf-skeleton",
+      "uuid": "02344e9b-bf8b-4e18-affd-1764d3d315a6@a72ab",
+      "displayName": "",
+      "id": "a72ab",
+      "name": "UnnamedSkeleton-3.skeleton",
+      "userData": {
+        "gltfIndex": 3,
+        "jointsLength": 1
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2224c": {
+      "importer": "gltf-skeleton",
+      "uuid": "02344e9b-bf8b-4e18-affd-1764d3d315a6@2224c",
+      "displayName": "",
+      "id": "2224c",
+      "name": "UnnamedSkeleton-4.skeleton",
+      "userData": {
+        "gltfIndex": 4,
+        "jointsLength": 1
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "958b3": {
+      "importer": "gltf-material",
+      "uuid": "02344e9b-bf8b-4e18-affd-1764d3d315a6@958b3",
+      "displayName": "",
+      "id": "958b3",
+      "name": "Material #1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5c895": {
+      "importer": "gltf-material",
+      "uuid": "02344e9b-bf8b-4e18-affd-1764d3d315a6@5c895",
+      "displayName": "",
+      "id": "5c895",
+      "name": "Material #2.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dd5b1": {
+      "importer": "gltf-scene",
+      "uuid": "02344e9b-bf8b-4e18-affd-1764d3d315a6@dd5b1",
+      "displayName": "",
+      "id": "dd5b1",
+      "name": "NPC_TTSummon_001_Mesh.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "02344e9b-bf8b-4e18-affd-1764d3d315a6@e66be",
+        "02344e9b-bf8b-4e18-affd-1764d3d315a6@0809f",
+        "02344e9b-bf8b-4e18-affd-1764d3d315a6@08975",
+        "02344e9b-bf8b-4e18-affd-1764d3d315a6@17318",
+        "02344e9b-bf8b-4e18-affd-1764d3d315a6@c1fef",
+        "02344e9b-bf8b-4e18-affd-1764d3d315a6@900f2"
+      ],
+      "skeletons": [
+        "02344e9b-bf8b-4e18-affd-1764d3d315a6@30732",
+        "02344e9b-bf8b-4e18-affd-1764d3d315a6@f1394",
+        "02344e9b-bf8b-4e18-affd-1764d3d315a6@75ee4",
+        "02344e9b-bf8b-4e18-affd-1764d3d315a6@a72ab",
+        "02344e9b-bf8b-4e18-affd-1764d3d315a6@2224c",
+        "02344e9b-bf8b-4e18-affd-1764d3d315a6@62756"
+      ],
+      "textures": [],
+      "materials": [
+        "02344e9b-bf8b-4e18-affd-1764d3d315a6@958b3",
+        "02344e9b-bf8b-4e18-affd-1764d3d315a6@5c895"
+      ],
+      "scenes": [
+        "02344e9b-bf8b-4e18-affd-1764d3d315a6@dd5b1"
+      ]
+    }
+  }
+}

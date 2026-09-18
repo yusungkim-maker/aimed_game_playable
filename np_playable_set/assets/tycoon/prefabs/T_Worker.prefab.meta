@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.50",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "68f50af3-0fdf-4c04-886f-6ffafb1c9cc2",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "T_Worker",
+    "hasIcon": false
+  }
+}

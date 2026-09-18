@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 2,
+  "version": "2.0",
+  "status": "proposal_not_runtime_config",
+  "date": "2026-09-16",
+  "supersedes": "tycoon-balance-v1.json",
+  "premise": "자원 획득 → 직접 판매 또는 가공 후 판매 → 대금 회수 → 코인 소켓 투자 → 눈에 보이는 효율/자동화 성장 → 성장한 사이클의 판매 대금 회수 후 종료",
+  "variant": "direct_wood_sale",
+  "notAnEngineImport": true,
+  "timing": {
+    "normalTargetSeconds": [
+      45,
+      60
+    ],
+    "firstHarvestTargetSeconds": 3,
+    "firstSaleTargetSeconds": 6,
+    "firstUpgradeTargetSeconds": 9,
+    "firstWorkerTargetSeconds": 23,
+    "minimumSettlementDisplaySeconds": 2,
+    "softCtaActiveSeconds": 75,
+    "pauseWhileHidden": true
+  },
+  "economy": {
+    "resourceId": "wood",
+    "currencyId": "coin",
+    "woodUnitPrice": 5,
+    "startPlayerWood": 0,
+    "startWalletCoins": 0,
+    "startTillCoins": 0,
+    "playerWoodCapacityBeforeU3": 12,
+    "playerWoodCapacityAfterU3": 18,
+    "workerWoodCapacity": 6,
+    "tillCapacityCoins": 300,
+    "coinVisualDenomination": 5,
+    "saleIntervalSeconds": 0.1,
+    "cashPickupIntervalSeconds": 0.08,
+    "cashPickupDelaySeconds": 0.15,
+    "cashFlightSeconds": 0.25,
+    "upgradePaymentIntervalSeconds": 0.08,
+    "upgradePaymentCoinsPerTick": 5,
+    "upgradeAnimationSeconds": 0.6,
+    "workerRevenueDestination": "till",
+    "upgradeDebitSource": "wallet_only",
+    "reserveTillCapacityAtSaleAcceptance": true
+  },
+  "player": {
+    "moveUnitsPerSecond": 4,
+    "chopRadius": 1.2,
+    "collectRadius": 1.6,
+    "collectFlightSeconds": 0.25,
+    "woodFlightStaggerSeconds": 0.04,
+    "worldUnitsAreLayoutAssumption": true
+  },
+  "harvest": {
+    "treeHp": 3,
+    "initialPower": 1,
+    "powerAfterU1": 3,
+    "windupSeconds": 0.2,
+    "hitIntervalSeconds": 0.4,
+    "recoverySeconds": 0.2,
+    "woodPerTree": 6,
+    "playerTreeCount": 6,
+    "playerTreeRespawnSeconds": 8,
+    "reserveWholeRewardBeforeChop": true,
+    "powerChangeAtNextNewTree": true
+  },
+  "workers": {
+    "countBeforeU2": 0,
+    "countAfterU2": 1,
+    "countAfterU3": 2,
+    "batchWood": 6,
+    "cycleSeconds": 8,
+    "cyclePartsSeconds": {
+      "outbound": 1.5,
+      "work": 3,
+      "inbound": 1.5,
+      "sale": 0.6,
+      "slack": 1.4
+    },
+    "privateWorksites": 2,
+    "keepCargoOnBlockedSale": true,
+    "usesSeparateSaleSlot": true
+  },
+  "upgrades": [
+    {
+      "id": "U1",
+      "name": "벌목 작업대",
+      "costCoins": 30,
+      "prerequisite": null,
+      "benefit": "chop_power_1_to_3",
+      "visual": "workbench_appears"
+    },
+    {
+      "id": "U2",
+      "name": "벌목 오두막",
+      "costCoins": 60,
+      "prerequisite": "U1",
+      "benefit": "worker_1_harvest_carry_sell",
+      "visual": "hut_and_worker_appear"
+    },
+    {
+      "id": "U3",
+      "name": "생산 구역 확장",
+      "costCoins": 90,
+      "prerequisite": "U2",
+      "benefit": "worker_2_and_player_capacity_18",
+      "visual": "boundary_opens_path_and_shelter_appear"
+    }
+  ],
+  "referenceTotals": {
+    "woodForUpgrades": 36,
+    "totalPlayerWood": 42,
+    "totalWorkerWood": 18,
+    "totalSoldWood": 60,
+    "totalSalesCoins": 300,
+    "totalInvestedCoins": 180,
+    "walletAtSettlement": 120,
+    "postU3SalesCoinsCollected": 120
+  },
+  "referenceLedger": {
+    "scope": "완료 시점의 묶음 장부. 개별 토큰·보간·경로 탐색을 시뮬레이션하지 않는다. collect는 지급함 회수 완료, invest는 단계 납부/완성의 장부 스냅샷이다. 첫 성공 정산 이후의 추가 생산은 포함하지 않는다.",
+    "events": [
+      {
+        "t": 2,
+        "type": "harvest",
+        "actor": "player",
+        "wood": 6,
+        "batchId": "p1"
+      },
+      {
+        "t": 5,
+        "type": "sale",
+        "actor": "player",
+        "wood": 6,
+        "saleId": "sale1"
+      },
+      {
+        "t": 5.8,
+        "type": "collect_all"
+      },
+      {
+        "t": 8,
+        "type": "invest",
+        "upgrade": "U1"
+      },
+      {
+        "t": 12,
+        "type": "harvest",
+        "actor": "player",
+        "wood": 6,
+        "batchId": "p2"
+      },
+      {
+        "t": 14,
+        "type": "harvest",
+        "actor": "player",
+        "wood": 6,
+        "batchId": "p3"
+      },
+      {
+        "t": 18,
+        "type": "sale",
+        "actor": "player",
+        "wood": 12,
+        "saleId": "sale2"
+      },
+      {
+        "t": 19,
+        "type": "collect_all"
+      },
+      {
+        "t": 22,
+        "type": "invest",
+        "upgrade": "U2"
+      },
+      {
+        "t": 26,
+        "type": "harvest",
+        "actor": "player",
+        "wood": 6,
+        "batchId": "p4"
+      },
+      {
+        "t": 28,
+        "type": "harvest",
+        "actor": "player",
+        "wood": 6,
+        "batchId": "p5"
+      },
+      {
+        "t": 29,
+        "type": "harvest",
+        "actor": "worker1",
+        "wood": 6,
+        "batchId": "w1a"
+      },
+      {
+        "t": 30,
+        "type": "sale",
+        "actor": "worker1",
+        "wood": 6,
+        "saleId": "sale3"
+      },
+      {
+        "t": 32,
+        "type": "sale",
+        "actor": "player",
+        "wood": 12,
+        "saleId": "sale4"
+      },
+      {
+        "t": 33,
+        "type": "collect_all"
+      },
+      {
+        "t": 35,
+        "type": "invest",
+        "upgrade": "U3"
+      },
+      {
+        "t": 37,
+        "type": "harvest",
+        "actor": "worker1",
+        "wood": 6,
+        "batchId": "w1b"
+      },
+      {
+        "t": 38,
+        "type": "sale",
+        "actor": "worker1",
+        "wood": 6,
+        "saleId": "sale5"
+      },
+      {
+        "t": 39,
+        "type": "harvest",
+        "actor": "player",
+        "wood": 6,
+        "batchId": "p6"
+      },
+      {
+        "t": 41,
+        "type": "harvest",
+        "actor": "player",
+        "wood": 6,
+        "batchId": "p7"
+      },
+      {
+        "t": 42,
+        "type": "harvest",
+        "actor": "worker2",
+        "wood": 6,
+        "batchId": "w2a"
+      },
+      {
+        "t": 43,
+        "type": "sale",
+        "actor": "worker2",
+        "wood": 6,
+        "saleId": "sale6"
+      },
+      {
+        "t": 44,
+        "type": "sale",
+        "actor": "player",
+        "wood": 12,
+        "saleId": "sale7"
+      },
+      {
+        "t": 44.8,
+        "type": "collect_all"
+      }
+    ]
+  },
+  "success": {
+    "requiresUpgrade": "U3",
+    "requiresPlayerPostU3AcquiredWoodSoldAndCollected": 12,
+    "requiresEachWorkerPostU3SaleCollected": true,
+    "minimumCollectedFromPostU3SalesCoins": 120,
+    "settlementDisplaySeconds": 2,
+    "minimumEligibleLedgerTime": 44.8,
+    "worldContinues": true,
+    "storeOnlyOnExplicitCtaClick": true
+  },
+  "renderCaps": {
+    "skeletalCharacters": 3,
+    "staticMerchant": 1,
+    "interactiveTrees": 8,
+    "groundWood": 24,
+    "playerStackWood": 18,
+    "workerStackWood": 12,
+    "saleWoodFlights": 8,
+    "totalWoodVisuals": 62,
+    "tillCoinVisuals": 8,
+    "cashPickupFlights": 8,
+    "investmentCoinFlights": 8,
+    "totalCoinVisuals": 24,
+    "particles": 24,
+    "boundaryPieces": 6
+  },
+  "performanceTargets": {
+    "notMeasured": true,
+    "normalDrawCalls": 60,
+    "peakDrawCallWarning": 80,
+    "visibleTriangles": 50000,
+    "renderLongEdgePixels": {
+      "low": 960,
+      "standard": 1280
+    },
+    "fps": {
+      "low": 30,
+      "standard": 60
+    },
+    "frameP95Ms": {
+      "low": 35,
+      "standard": 20
+    },
+    "activeStallsOver100Ms": 0,
+    "readyAfterFileDeliverySeconds": {
+      "low": 3,
+      "standard": 2
+    }
+  },
+  "packageBudget": {
+    "basis": "최종 HTML 계획 예산. 실제 압축 기여분·실기기 성능 미측정.",
+    "internalTargetBytes": 4500000,
+    "releaseMustBeLessThanBytes": 5000000,
+    "allocations": [
+      {
+        "id": "engine_adapter",
+        "bytes": 2750000
+      },
+      {
+        "id": "meshes_skeleton_clips",
+        "bytes": 450000
+      },
+      {
+        "id": "environment_building_textures",
+        "bytes": 580000
+      },
+      {
+        "id": "character_textures",
+        "bytes": 150000
+      },
+      {
+        "id": "ui_coins_glyphs",
+        "bytes": 200000
+      },
+      {
+        "id": "audio",
+        "bytes": 80000
+      },
+      {
+        "id": "scene_scripts_material_effects",
+        "bytes": 110000
+      },
+      {
+        "id": "internal_change_reserve",
+        "bytes": 180000
+      }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "shadow_count": 24,
+  "unchanged_bodies": 24,
+  "checks": [
+    {
+      "file": "01_메인기지\\HQ_Basic_Left45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "477e6da201831d4417f1fa15c12ab2950d4fe000ea33bd19bc46f972239b69e9"
+    },
+    {
+      "file": "01_메인기지\\HQ_Basic_Right45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "1ae4ed248b8e7eb3af9de0cf179b234f0b8c7d941ab8fc1c6a30d5a6826f0089"
+    },
+    {
+      "file": "01_메인기지\\HQ_Expanded_Left45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "30b90af67a31f9c2c5bf9df7b5a469ac099cff182895ea99b49a95d9c40ec522"
+    },
+    {
+      "file": "01_메인기지\\HQ_Expanded_Right45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "ac0bd6922b2cb8b31b2c99079ae7bde33e08aece2833204cc9b31ec919c4f863"
+    },
+    {
+      "file": "02_고용소\\HiringOffice_Basic_Left45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "4fe53ae8aa8f56b6c631faa4219d406ee00e2baa0fc69f10fbd9c53a471373e3"
+    },
+    {
+      "file": "02_고용소\\HiringOffice_Basic_Right45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "1879c0e49d86ae84bffcbf210a2efbd51ae7a65844432302cc4b7a77e70fa8b3"
+    },
+    {
+      "file": "02_고용소\\HiringOffice_Expanded_Left45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "12d90da48c0556d3fc26605f4acda1830096379e6ff71c4540483669087c2f25"
+    },
+    {
+      "file": "02_고용소\\HiringOffice_Expanded_Right45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "619490f52b09dc98767484a201824d59977d3b8ec1fdc5befaf5d855cc2455b5"
+    },
+    {
+      "file": "03_목재창고\\LumberWarehouse_Basic_Left45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "3addc6dbcd8264b74cdd128492cb54f048f4e37b8a8c873443754f0089a66679"
+    },
+    {
+      "file": "03_목재창고\\LumberWarehouse_Basic_Right45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "67c39960cf01d7c3516e1101cabc7de214c28b1b721f883320b137fe5993fa31"
+    },
+    {
+      "file": "03_목재창고\\LumberWarehouse_Expanded_Left45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "5378c2e164b3b1b077f12fc09b8d83829c9902f3d2536a3aee904206f9e2e654"
+    },
+    {
+      "file": "03_목재창고\\LumberWarehouse_Expanded_Right45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "fce35eb7dd0eb4a13b56d428df166f940d4c1bf97e0bf8b2500052a984e6d5a7"
+    },
+    {
+      "file": "04_철광산\\IronMine_Active_Left45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "1db1cff7f4dec5e70295149212ae7da1d92e4ae2a991d26d2d8c19c6e98aa914"
+    },
+    {
+      "file": "04_철광산\\IronMine_Active_Right45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "6ab4ff69b5a61eb52b1c25d69d2e2bb25722bf897a5347cb52e000b90ec1710f"
+    },
+    {
+      "file": "04_철광산\\IronMine_Inactive_Left45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "1db1cff7f4dec5e70295149212ae7da1d92e4ae2a991d26d2d8c19c6e98aa914"
+    },
+    {
+      "file": "04_철광산\\IronMine_Inactive_Right45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "6ab4ff69b5a61eb52b1c25d69d2e2bb25722bf897a5347cb52e000b90ec1710f"
+    },
+    {
+      "file": "05_대장간\\Blacksmith_Basic_Left45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "36a6efe83f6de682893e99b56bc45df4ead9d533f5c02689fd0d3bf1bd530d7f"
+    },
+    {
+      "file": "05_대장간\\Blacksmith_Basic_Right45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "2d11073024a495ddd03c861adba0e240502d68927321d6422a75b703f877f7e7"
+    },
+    {
+      "file": "05_대장간\\Blacksmith_Expanded_Left45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "673a6e951a2aeb3d17fcfa5b7df119addbd8a3d0628d823178481f86b4f0d783"
+    },
+    {
+      "file": "05_대장간\\Blacksmith_Expanded_Right45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "c7e409a03227c8c7709449f82141ab90d8f9e0a22c71ceef3444eb8657ab2cc2"
+    },
+    {
+      "file": "06_무기판매소\\SwordShop_Basic_Left45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "bbc0defe1ed8292d3a0801edb7882b36b10d5d8778ffef111d829d892dc85b4c"
+    },
+    {
+      "file": "06_무기판매소\\SwordShop_Basic_Right45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "779369d1fd065fdd992741d5cea635c41a7926d3301b2e5daa5579e9f1539fad"
+    },
+    {
+      "file": "06_무기판매소\\SwordShop_Expanded_Left45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "440db6e73e3734b847f86ad2d570a5d584bf50f0a8e8544640c190cb68f9356c"
+    },
+    {
+      "file": "06_무기판매소\\SwordShop_Expanded_Right45_Shadow.png",
+      "body_unchanged": true,
+      "shadow_sha256": "93d25fe970c1cc676be6c0c765adedb6dc818b24ce93b75c6fd3daeaa65c9131"
+    }
+  ]
+}

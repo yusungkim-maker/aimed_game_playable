@@ -1,0 +1,84 @@
+{
+  "folders": {
+    "01_메인기지": 8,
+    "02_일꾼숙소": 8,
+    "03_목재창고": 8,
+    "04_철광산": 8,
+    "05_대장간": 8,
+    "06_무기판매소": 8
+  },
+  "mine": {
+    "ViewA": {
+      "identical_alpha": true,
+      "identical_shadow": true,
+      "changed_pixel_count": 16266,
+      "change_bbox": [
+        388,
+        451,
+        522,
+        635
+      ]
+    },
+    "ViewB": {
+      "identical_alpha": true,
+      "identical_shadow": true,
+      "changed_pixel_count": 13203,
+      "change_bbox": [
+        252,
+        472,
+        373,
+        634
+      ]
+    }
+  },
+  "files": {
+    "01_메인기지\\HQ_Basic_ViewA_Body.png": "380c3424586645be50dfc61bcce0548761bb71cb2e85530057b26e30cf63f4b8",
+    "01_메인기지\\HQ_Basic_ViewA_Shadow.png": "6ab3677be461121a16a2608fef08bce9ba0a03a469c810dc212bf909793fa371",
+    "01_메인기지\\HQ_Basic_ViewB_Body.png": "abce117b6299d2182de4c508ef42a30c9c7ef014f9124d0dcf3cefee232c9b44",
+    "01_메인기지\\HQ_Basic_ViewB_Shadow.png": "75c226669f8ffc8c9b6bc181c8e88e38bace7b88c3178d5da7939716e5bb8b0e",
+    "01_메인기지\\HQ_Expanded_ViewA_Body.png": "e174fa3ca1b66c46b4bd4810641f71c6e7c2f76af84dbe1fe1122672a975fff9",
+    "01_메인기지\\HQ_Expanded_ViewA_Shadow.png": "f55ae1ce947ef6da188a7d63ca17a954d897021ff911d3732063a133b681e6ba",
+    "01_메인기지\\HQ_Expanded_ViewB_Body.png": "81d076b88c57dba6936194e61a139989f793cfeabd27b5332c68e014cc8573ff",
+    "01_메인기지\\HQ_Expanded_ViewB_Shadow.png": "9a770fe0d441062c2ea4ba4d3139dd7020fd260823ef35a4ba0eafedda0a8b40",
+    "02_일꾼숙소\\WorkerLodge_Basic_ViewA_Body.png": "6471906d47dd00fb8ea7a18ba700f893a92480ae7d0dc627de919f284b62c1db",
+    "02_일꾼숙소\\WorkerLodge_Basic_ViewA_Shadow.png": "ad173a973fc2e1ae8a8f768675f53f6589c143543903107961e31bae5d0f45b4",
+    "02_일꾼숙소\\WorkerLodge_Basic_ViewB_Body.png": "af228e988b382b966ac7af372ad6e29eb7184050fb4ac3333978742bc32db3dd",
+    "02_일꾼숙소\\WorkerLodge_Basic_ViewB_Shadow.png": "613f7a2166eafff9c38af31e2aa834b7fb907e94ca52d6da8c6d397e48c3681b",
+    "02_일꾼숙소\\WorkerLodge_Expanded_ViewA_Body.png": "f94a5df9271ebdfacb46408c7212797efec7d8f91ab2ddc90d0d4baaf26f38d9",
+    "02_일꾼숙소\\WorkerLodge_Expanded_ViewA_Shadow.png": "9a71a4b77351fd7592f25fbe1aaeca611bdae6695be00a125227a8c1b3a716e1",
+    "02_일꾼숙소\\WorkerLodge_Expanded_ViewB_Body.png": "3903537e89824243a5c81a9ca7e83fc05fbc5237e328647ba1ea2794d43eb62f",
+    "02_일꾼숙소\\WorkerLodge_Expanded_ViewB_Shadow.png": "5fb1dacf579ed38673139ad66b83107b35e7903de2ca1d767ad6dd823712028f",
+    "03_목재창고\\LumberWarehouse_Basic_ViewA_Body.png": "95840b894c76b3e027de20efd1f32b3120076cc999d727179f59396c7558979a",
+    "03_목재창고\\LumberWarehouse_Basic_ViewA_Shadow.png": "10f89a208df7c9cbb097440482c8a2575810edb99dac1f6b2ede087f06995ea1",
+    "03_목재창고\\LumberWarehouse_Basic_ViewB_Body.png": "5325ffa5542c9c47e935ce3cfe1ecec24e8e62d0a24a32ece729a07c4f7e6061",
+    "03_목재창고\\LumberWarehouse_Basic_ViewB_Shadow.png": "fd0232825269b41758a9cd7e382f1d5a98e06aa1696c2273bf4848fdded69358",
+    "03_목재창고\\LumberWarehouse_Expanded_ViewA_Body.png": "bb1a4fa7fda70d9ac960e15ffe3d37ff50924606d476685ecd3a97e3d9e88163",
+    "03_목재창고\\LumberWarehouse_Expanded_ViewA_Shadow.png": "27281e4611692ee173a885a1ef4a3c4c5ecf1ccb8bf6b6f32243c84129daf01a",
+    "03_목재창고\\LumberWarehouse_Expanded_ViewB_Body.png": "c2128fe3d7661f08b490c93562687c468259b722a59fac0fd55ac62975ee0a4b",
+    "03_목재창고\\LumberWarehouse_Expanded_ViewB_Shadow.png": "a427616d440e3aa0656044fd112b68a2ad8ad1d032ee7b7a444a30736b673396",
+    "04_철광산\\IronMine_Active_ViewA_Body.png": "99ff4379e501135099bf6a10af57fb56eb7782dd68c3bec2275f301c0536a5a0",
+    "04_철광산\\IronMine_Active_ViewA_Shadow.png": "b709b75624795d9d790eed3f2c54a40f655f938c849998882a6b444e2ec54a16",
+    "04_철광산\\IronMine_Active_ViewB_Body.png": "7b00c8ede9e88d995401fec5cf2966ce7122364ba60b7f2dc78150bb5b626749",
+    "04_철광산\\IronMine_Active_ViewB_Shadow.png": "f69104ba34d94eb14c1aae807754ff37fb723155656bca1bcd989a02d858a91c",
+    "04_철광산\\IronMine_Inactive_ViewA_Body.png": "2b63fa1dd6618aa80c14086ca542c511a4650cb0f8b66043aefafee489468e12",
+    "04_철광산\\IronMine_Inactive_ViewA_Shadow.png": "b709b75624795d9d790eed3f2c54a40f655f938c849998882a6b444e2ec54a16",
+    "04_철광산\\IronMine_Inactive_ViewB_Body.png": "4b1b9289660aabb1e32fa5b9019a47981a864e24d9cf8adbce53606b84ad2a06",
+    "04_철광산\\IronMine_Inactive_ViewB_Shadow.png": "f69104ba34d94eb14c1aae807754ff37fb723155656bca1bcd989a02d858a91c",
+    "05_대장간\\Blacksmith_Basic_ViewA_Body.png": "40d9e65a6cb3181b71e3a450e9b2d2b7b7ac27e7bc3419ff21e2ae7f8c9bf512",
+    "05_대장간\\Blacksmith_Basic_ViewA_Shadow.png": "4048289b731fb73405fa0a75a7b68d7f984b0f4f7551b2386dcd5fd41a28583c",
+    "05_대장간\\Blacksmith_Basic_ViewB_Body.png": "1fb605786c90220065820b30f8a6ea1c38ce85ed240a5d5bdadd9305c1fdec3f",
+    "05_대장간\\Blacksmith_Basic_ViewB_Shadow.png": "21bf7956bb80c03ae77fd83954b1736c965555c72b47dcce7de00347c20a0342",
+    "05_대장간\\Blacksmith_Expanded_ViewA_Body.png": "520961e7913c088fee69f6065aef796c1dbd15027ff4d40470542e057895408c",
+    "05_대장간\\Blacksmith_Expanded_ViewA_Shadow.png": "b6399e8a62d3d11c8be7280c3fb6db773bd128398f8dba7713ef13667158fb96",
+    "05_대장간\\Blacksmith_Expanded_ViewB_Body.png": "7500101ed5d99d3113982ebf44e58a7a31621961a902b393c7a218bf9dd39ac5",
+    "05_대장간\\Blacksmith_Expanded_ViewB_Shadow.png": "2781da8284f2b5a88a67c5d308b689bc562c06aa8033405f53d8763753066a0b",
+    "06_무기판매소\\SwordShop_Basic_ViewA_Body.png": "9e84978fd8364db1b5c5cecb2c647e25db30f82512416c11cd8037f99d790e5d",
+    "06_무기판매소\\SwordShop_Basic_ViewA_Shadow.png": "b17ec6b5f1d9d15691f7ca059c124ea7cf93e11245c215e53fce9e6a23610551",
+    "06_무기판매소\\SwordShop_Basic_ViewB_Body.png": "765298b43aae1610e4e2ebd6b51dcbb5dd4f57db88af467b993a64b05b57ed5a",
+    "06_무기판매소\\SwordShop_Basic_ViewB_Shadow.png": "f6b1a22d2968dece6f1b13f41ab1788dfab716ce430c69315998b1203cb244fd",
+    "06_무기판매소\\SwordShop_Expanded_ViewA_Body.png": "a7ec3f0bcdf5b828436de38a5b9fbdedaadd5dcf7aa07d61563ee0c7f09103dd",
+    "06_무기판매소\\SwordShop_Expanded_ViewA_Shadow.png": "91a4ee1ba8e9bcb214fbcd0a42003064937621921124d42006fd6c3a00a61faf",
+    "06_무기판매소\\SwordShop_Expanded_ViewB_Body.png": "53059e59e14fbe774e9388a9846fb396e385aed80d25e3e7c74ffb7eda8d7777",
+    "06_무기판매소\\SwordShop_Expanded_ViewB_Shadow.png": "bef21ce3da0c63dc05be6bd459523233ac9166f1317416952e4b20745764a200"
+  }
+}

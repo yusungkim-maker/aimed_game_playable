@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.50",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "b57fbba8-1782-4b59-bf70-feac3a10380c",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "NPC_TTSummon_001",
+    "hasIcon": false
+  }
+}

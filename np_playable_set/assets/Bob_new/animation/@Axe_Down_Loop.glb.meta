@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "8e8861a7-c1ab-457d-bbdd-22f619597196",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "3927e": {
+      "importer": "gltf-animation",
+      "uuid": "8e8861a7-c1ab-457d-bbdd-22f619597196@3927e",
+      "displayName": "",
+      "id": "3927e",
+      "name": "Axe_Down_Loop.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "a9a23": {
+      "importer": "gltf-scene",
+      "uuid": "8e8861a7-c1ab-457d-bbdd-22f619597196@a9a23",
+      "displayName": "",
+      "id": "a9a23",
+      "name": "@Axe_Down_Loop.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "Axe_Down_Loop",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Axe_Down_Loop",
+            "from": 0,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "3927e"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "8e8861a7-c1ab-457d-bbdd-22f619597196@a9a23"
+      ]
+    }
+  }
+}

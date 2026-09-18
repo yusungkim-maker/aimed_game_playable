@@ -1,0 +1,75 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "d7fcc0ca-69ee-475c-acb6-0809f6a3a131",
+  "files": [],
+  "subMetas": {
+    "c2f9c": {
+      "importer": "gltf-mesh",
+      "uuid": "d7fcc0ca-69ee-475c-acb6-0809f6a3a131@c2f9c",
+      "displayName": "",
+      "id": "c2f9c",
+      "name": "Plane.026.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bf825": {
+      "importer": "gltf-scene",
+      "uuid": "d7fcc0ca-69ee-475c-acb6-0809f6a3a131@bf825",
+      "displayName": "",
+      "id": "bf825",
+      "name": "deco.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "d7fcc0ca-69ee-475c-acb6-0809f6a3a131@c2f9c"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "d7fcc0ca-69ee-475c-acb6-0809f6a3a131@bf825"
+      ]
+    }
+  }
+}

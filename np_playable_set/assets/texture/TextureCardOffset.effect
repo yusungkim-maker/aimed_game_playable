@@ -1,0 +1,156 @@
+// 2D 카드 전용 unlit.
+//
+// builtin-unlit의 transparent 기법을 옮기고 두 가지를 더했다.
+//   1) normalOffset — 판을 **자기 법선 방향으로만** 밀어낸다.
+//   2) CARD_BYPASS_TONE_MAPPING — ACES 톤매핑을 건너뛰어 원본 이미지 색을 그대로 낸다.
+//   3) emissive / emissiveScale — 피격 번쩍임용. builtin-standard와 **이름·타입을 일부러 똑같이**
+//      맞췄다. Choppable/Monster 같은 기존 코드가 setProperty('emissive'|'emissiveScale')로
+//      번쩍임을 넣는데, 그 코드가 재질 종류를 가리지 않게 하려면 이름이 같아야 한다.
+//      기본값이 검정(=더해지는 값 0)이라 켜두어도 기존 카드는 한 픽셀도 안 바뀐다.
+//
+// (1)이 필요한 이유: 판 2장이 한 메시에 서브메시로 합쳐져 있으면(plane2x2_ground) 노드가
+// 하나뿐이라 트랜스폼으로는 각 판을 따로 움직일 수 없다. 머티리얼 인스턴스는 슬롯마다 따로
+// 생기므로 이 유니폼이 판별 오프셋이 된다. 방향을 법선으로 못박은 것은 의도다 — 임의 방향으로
+// 밀면 판이 바닥에서 떠 보이거나 기울기가 틀어져 보이는데, 법선 방향은 "판이 자기 두께 방향으로만
+// 밀린다"를 보장한다.
+//
+// (2)가 필요한 이유: 엔진 기본 출력 경로 `CCFragOutput`은 HDR이 켜져 있고 톤매핑 타입이
+// DEFAULT(=ACES)면 **unlit에도 ACES 필름 커브를 먹인다.** 3D 오브젝트에는 맞는 처리지만,
+// 2D 카드는 "그린 그림이 그대로 보이는 것"이 목적이라 밝은 쪽이 눌리고 채도가 빠지면 곤란하다.
+// 그래서 ACES 분기만 뺀 출력 함수를 따로 둔다. RGBE/float 출력 분기는 원본과 동일하게 유지해
+// 특수 파이프라인에서도 깨지지 않게 했다.
+CCEffect %{
+  techniques:
+  - name: transparent
+    passes:
+    - vert: card-vs:vert
+      frag: card-fs:frag
+      rasterizerState:
+        cullMode: none
+      depthStencilState:
+        depthTest: true
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      properties:
+        mainTexture:    { value: grey }
+        tilingOffset:   { value: [1, 1, 0, 0] }
+        mainColor:      { value: [1, 1, 1, 1], linear: true, editor: { type: color } }
+        colorScale:     { value: [1, 1, 1], target: colorScaleAndCutoff.xyz }
+        alphaThreshold: { value: 0.5, target: colorScaleAndCutoff.w, editor: { parent: USE_ALPHA_TEST, slide: true, range: [0, 1.0], step: 0.001 } }
+        normalOffset:   { value: 0.0, target: cardOffsetParams.x, editor: { displayName: Normal Offset } }
+        emissive:       { value: [0.0, 0.0, 0.0, 1.0], linear: true, editor: { type: color } }
+        emissiveScale:  { value: [1.0, 1.0, 1.0], target: emissiveScaleParam.xyz }
+}%
+
+CCProgram card-vs %{
+  precision highp float;
+  #include <legacy/input>
+  #include <builtin/uniforms/cc-global>
+  #include <legacy/decode-base>
+  #include <legacy/local-batch>
+  #include <legacy/fog-vs>
+
+  #if USE_TEXTURE
+    out vec2 v_uv;
+    uniform TexCoords {
+      vec4 tilingOffset;
+    };
+  #endif
+
+  uniform CardOffset {
+    vec4 cardOffsetParams; // x = 법선 방향 오프셋(월드 단위)
+  };
+
+  vec4 vert () {
+    vec4 position;
+    CCVertInput(position);
+
+    mat4 matWorld;
+    CCGetWorldMatrix(matWorld);
+
+    vec4 worldPos = matWorld * position;
+
+    // 법선을 월드로 옮겨 그 방향으로만 민다. 엄밀히는 비균등 스케일에서 역전치 행렬이 필요하지만,
+    // 이 카드들은 노드 스케일의 y·z가 항상 같고 두 판의 법선이 모두 x 성분 0이라(바닥 = (0,1,0),
+    // 기운 판 = (0,√½,-√½)) matWorld를 그대로 써도 방향이 틀어지지 않는다.
+    // 오프셋을 로컬이 아니라 월드에서 더하는 이유는, 로컬에서 더하면 노드 스케일(카드마다 2~3배)이
+    // 곱해져 같은 숫자가 카드마다 다른 거리로 움직이기 때문이다.
+    vec3 worldNormal = normalize((matWorld * vec4(a_normal, 0.0)).xyz);
+    worldPos.xyz += worldNormal * cardOffsetParams.x;
+
+    #if USE_TEXTURE
+      v_uv = a_texCoord * tilingOffset.xy + tilingOffset.zw;
+      #if SAMPLE_FROM_RT
+        CC_HANDLE_RT_SAMPLE_FLIP(v_uv);
+      #endif
+    #endif
+
+    CC_TRANSFER_FOG(worldPos);
+    return cc_matProj * cc_matView * worldPos;
+  }
+}%
+
+CCProgram card-fs %{
+  precision highp float;
+  #include <legacy/output-standard>
+  #include <legacy/fog-fs>
+
+  #if USE_ALPHA_TEST
+    #pragma define-meta ALPHA_TEST_CHANNEL options([a, r, g, b])
+  #endif
+
+  #if USE_TEXTURE
+    in vec2 v_uv;
+    uniform sampler2D mainTexture;
+  #endif
+
+  uniform Constant {
+    vec4 mainColor;
+    vec4 colorScaleAndCutoff;
+    vec4 emissive;
+    vec4 emissiveScaleParam;
+  };
+
+  // CCFragOutput에서 ACES 톤매핑 분기만 뺀 것. 나머지(RGBE / float 출력 / 감마)는 동일하다.
+  vec4 CardFragOutput (vec4 color) {
+    #if CC_USE_RGBE_OUTPUT
+      color = packRGBE(color.rgb);
+    #elif !CC_USE_FLOAT_OUTPUT
+      color.rgb = LinearToSRGB(color.rgb);
+    #endif
+    return color;
+  }
+
+  vec4 frag () {
+    vec4 o = mainColor;
+    o.rgb *= colorScaleAndCutoff.xyz;
+
+    #if USE_TEXTURE
+      vec4 texColor = texture(mainTexture, v_uv);
+      texColor.rgb = SRGBToLinear(texColor.rgb);
+      o *= texColor;
+    #endif
+
+    #if USE_ALPHA_TEST
+      if (o.ALPHA_TEST_CHANNEL < colorScaleAndCutoff.w) discard;
+    #endif
+
+    // 번쩍임은 **알파 테스트 뒤에** 더한다. 앞에서 더하면 버려졌어야 할 투명 픽셀이
+    // 밝아지면서 살아나 판이 사각형 덩어리로 보인다. 알파는 건드리지 않으므로
+    // 반투명 블렌딩 비율도 그대로다.
+    o.rgb += emissive.rgb * emissiveScaleParam.xyz;
+
+    CC_APPLY_FOG(o);
+
+    #if CARD_BYPASS_TONE_MAPPING
+      return CardFragOutput(o);
+    #else
+      return CCFragOutput(o);
+    #endif
+  }
+}%

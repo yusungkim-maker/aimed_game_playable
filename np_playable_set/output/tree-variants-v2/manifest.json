@@ -1,0 +1,62 @@
+[
+  {
+    "variant": "01_Standard",
+    "canvas": [
+      1024,
+      1024
+    ],
+    "body_bbox": [
+      176,
+      250,
+      544,
+      820
+    ],
+    "shadow_bbox": [
+      268,
+      626,
+      725,
+      892
+    ],
+    "shadow_method": "fitted stacked canopy volume proxy, directional ground projection"
+  },
+  {
+    "variant": "02_Slender",
+    "canvas": [
+      1024,
+      1024
+    ],
+    "body_bbox": [
+      245,
+      150,
+      476,
+      820
+    ],
+    "shadow_bbox": [
+      320,
+      659,
+      800,
+      857
+    ],
+    "shadow_method": "fitted stacked canopy volume proxy, directional ground projection"
+  },
+  {
+    "variant": "03_Broad",
+    "canvas": [
+      1024,
+      1024
+    ],
+    "body_bbox": [
+      151,
+      330,
+      569,
+      820
+    ],
+    "shadow_bbox": [
+      252,
+      604,
+      704,
+      906
+    ],
+    "shadow_method": "fitted stacked canopy volume proxy, directional ground projection"
+  }
+]

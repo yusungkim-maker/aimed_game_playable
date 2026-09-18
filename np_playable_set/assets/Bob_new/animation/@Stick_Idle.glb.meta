@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "6e064418-8c98-4390-89b6-79ef3e1a7e10",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "18007": {
+      "importer": "gltf-animation",
+      "uuid": "6e064418-8c98-4390-89b6-79ef3e1a7e10@18007",
+      "displayName": "",
+      "id": "18007",
+      "name": "Stick_Idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "5e1a3": {
+      "importer": "gltf-scene",
+      "uuid": "6e064418-8c98-4390-89b6-79ef3e1a7e10@5e1a3",
+      "displayName": "",
+      "id": "5e1a3",
+      "name": "@Stick_Idle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "Stick_Idle",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Stick_Idle",
+            "from": 0,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "18007"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "6e064418-8c98-4390-89b6-79ef3e1a7e10@5e1a3"
+      ]
+    }
+  }
+}

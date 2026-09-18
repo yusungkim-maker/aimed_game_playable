@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "a799274e-1032-4d1b-a9f4-1269f0d3af0d",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "5f33c": {
+      "importer": "gltf-animation",
+      "uuid": "a799274e-1032-4d1b-a9f4-1269f0d3af0d@5f33c",
+      "displayName": "",
+      "id": "5f33c",
+      "name": "Two_BT_Move.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.8666666746139526
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "08a2a": {
+      "importer": "gltf-scene",
+      "uuid": "a799274e-1032-4d1b-a9f4-1269f0d3af0d@08a2a",
+      "displayName": "",
+      "id": "08a2a",
+      "name": "@Two_BT_Move.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "Two_BT_Move",
+        "duration": 0.8666666746139526,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Two_BT_Move",
+            "from": 0,
+            "to": 0.8666666746139526,
+            "wrapMode": 2,
+            "previousId": "5f33c"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "a799274e-1032-4d1b-a9f4-1269f0d3af0d@08a2a"
+      ]
+    }
+  }
+}

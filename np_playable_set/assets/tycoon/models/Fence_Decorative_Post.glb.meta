@@ -1,0 +1,127 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "8ee420f6-b08c-47fb-80de-892189b3b0c2",
+  "files": [],
+  "subMetas": {
+    "97095": {
+      "importer": "gltf-scene",
+      "uuid": "8ee420f6-b08c-47fb-80de-892189b3b0c2@97095",
+      "displayName": "",
+      "id": "97095",
+      "name": "Fence_Decorative_Post.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2f6d1": {
+      "importer": "gltf-mesh",
+      "uuid": "8ee420f6-b08c-47fb-80de-892189b3b0c2@2f6d1",
+      "displayName": "",
+      "id": "2f6d1",
+      "name": "Cube.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 540
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "98d7d": {
+      "importer": "gltf-material",
+      "uuid": "8ee420f6-b08c-47fb-80de-892189b3b0c2@98d7d",
+      "displayName": "",
+      "id": "98d7d",
+      "name": "Warm gray stone.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "90bde": {
+      "importer": "gltf-material",
+      "uuid": "8ee420f6-b08c-47fb-80de-892189b3b0c2@90bde",
+      "displayName": "",
+      "id": "90bde",
+      "name": "Warm oak.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e839f": {
+      "importer": "gltf-material",
+      "uuid": "8ee420f6-b08c-47fb-80de-892189b3b0c2@e839f",
+      "displayName": "",
+      "id": "e839f",
+      "name": "Matte iron.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "8ee420f6-b08c-47fb-80de-892189b3b0c2@2f6d1"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "8ee420f6-b08c-47fb-80de-892189b3b0c2@98d7d",
+        "8ee420f6-b08c-47fb-80de-892189b3b0c2@90bde",
+        "8ee420f6-b08c-47fb-80de-892189b3b0c2@e839f"
+      ],
+      "scenes": [
+        "8ee420f6-b08c-47fb-80de-892189b3b0c2@97095"
+      ]
+    }
+  }
+}

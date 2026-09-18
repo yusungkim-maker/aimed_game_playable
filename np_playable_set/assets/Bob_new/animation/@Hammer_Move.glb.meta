@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "609508dc-1cc7-4be7-ae5d-60044e081faa",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "11e13": {
+      "importer": "gltf-animation",
+      "uuid": "609508dc-1cc7-4be7-ae5d-60044e081faa@11e13",
+      "displayName": "",
+      "id": "11e13",
+      "name": "Hammer_Move.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.8666666746139526
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "597ff": {
+      "importer": "gltf-scene",
+      "uuid": "609508dc-1cc7-4be7-ae5d-60044e081faa@597ff",
+      "displayName": "",
+      "id": "597ff",
+      "name": "@Hammer_Move.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "Hammer_Move",
+        "duration": 0.8666666746139526,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hammer_Move",
+            "from": 0,
+            "to": 0.8666666746139526,
+            "wrapMode": 2,
+            "previousId": "11e13"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "609508dc-1cc7-4be7-ae5d-60044e081faa@597ff"
+      ]
+    }
+  }
+}

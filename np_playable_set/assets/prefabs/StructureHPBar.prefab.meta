@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.50",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "f0bd2c9f-2fac-401d-9673-f6fe368d2faa",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "StructureHPBar",
+    "hasIcon": false
+  }
+}

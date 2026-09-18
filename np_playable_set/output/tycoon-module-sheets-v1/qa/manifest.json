@@ -1,0 +1,290 @@
+[
+  {
+    "folder": "01_메인기지",
+    "stem": "HQ_Basic_ViewA",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      -17,
+      77
+    ]
+  },
+  {
+    "folder": "01_메인기지",
+    "stem": "HQ_Basic_ViewB",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      22,
+      64
+    ]
+  },
+  {
+    "folder": "01_메인기지",
+    "stem": "HQ_Expanded_ViewA",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      1,
+      121
+    ]
+  },
+  {
+    "folder": "01_메인기지",
+    "stem": "HQ_Expanded_ViewB",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      4,
+      116
+    ]
+  },
+  {
+    "folder": "02_일꾼숙소",
+    "stem": "WorkerLodge_Basic_ViewA",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      0,
+      43
+    ]
+  },
+  {
+    "folder": "02_일꾼숙소",
+    "stem": "WorkerLodge_Basic_ViewB",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      12,
+      43
+    ]
+  },
+  {
+    "folder": "02_일꾼숙소",
+    "stem": "WorkerLodge_Expanded_ViewA",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      -2,
+      108
+    ]
+  },
+  {
+    "folder": "02_일꾼숙소",
+    "stem": "WorkerLodge_Expanded_ViewB",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      15,
+      108
+    ]
+  },
+  {
+    "folder": "03_목재창고",
+    "stem": "LumberWarehouse_Basic_ViewA",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      -18,
+      38
+    ]
+  },
+  {
+    "folder": "03_목재창고",
+    "stem": "LumberWarehouse_Basic_ViewB",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      30,
+      36
+    ]
+  },
+  {
+    "folder": "03_목재창고",
+    "stem": "LumberWarehouse_Expanded_ViewA",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      22,
+      133
+    ]
+  },
+  {
+    "folder": "03_목재창고",
+    "stem": "LumberWarehouse_Expanded_ViewB",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      -10,
+      132
+    ]
+  },
+  {
+    "folder": "04_철광산",
+    "stem": "IronMine_Active_ViewA",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      8,
+      20
+    ]
+  },
+  {
+    "folder": "04_철광산",
+    "stem": "IronMine_Active_ViewB",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      6,
+      20
+    ]
+  },
+  {
+    "folder": "04_철광산",
+    "stem": "IronMine_Inactive_ViewA",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      8,
+      20
+    ]
+  },
+  {
+    "folder": "04_철광산",
+    "stem": "IronMine_Inactive_ViewB",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      6,
+      20
+    ]
+  },
+  {
+    "folder": "05_대장간",
+    "stem": "Blacksmith_Basic_ViewA",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      3,
+      50
+    ]
+  },
+  {
+    "folder": "05_대장간",
+    "stem": "Blacksmith_Basic_ViewB",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      10,
+      50
+    ]
+  },
+  {
+    "folder": "05_대장간",
+    "stem": "Blacksmith_Expanded_ViewA",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      -1,
+      141
+    ]
+  },
+  {
+    "folder": "05_대장간",
+    "stem": "Blacksmith_Expanded_ViewB",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      14,
+      141
+    ]
+  },
+  {
+    "folder": "06_무기판매소",
+    "stem": "SwordShop_Basic_ViewA",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      -16,
+      45
+    ]
+  },
+  {
+    "folder": "06_무기판매소",
+    "stem": "SwordShop_Basic_ViewB",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      25,
+      45
+    ]
+  },
+  {
+    "folder": "06_무기판매소",
+    "stem": "SwordShop_Expanded_ViewA",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      -9,
+      144
+    ]
+  },
+  {
+    "folder": "06_무기판매소",
+    "stem": "SwordShop_Expanded_ViewB",
+    "size": [
+      768,
+      768
+    ],
+    "translation": [
+      16,
+      145
+    ]
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "173a2518-9d2a-4ef3-bfb4-237f213983aa",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "3f116": {
+      "importer": "gltf-animation",
+      "uuid": "173a2518-9d2a-4ef3-bfb4-237f213983aa@3f116",
+      "displayName": "",
+      "id": "3f116",
+      "name": "Wagon_Idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.5333333015441895
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "42aff": {
+      "importer": "gltf-scene",
+      "uuid": "173a2518-9d2a-4ef3-bfb4-237f213983aa@42aff",
+      "displayName": "",
+      "id": "42aff",
+      "name": "@Wagon_Idle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "Wagon_Idle",
+        "duration": 1.5333333015441895,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Wagon_Idle",
+            "from": 0,
+            "to": 1.5333333015441895,
+            "wrapMode": 2,
+            "previousId": "3f116"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "173a2518-9d2a-4ef3-bfb4-237f213983aa@42aff"
+      ]
+    }
+  }
+}

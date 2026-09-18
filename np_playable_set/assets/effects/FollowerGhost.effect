@@ -1,0 +1,105 @@
+// Ghost/waiting-for-production preview effect for Follower units standing on Socket_L.
+// Built on the legacy (non-"surfaces") pipeline: builtin-toon/legacy chunks cannot be
+// reused in a custom effect asset in this engine version (verified: a byte-for-byte
+// copy of builtin-toon.effect fails to compile once registered as a custom asset,
+// while a byte-for-byte copy of builtin-unlit.effect compiles cleanly). So this effect
+// forks the legacy/unlit skinned pipeline instead and adds a single controllable
+// ghostFactor uniform that drives both translucency and a fresnel rim glow.
+CCEffect %{
+  techniques:
+  - name: ghost
+    passes:
+    - vert: ghost-vs:vert
+      frag: ghost-fs:frag
+      depthStencilState:
+        depthTest: true
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      properties: &props
+        mainTexture:    { value: grey }
+        tilingOffset:   { value: [1, 1, 0, 0] }
+        mainColor:      { value: [1, 1, 1, 1], linear: true, editor: { type: color } }
+        rimColor:       { value: [0.6, 0.85, 1.0], linear: true, target: rimColorAndPower.xyz, editor: { type: color } }
+        fresnelPower:   { value: 2.5, target: rimColorAndPower.w, editor: { range: [0.1, 8], slide: true } }
+        solidAlpha:     { value: 1.0, target: ghostParams.x, editor: { range: [0, 1], slide: true } }
+        ghostAlpha:     { value: 0.35, target: ghostParams.y, editor: { range: [0, 1], slide: true } }
+        ghostFactor:    { value: 1.0, target: ghostParams.z, editor: { range: [0, 1], slide: true, tooltip: "0 = solid/no rim, 1 = fully ghost (translucent + rim)" } }
+}%
+
+CCProgram ghost-vs %{
+  precision highp float;
+  #include <legacy/input-standard>
+  #include <builtin/uniforms/cc-global>
+  #include <legacy/decode-base>
+  #include <legacy/local-batch>
+  #include <legacy/fog-vs>
+
+  out vec2 v_uv;
+  out vec3 v_worldNormal;
+  out vec3 v_worldPos;
+
+  uniform TexCoords {
+    vec4 tilingOffset;
+  };
+
+  vec4 vert () {
+    StandardVertInput In;
+    CCVertInput(In);
+
+    mat4 matWorld, matWorldIT;
+    CCGetWorldMatrixFull(matWorld, matWorldIT);
+
+    vec4 worldPos = matWorld * In.position;
+    v_worldPos = worldPos.xyz;
+    v_worldNormal = normalize((matWorldIT * vec4(In.normal, 0.0)).xyz);
+
+    v_uv = a_texCoord * tilingOffset.xy + tilingOffset.zw;
+    #if SAMPLE_FROM_RT
+      CC_HANDLE_RT_SAMPLE_FLIP(v_uv);
+    #endif
+
+    CC_TRANSFER_FOG(worldPos);
+    return cc_matProj * (cc_matView * worldPos);
+  }
+}%
+
+CCProgram ghost-fs %{
+  precision highp float;
+  #include <builtin/uniforms/cc-global>
+  #include <legacy/output-standard>
+  #include <legacy/fog-fs>
+
+  in vec2 v_uv;
+  in vec3 v_worldNormal;
+  in vec3 v_worldPos;
+
+  uniform sampler2D mainTexture;
+
+  uniform Constant {
+    vec4 mainColor;
+    vec4 rimColorAndPower; // xyz: rim color, w: fresnel power
+    vec4 ghostParams;      // x: solidAlpha, y: ghostAlpha, z: ghostFactor, w: unused
+  };
+
+  vec4 frag () {
+    vec4 texColor = texture(mainTexture, v_uv);
+    texColor.rgb = SRGBToLinear(texColor.rgb);
+    vec4 o = mainColor * texColor;
+
+    vec3 n = normalize(v_worldNormal);
+    vec3 viewDir = normalize(cc_cameraPos.xyz - v_worldPos);
+    float ndotv = clamp(dot(n, viewDir), 0.0, 1.0);
+    float fresnel = pow(1.0 - ndotv, rimColorAndPower.w);
+
+    o.rgb += rimColorAndPower.rgb * fresnel * ghostParams.z;
+    o.a *= mix(ghostParams.x, ghostParams.y, ghostParams.z);
+
+    CC_APPLY_FOG(o);
+    return CCFragOutput(o);
+  }
+}%

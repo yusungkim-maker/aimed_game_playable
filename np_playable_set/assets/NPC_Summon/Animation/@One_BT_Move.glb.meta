@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "b37cb565-8571-45b9-94f1-f1faa1ff5866",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "42178": {
+      "importer": "gltf-scene",
+      "uuid": "b37cb565-8571-45b9-94f1-f1faa1ff5866@42178",
+      "displayName": "",
+      "id": "42178",
+      "name": "@One_BT_Move.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "68ed9": {
+      "importer": "gltf-animation",
+      "uuid": "b37cb565-8571-45b9-94f1-f1faa1ff5866@68ed9",
+      "displayName": "",
+      "id": "68ed9",
+      "name": "One_BT_Move.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.8666666746139526
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "One_BT_Move",
+        "duration": 0.8666666746139526,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "One_BT_Move",
+            "from": 0,
+            "to": 0.8666666746139526,
+            "wrapMode": 2,
+            "previousId": "68ed9"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "b37cb565-8571-45b9-94f1-f1faa1ff5866@42178"
+      ]
+    }
+  }
+}

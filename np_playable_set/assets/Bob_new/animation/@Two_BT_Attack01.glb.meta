@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "e5e693d5-f048-4d63-bbef-ebd7efae7e5f",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "064fc": {
+      "importer": "gltf-animation",
+      "uuid": "e5e693d5-f048-4d63-bbef-ebd7efae7e5f@064fc",
+      "displayName": "",
+      "id": "064fc",
+      "name": "Two_BT_Attack01.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.800000011920929
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "35dae": {
+      "importer": "gltf-scene",
+      "uuid": "e5e693d5-f048-4d63-bbef-ebd7efae7e5f@35dae",
+      "displayName": "",
+      "id": "35dae",
+      "name": "@Two_BT_Attack01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "Two_BT_Attack01",
+        "duration": 0.800000011920929,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Two_BT_Attack01",
+            "from": 0,
+            "to": 0.800000011920929,
+            "wrapMode": 2,
+            "previousId": "064fc"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "e5e693d5-f048-4d63-bbef-ebd7efae7e5f@35dae"
+      ]
+    }
+  }
+}

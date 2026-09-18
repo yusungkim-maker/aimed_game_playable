@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "status": "superseded_do_not_implement",
+  "supersededBy": "tycoon-balance-v2.json",
+  "date": "2026-09-16",
+  "purpose": "기획 수치 원본. 엔진에 자동 적용하지 않으며, 사용자 검토 후 인스펙터 설정에 매핑한다.",
+  "variant": "A_zero_start",
+  "timing": {
+    "normalTargetSeconds": [
+      45,
+      60
+    ],
+    "firstHarvestTargetSeconds": 3,
+    "firstBuildTargetSeconds": 7,
+    "firstWorkerTargetSeconds": 18,
+    "minimumPostUpgradeSeconds": 6,
+    "softCtaActiveSeconds": 70,
+    "pauseWhileHidden": true
+  },
+  "economy": {
+    "resourceKinds": [
+      "wood"
+    ],
+    "startPlayerWood": 0,
+    "startWarehouseWood": 0,
+    "totalRequiredWood": 60,
+    "playerCapacity": 12,
+    "warehouseCapacity": 120,
+    "depositIntervalSeconds": 0.1,
+    "constructionAnimationSeconds": 0.6,
+    "paymentOrder": [
+      "player",
+      "warehouse"
+    ],
+    "onlyPayWhenPlayerInActiveZone": true
+  },
+  "player": {
+    "movementUnitsPerSecond": 4,
+    "worldUnitsAreLayoutAssumption": true,
+    "chopRadius": 1.2,
+    "collectRadius": 1.6,
+    "collectFlightSeconds": 0.25
+  },
+  "harvest": {
+    "treeHp": 3,
+    "chopPower": 1,
+    "firstHitWindupSeconds": 0.15,
+    "hitIntervalSeconds": 0.45,
+    "woodPerTree": 6,
+    "playerTreeRespawnSeconds": 8,
+    "playerTreeCount": 6,
+    "workerWorksiteCount": 2,
+    "reserveWholeRewardBeforeChop": true
+  },
+  "workers": {
+    "initialCount": 0,
+    "afterS2Count": 1,
+    "afterS4Count": 2,
+    "baseBatchWood": 6,
+    "upgradedBatchWood": 12,
+    "cycleSeconds": 6,
+    "cyclePartsSeconds": {
+      "outbound": 1.5,
+      "work": 1.5,
+      "inbound": 1.5,
+      "baseDeposit": 0.6,
+      "baseSlack": 0.9,
+      "upgradedDeposit": 1.2,
+      "upgradedSlack": 0.3
+    },
+    "incomeAtWarehouseDeliveryOnly": true,
+    "upgradeAppliesAtNextWorkCompletion": true,
+    "keepExistingCargoOnUpgrade": true
+  },
+  "stages": [
+    {
+      "id": "S1",
+      "name": "기지 창고",
+      "costWood": 6,
+      "prerequisite": null,
+      "reward": "warehouse_unlocked",
+      "referencePlayerWood": 6,
+      "referenceWorkerWood": 0
+    },
+    {
+      "id": "S2",
+      "name": "벌목 오두막",
+      "costWood": 12,
+      "prerequisite": "S1",
+      "reward": "worker_1",
+      "referencePlayerWood": 12,
+      "referenceWorkerWood": 0
+    },
+    {
+      "id": "S3",
+      "name": "진입로 확장",
+      "costWood": 18,
+      "prerequisite": "S2",
+      "reward": "route_and_second_worksite",
+      "referencePlayerWood": 12,
+      "referenceWorkerWood": 6
+    },
+    {
+      "id": "S4",
+      "name": "가공소",
+      "costWood": 24,
+      "prerequisite": "S3",
+      "reward": "worker_2_and_batch_12",
+      "referencePlayerWood": 6,
+      "referenceWorkerWood": 18
+    }
+  ],
+  "referenceLedger": {
+    "scope": "수급과 용량의 산술 검산 전용. 이동·공격·납품 애니메이션을 시뮬레이션한 결과가 아니다. stage_complete 시점에 해당 단계 지불을 묶어 기록한다.",
+    "events": [
+      {
+        "t": 2,
+        "type": "player_harvest",
+        "wood": 6
+      },
+      {
+        "t": 6,
+        "type": "stage_complete",
+        "stage": "S1"
+      },
+      {
+        "t": 10,
+        "type": "player_harvest",
+        "wood": 6
+      },
+      {
+        "t": 13,
+        "type": "player_harvest",
+        "wood": 6
+      },
+      {
+        "t": 18,
+        "type": "stage_complete",
+        "stage": "S2"
+      },
+      {
+        "t": 21,
+        "type": "player_harvest",
+        "wood": 6
+      },
+      {
+        "t": 24,
+        "type": "player_harvest",
+        "wood": 6
+      },
+      {
+        "t": 24,
+        "type": "worker_delivery",
+        "wood": 6
+      },
+      {
+        "t": 28,
+        "type": "stage_complete",
+        "stage": "S3"
+      },
+      {
+        "t": 30,
+        "type": "worker_delivery",
+        "wood": 6
+      },
+      {
+        "t": 33,
+        "type": "player_harvest",
+        "wood": 6
+      },
+      {
+        "t": 36,
+        "type": "worker_delivery",
+        "wood": 6
+      },
+      {
+        "t": 42,
+        "type": "worker_delivery",
+        "wood": 6
+      },
+      {
+        "t": 45,
+        "type": "stage_complete",
+        "stage": "S4"
+      }
+    ]
+  },
+  "renderCaps": {
+    "characters": 3,
+    "interactiveTrees": 8,
+    "groundWood": 24,
+    "playerStackWood": 12,
+    "workerStacksWood": 24,
+    "warehouseWoodVisuals": 8,
+    "transferWoodVisuals": 8,
+    "totalWoodVisuals": 76,
+    "particles": 24,
+    "buildings": 3,
+    "boundaryPieces": 6
+  },
+  "performanceTargets": {
+    "notMeasured": true,
+    "drawCallsNormal": 60,
+    "drawCallsPeakWarning": 80,
+    "visibleTriangles": 50000,
+    "textureMemoryMiB": 32,
+    "renderLongEdgePixels": {
+      "low": 960,
+      "standard": 1280
+    },
+    "fps": {
+      "low": 30,
+      "standard": 60
+    },
+    "frameP95Ms": {
+      "low": 35,
+      "standard": 20
+    },
+    "activeFrameStallsOver100Ms": 0,
+    "readyAfterFileDeliveredSeconds": {
+      "low": 3,
+      "standard": 2
+    }
+  },
+  "packageBudget": {
+    "basis": "최종 단일 HTML 바이트. 항목별 기여분은 계획값이며 전체 압축으로 단순 실측 분리는 어렵다.",
+    "internalTargetBytes": 4500000,
+    "releaseMustBeLessThanBytes": 5000000,
+    "allocations": [
+      {
+        "id": "engine_adapter",
+        "bytes": 2750000
+      },
+      {
+        "id": "meshes_skeleton_clips",
+        "bytes": 450000
+      },
+      {
+        "id": "environment_building_textures",
+        "bytes": 600000
+      },
+      {
+        "id": "character_textures",
+        "bytes": 150000
+      },
+      {
+        "id": "ui_glyphs",
+        "bytes": 180000
+      },
+      {
+        "id": "audio",
+        "bytes": 70000
+      },
+      {
+        "id": "scene_scripts_material_effects",
+        "bytes": 100000
+      },
+      {
+        "id": "internal_change_reserve",
+        "bytes": 200000
+      }
+    ]
+  },
+  "success": {
+    "requiresStage": "S4",
+    "requiresEachWorkerDepositAfterS4": true,
+    "requiresMinimumPostUpgradeTime": true,
+    "worldKeepsRunning": true,
+    "storeOnlyOnExplicitCtaClick": true
+  }
+}

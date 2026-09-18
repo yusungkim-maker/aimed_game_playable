@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "232d3f26-60a8-4803-98b0-0ad62f07897a",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "8f562": {
+      "importer": "gltf-animation",
+      "uuid": "232d3f26-60a8-4803-98b0-0ad62f07897a@8f562",
+      "displayName": "",
+      "id": "8f562",
+      "name": "TT_R_Move.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.8666666746139526
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "63e47": {
+      "importer": "gltf-scene",
+      "uuid": "232d3f26-60a8-4803-98b0-0ad62f07897a@63e47",
+      "displayName": "",
+      "id": "63e47",
+      "name": "@TT_R_Move.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "TT_R_Move",
+        "duration": 0.8666666746139526,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "TT_R_Move",
+            "from": 0,
+            "to": 0.8666666746139526,
+            "wrapMode": 2,
+            "previousId": "8f562"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "232d3f26-60a8-4803-98b0-0ad62f07897a@63e47"
+      ]
+    }
+  }
+}

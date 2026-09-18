@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "7fd4c9ae-eb1b-403f-a5fc-d93ec6d8c40f",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "66100": {
+      "importer": "gltf-animation",
+      "uuid": "7fd4c9ae-eb1b-403f-a5fc-d93ec6d8c40f@66100",
+      "displayName": "",
+      "id": "66100",
+      "name": "TT_B_Move.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.8666666746139526
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "6463f": {
+      "importer": "gltf-scene",
+      "uuid": "7fd4c9ae-eb1b-403f-a5fc-d93ec6d8c40f@6463f",
+      "displayName": "",
+      "id": "6463f",
+      "name": "@TT_B_Move.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "TT_B_Move",
+        "duration": 0.8666666746139526,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "TT_B_Move",
+            "from": 0,
+            "to": 0.8666666746139526,
+            "wrapMode": 2,
+            "previousId": "66100"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "7fd4c9ae-eb1b-403f-a5fc-d93ec6d8c40f@6463f"
+      ]
+    }
+  }
+}

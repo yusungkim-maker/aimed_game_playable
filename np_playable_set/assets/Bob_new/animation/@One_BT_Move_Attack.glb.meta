@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "c20ad5fb-82b0-4bfa-9fae-dafd1e76d1cf",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "6c3ad": {
+      "importer": "gltf-animation",
+      "uuid": "c20ad5fb-82b0-4bfa-9fae-dafd1e76d1cf@6c3ad",
+      "displayName": "",
+      "id": "6c3ad",
+      "name": "One_BT_Move_Attack.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.8666666746139526
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "ef9c3": {
+      "importer": "gltf-scene",
+      "uuid": "c20ad5fb-82b0-4bfa-9fae-dafd1e76d1cf@ef9c3",
+      "displayName": "",
+      "id": "ef9c3",
+      "name": "@One_BT_Move_Attack.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "One_BT_Move_Attack",
+        "duration": 0.8666666746139526,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "One_BT_Move_Attack",
+            "from": 0,
+            "to": 0.8666666746139526,
+            "wrapMode": 2,
+            "previousId": "6c3ad"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "c20ad5fb-82b0-4bfa-9fae-dafd1e76d1cf@ef9c3"
+      ]
+    }
+  }
+}
