@@ -1,0 +1,681 @@
+{
+  "used": [
+    {
+      "rel": "NPC_Summon/Animation/@Axe_Attack01.fbx",
+      "uuid": "dfde3a72-4413-40bb-a3b3-fd238286e1e6",
+      "ids": [
+        "dfde3a72-4413-40bb-a3b3-fd238286e1e6",
+        "dfde3a72-4413-40bb-a3b3-fd238286e1e6@1b32f",
+        "dfde3a72-4413-40bb-a3b3-fd238286e1e6@36e9f"
+      ],
+      "hits": [
+        "tycoon/animation/T_CharAnimGraph.animgraph(2)",
+        "tycoon/prefabs/T_Player.prefab(2)",
+        "tycoon/prefabs/T_Worker.prefab(2)",
+        "tycoon.scene(2)"
+      ]
+    },
+    {
+      "rel": "NPC_Summon/Animation/@Axe_Idle.fbx",
+      "uuid": "f0fc9f10-4c5f-4f62-ac42-be4d9a541895",
+      "ids": [
+        "f0fc9f10-4c5f-4f62-ac42-be4d9a541895",
+        "f0fc9f10-4c5f-4f62-ac42-be4d9a541895@a51b4",
+        "f0fc9f10-4c5f-4f62-ac42-be4d9a541895@6982a"
+      ],
+      "hits": [
+        "tycoon/animation/T_CharAnimGraph.animgraph(2)"
+      ]
+    },
+    {
+      "rel": "NPC_Summon/Animation/@Axe_Move.fbx",
+      "uuid": "273df353-fa38-4bc7-91ec-e810db0cf22d",
+      "ids": [
+        "273df353-fa38-4bc7-91ec-e810db0cf22d",
+        "273df353-fa38-4bc7-91ec-e810db0cf22d@bddd6",
+        "273df353-fa38-4bc7-91ec-e810db0cf22d@6d6d9"
+      ],
+      "hits": [
+        "tycoon/animation/T_CharAnimGraph.animgraph(2)"
+      ]
+    },
+    {
+      "rel": "NPC_Summon/Animation/@Idle.fbx",
+      "uuid": "dc9cdc91-3ad1-4b1e-9617-363a4147b6b7",
+      "ids": [
+        "dc9cdc91-3ad1-4b1e-9617-363a4147b6b7",
+        "dc9cdc91-3ad1-4b1e-9617-363a4147b6b7@5bc43",
+        "dc9cdc91-3ad1-4b1e-9617-363a4147b6b7@c2696"
+      ],
+      "hits": [
+        "NPC_Summon/Animation/WorkerAnimGraph.animgraph(2)"
+      ]
+    },
+    {
+      "rel": "NPC_Summon/Animation/@Move.fbx",
+      "uuid": "91f7a873-a846-4be6-8048-71cd92997067",
+      "ids": [
+        "91f7a873-a846-4be6-8048-71cd92997067",
+        "91f7a873-a846-4be6-8048-71cd92997067@8a187",
+        "91f7a873-a846-4be6-8048-71cd92997067@2bc6c"
+      ],
+      "hits": [
+        "NPC_Summon/Animation/WorkerAnimGraph.animgraph(2)"
+      ]
+    },
+    {
+      "rel": "NPC_Summon/Animation/@One_BT_Attack01.fbx",
+      "uuid": "4fbe6622-74aa-4e42-8e7a-73d184c35891",
+      "ids": [
+        "4fbe6622-74aa-4e42-8e7a-73d184c35891",
+        "4fbe6622-74aa-4e42-8e7a-73d184c35891@dfdd6",
+        "4fbe6622-74aa-4e42-8e7a-73d184c35891@199a1"
+      ],
+      "hits": [
+        "NPC_Summon/Animation/PlayerAnimGraph.animgraph(2)",
+        "NPC_Summon/Animation/WorkerAnimGraph.animgraph(2)",
+        "prefabs/Follower.prefab(2)",
+        "prefabs/Worker.prefab(2)",
+        "scene.scene(2)",
+        "xp_np.scene(2)"
+      ]
+    },
+    {
+      "rel": "NPC_Summon/Animation/@One_BT_Idle.fbx",
+      "uuid": "6f192739-6a04-4697-9123-e727f72fe42f",
+      "ids": [
+        "6f192739-6a04-4697-9123-e727f72fe42f",
+        "6f192739-6a04-4697-9123-e727f72fe42f@8b8c2",
+        "6f192739-6a04-4697-9123-e727f72fe42f@ed136"
+      ],
+      "hits": [
+        "NPC_Summon/Animation/PlayerAnimGraph.animgraph(2)"
+      ]
+    },
+    {
+      "rel": "NPC_Summon/Animation/@One_BT_Move.fbx",
+      "uuid": "1ca28898-09f7-4703-ab23-77154a14efdf",
+      "ids": [
+        "1ca28898-09f7-4703-ab23-77154a14efdf",
+        "1ca28898-09f7-4703-ab23-77154a14efdf@42178",
+        "1ca28898-09f7-4703-ab23-77154a14efdf@68ed9"
+      ],
+      "hits": [
+        "NPC_Summon/Animation/PlayerAnimGraph.animgraph(2)"
+      ]
+    },
+    {
+      "rel": "NPC_Summon/Mesh/NPC_TTSummon_001_Mesh.fbx",
+      "uuid": "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9",
+      "ids": [
+        "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9",
+        "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@e66be",
+        "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@0809f",
+        "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@08975",
+        "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@17318",
+        "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@c1fef",
+        "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@900f2",
+        "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@30732",
+        "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@f1394",
+        "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@75ee4",
+        "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@a72ab",
+        "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@2224c",
+        "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@62756",
+        "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@958b3",
+        "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@5c895",
+        "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@dd5b1"
+      ],
+      "hits": [
+        "prefabs/Follower.prefab(8)",
+        "prefabs/Worker.prefab(8)",
+        "scene.scene(12)",
+        "xp_np.scene(12)"
+      ]
+    },
+    {
+      "rel": "tycoon/models/NPC_TTSummon_001_Mesh.fbx",
+      "uuid": "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a",
+      "ids": [
+        "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a",
+        "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@e66be",
+        "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@0809f",
+        "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@08975",
+        "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@17318",
+        "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@c1fef",
+        "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@900f2",
+        "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@30732",
+        "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@f1394",
+        "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@75ee4",
+        "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@a72ab",
+        "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@2224c",
+        "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@62756",
+        "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@958b3",
+        "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@5c895",
+        "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@dd5b1"
+      ],
+      "hits": [
+        "tycoon/prefabs/T_Player.prefab(12)",
+        "tycoon/prefabs/T_Worker.prefab(12)",
+        "tycoon.scene(12)"
+      ]
+    }
+  ],
+  "unused": [
+    {
+      "rel": "Bob_new/animation/@Axe_Attack01.fbx",
+      "uuid": "2a53b6c8-17a6-43a6-989c-bfc97106ae5d",
+      "ids": [
+        "2a53b6c8-17a6-43a6-989c-bfc97106ae5d",
+        "2a53b6c8-17a6-43a6-989c-bfc97106ae5d@1b32f",
+        "2a53b6c8-17a6-43a6-989c-bfc97106ae5d@36e9f"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Axe_Dead.fbx",
+      "uuid": "bbaa0c92-8ad3-4505-9e5a-729e35b7640c",
+      "ids": [
+        "bbaa0c92-8ad3-4505-9e5a-729e35b7640c",
+        "bbaa0c92-8ad3-4505-9e5a-729e35b7640c@b4dcb",
+        "bbaa0c92-8ad3-4505-9e5a-729e35b7640c@25328"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Axe_Down_Loop.fbx",
+      "uuid": "bcc51e8e-16da-4184-b947-901918d84a95",
+      "ids": [
+        "bcc51e8e-16da-4184-b947-901918d84a95",
+        "bcc51e8e-16da-4184-b947-901918d84a95@a9a23",
+        "bcc51e8e-16da-4184-b947-901918d84a95@3927e"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Axe_Idle.fbx",
+      "uuid": "90591b51-ff75-4601-8bf9-c022101a054f",
+      "ids": [
+        "90591b51-ff75-4601-8bf9-c022101a054f",
+        "90591b51-ff75-4601-8bf9-c022101a054f@a51b4",
+        "90591b51-ff75-4601-8bf9-c022101a054f@6982a"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Axe_Move.fbx",
+      "uuid": "fdaff03b-dd74-4ff8-9722-8e37f70a5857",
+      "ids": [
+        "fdaff03b-dd74-4ff8-9722-8e37f70a5857",
+        "fdaff03b-dd74-4ff8-9722-8e37f70a5857@bddd6",
+        "fdaff03b-dd74-4ff8-9722-8e37f70a5857@6d6d9"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Cheer_01.fbx",
+      "uuid": "8e447704-e047-4989-9b59-d7484c327a0f",
+      "ids": [
+        "8e447704-e047-4989-9b59-d7484c327a0f",
+        "8e447704-e047-4989-9b59-d7484c327a0f@11c85",
+        "8e447704-e047-4989-9b59-d7484c327a0f@149af"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Cheer_02.fbx",
+      "uuid": "c8a8de94-5f01-4644-b19d-7527b653d94e",
+      "ids": [
+        "c8a8de94-5f01-4644-b19d-7527b653d94e",
+        "c8a8de94-5f01-4644-b19d-7527b653d94e@7726b",
+        "c8a8de94-5f01-4644-b19d-7527b653d94e@230ec"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Chop.fbx",
+      "uuid": "153293b0-4113-4c20-b55e-e6669c5d02f7",
+      "ids": [
+        "153293b0-4113-4c20-b55e-e6669c5d02f7",
+        "153293b0-4113-4c20-b55e-e6669c5d02f7@d5130",
+        "153293b0-4113-4c20-b55e-e6669c5d02f7@a7d1f"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Hammer.fbx",
+      "uuid": "98065664-b760-4fa6-b979-f065821b5a57",
+      "ids": [
+        "98065664-b760-4fa6-b979-f065821b5a57",
+        "98065664-b760-4fa6-b979-f065821b5a57@9766a",
+        "98065664-b760-4fa6-b979-f065821b5a57@1bb0f"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Hammer_Dead.fbx",
+      "uuid": "78be8698-024a-4f03-9522-2a6eac1b69f0",
+      "ids": [
+        "78be8698-024a-4f03-9522-2a6eac1b69f0",
+        "78be8698-024a-4f03-9522-2a6eac1b69f0@c8d16",
+        "78be8698-024a-4f03-9522-2a6eac1b69f0@3f52c"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Hammer_Idle.fbx",
+      "uuid": "8d83dd23-0ef9-40a1-b2a8-1334462dad3c",
+      "ids": [
+        "8d83dd23-0ef9-40a1-b2a8-1334462dad3c",
+        "8d83dd23-0ef9-40a1-b2a8-1334462dad3c@f579f",
+        "8d83dd23-0ef9-40a1-b2a8-1334462dad3c@d3609"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Hammer_Move.fbx",
+      "uuid": "407f8a8a-18bb-4679-bc43-de80f3c26e42",
+      "ids": [
+        "407f8a8a-18bb-4679-bc43-de80f3c26e42",
+        "407f8a8a-18bb-4679-bc43-de80f3c26e42@597ff",
+        "407f8a8a-18bb-4679-bc43-de80f3c26e42@11e13"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Idle.fbx",
+      "uuid": "bd23573e-ed35-4427-b1a7-ca4c7d6f5a0c",
+      "ids": [
+        "bd23573e-ed35-4427-b1a7-ca4c7d6f5a0c",
+        "bd23573e-ed35-4427-b1a7-ca4c7d6f5a0c@5bc43",
+        "bd23573e-ed35-4427-b1a7-ca4c7d6f5a0c@c2696"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Move.fbx",
+      "uuid": "391fbc74-5bb9-4a6d-8b6f-feb88b564e78",
+      "ids": [
+        "391fbc74-5bb9-4a6d-8b6f-feb88b564e78",
+        "391fbc74-5bb9-4a6d-8b6f-feb88b564e78@8a187",
+        "391fbc74-5bb9-4a6d-8b6f-feb88b564e78@2bc6c"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@One_BT_Attack01.fbx",
+      "uuid": "8a87cfab-a725-43c7-b614-242bcf0d45f9",
+      "ids": [
+        "8a87cfab-a725-43c7-b614-242bcf0d45f9",
+        "8a87cfab-a725-43c7-b614-242bcf0d45f9@dfdd6",
+        "8a87cfab-a725-43c7-b614-242bcf0d45f9@199a1"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@One_BT_Idle.fbx",
+      "uuid": "0803384e-3e22-403e-889b-89d2d78b2ea3",
+      "ids": [
+        "0803384e-3e22-403e-889b-89d2d78b2ea3",
+        "0803384e-3e22-403e-889b-89d2d78b2ea3@8b8c2",
+        "0803384e-3e22-403e-889b-89d2d78b2ea3@ed136"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@One_BT_Move.fbx",
+      "uuid": "c8d7ea04-8248-41dc-b94e-b207b4826814",
+      "ids": [
+        "c8d7ea04-8248-41dc-b94e-b207b4826814",
+        "c8d7ea04-8248-41dc-b94e-b207b4826814@42178",
+        "c8d7ea04-8248-41dc-b94e-b207b4826814@68ed9"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@One_BT_Move_Attack.fbx",
+      "uuid": "267f8cb6-07c7-436f-94b6-cbe7913f702a",
+      "ids": [
+        "267f8cb6-07c7-436f-94b6-cbe7913f702a",
+        "267f8cb6-07c7-436f-94b6-cbe7913f702a@ef9c3",
+        "267f8cb6-07c7-436f-94b6-cbe7913f702a@6c3ad"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@One_Dead.fbx",
+      "uuid": "b07f78be-7993-4818-9404-76e1d49ae215",
+      "ids": [
+        "b07f78be-7993-4818-9404-76e1d49ae215",
+        "b07f78be-7993-4818-9404-76e1d49ae215@9b5cb",
+        "b07f78be-7993-4818-9404-76e1d49ae215@b1b1d"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Stick_Attack.fbx",
+      "uuid": "7b7f184f-3620-49c9-b7ad-91adce292b93",
+      "ids": [
+        "7b7f184f-3620-49c9-b7ad-91adce292b93",
+        "7b7f184f-3620-49c9-b7ad-91adce292b93@aa55c",
+        "7b7f184f-3620-49c9-b7ad-91adce292b93@26f0f"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Stick_Dead.fbx",
+      "uuid": "34437de4-be28-45ea-aecf-1bb6ed8ecdca",
+      "ids": [
+        "34437de4-be28-45ea-aecf-1bb6ed8ecdca",
+        "34437de4-be28-45ea-aecf-1bb6ed8ecdca@acdb3",
+        "34437de4-be28-45ea-aecf-1bb6ed8ecdca@1e4c1"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Stick_Dead_Loop.fbx",
+      "uuid": "d44a7cbf-0530-4418-bd24-9ec6e9c63907",
+      "ids": [
+        "d44a7cbf-0530-4418-bd24-9ec6e9c63907",
+        "d44a7cbf-0530-4418-bd24-9ec6e9c63907@411b2",
+        "d44a7cbf-0530-4418-bd24-9ec6e9c63907@210c6"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Stick_Idle.fbx",
+      "uuid": "06ae6cfa-50f3-4631-b77b-c2c9d2125a4e",
+      "ids": [
+        "06ae6cfa-50f3-4631-b77b-c2c9d2125a4e",
+        "06ae6cfa-50f3-4631-b77b-c2c9d2125a4e@5e1a3",
+        "06ae6cfa-50f3-4631-b77b-c2c9d2125a4e@18007"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Stick_Move.fbx",
+      "uuid": "c5f21487-d2b7-4657-9827-9e87422b6700",
+      "ids": [
+        "c5f21487-d2b7-4657-9827-9e87422b6700",
+        "c5f21487-d2b7-4657-9827-9e87422b6700@364fd",
+        "c5f21487-d2b7-4657-9827-9e87422b6700@6ca6a"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@TT_BT_Attack.fbx",
+      "uuid": "288f8ab3-a2e0-4c8e-9865-f2b3ac292157",
+      "ids": [
+        "288f8ab3-a2e0-4c8e-9865-f2b3ac292157",
+        "288f8ab3-a2e0-4c8e-9865-f2b3ac292157@63f7e",
+        "288f8ab3-a2e0-4c8e-9865-f2b3ac292157@40c4c"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@TT_BT_Move_Attack.fbx",
+      "uuid": "c390922f-72cc-45f5-a176-985f5308ee0d",
+      "ids": [
+        "c390922f-72cc-45f5-a176-985f5308ee0d",
+        "c390922f-72cc-45f5-a176-985f5308ee0d@73163",
+        "c390922f-72cc-45f5-a176-985f5308ee0d@7919e"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@TT_B_Move.fbx",
+      "uuid": "96ac7c84-bd10-4fda-b2b0-39e13252b3ab",
+      "ids": [
+        "96ac7c84-bd10-4fda-b2b0-39e13252b3ab",
+        "96ac7c84-bd10-4fda-b2b0-39e13252b3ab@6463f",
+        "96ac7c84-bd10-4fda-b2b0-39e13252b3ab@66100"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@TT_L_Move.fbx",
+      "uuid": "b1d32c1a-f778-4a30-b624-ff63910d67ac",
+      "ids": [
+        "b1d32c1a-f778-4a30-b624-ff63910d67ac",
+        "b1d32c1a-f778-4a30-b624-ff63910d67ac@4210b",
+        "b1d32c1a-f778-4a30-b624-ff63910d67ac@95d73"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@TT_R_Move.fbx",
+      "uuid": "b7ac6342-d615-49f1-ad69-8c39499f3b6c",
+      "ids": [
+        "b7ac6342-d615-49f1-ad69-8c39499f3b6c",
+        "b7ac6342-d615-49f1-ad69-8c39499f3b6c@63e47",
+        "b7ac6342-d615-49f1-ad69-8c39499f3b6c@8f562"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Two_BT_Attack01.fbx",
+      "uuid": "4549390e-5cc7-41b9-a1d2-68317f805fce",
+      "ids": [
+        "4549390e-5cc7-41b9-a1d2-68317f805fce",
+        "4549390e-5cc7-41b9-a1d2-68317f805fce@35dae",
+        "4549390e-5cc7-41b9-a1d2-68317f805fce@064fc"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Two_BT_Idle.fbx",
+      "uuid": "07e523cd-7a6e-4b11-b2a4-20bc8e5c92db",
+      "ids": [
+        "07e523cd-7a6e-4b11-b2a4-20bc8e5c92db",
+        "07e523cd-7a6e-4b11-b2a4-20bc8e5c92db@2e1d7",
+        "07e523cd-7a6e-4b11-b2a4-20bc8e5c92db@9725c"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Two_BT_Move.fbx",
+      "uuid": "84ee6302-5ea7-41e6-8eb7-b736ad498f54",
+      "ids": [
+        "84ee6302-5ea7-41e6-8eb7-b736ad498f54",
+        "84ee6302-5ea7-41e6-8eb7-b736ad498f54@08a2a",
+        "84ee6302-5ea7-41e6-8eb7-b736ad498f54@5f33c"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Two_BT_Move_Attack.fbx",
+      "uuid": "641a6466-9e87-426c-9cc3-934756ea5664",
+      "ids": [
+        "641a6466-9e87-426c-9cc3-934756ea5664",
+        "641a6466-9e87-426c-9cc3-934756ea5664@2cf70",
+        "641a6466-9e87-426c-9cc3-934756ea5664@a2fd6"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Two_Dead.fbx",
+      "uuid": "1e3b1501-b4f0-43c0-a2f7-6829c4bdc0a4",
+      "ids": [
+        "1e3b1501-b4f0-43c0-a2f7-6829c4bdc0a4",
+        "1e3b1501-b4f0-43c0-a2f7-6829c4bdc0a4@b2b1a",
+        "1e3b1501-b4f0-43c0-a2f7-6829c4bdc0a4@b2458"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Wagon_Attack01.fbx",
+      "uuid": "d519061b-13d7-4934-b8e4-6f80e0c9384a",
+      "ids": [
+        "d519061b-13d7-4934-b8e4-6f80e0c9384a",
+        "d519061b-13d7-4934-b8e4-6f80e0c9384a@c95a3",
+        "d519061b-13d7-4934-b8e4-6f80e0c9384a@905e0"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Wagon_BT_Idle.fbx",
+      "uuid": "d6b3baf0-66bb-45eb-a1b4-994bd3b26ad2",
+      "ids": [
+        "d6b3baf0-66bb-45eb-a1b4-994bd3b26ad2",
+        "d6b3baf0-66bb-45eb-a1b4-994bd3b26ad2@782fb",
+        "d6b3baf0-66bb-45eb-a1b4-994bd3b26ad2@43721"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Wagon_BT_Move.fbx",
+      "uuid": "379f1dfc-aabd-48cd-98f2-ca37a1251c4a",
+      "ids": [
+        "379f1dfc-aabd-48cd-98f2-ca37a1251c4a",
+        "379f1dfc-aabd-48cd-98f2-ca37a1251c4a@7fe66",
+        "379f1dfc-aabd-48cd-98f2-ca37a1251c4a@24be0"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Wagon_Dead.fbx",
+      "uuid": "070160d2-3da3-4997-895c-5b77ddec44b3",
+      "ids": [
+        "070160d2-3da3-4997-895c-5b77ddec44b3",
+        "070160d2-3da3-4997-895c-5b77ddec44b3@fcde1",
+        "070160d2-3da3-4997-895c-5b77ddec44b3@6b154"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Wagon_Down_Loop.fbx",
+      "uuid": "e7338a46-793c-4cc4-8d19-a4db4fd04cb8",
+      "ids": [
+        "e7338a46-793c-4cc4-8d19-a4db4fd04cb8",
+        "e7338a46-793c-4cc4-8d19-a4db4fd04cb8@99d40",
+        "e7338a46-793c-4cc4-8d19-a4db4fd04cb8@1f9d0"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Wagon_Idle.fbx",
+      "uuid": "ec5e6918-500d-40af-869e-f814146c8d38",
+      "ids": [
+        "ec5e6918-500d-40af-869e-f814146c8d38",
+        "ec5e6918-500d-40af-869e-f814146c8d38@42aff",
+        "ec5e6918-500d-40af-869e-f814146c8d38@3f116"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/animation/@Wagon_Move.fbx",
+      "uuid": "015e182e-1f4c-4557-9483-d23bb27326ec",
+      "ids": [
+        "015e182e-1f4c-4557-9483-d23bb27326ec",
+        "015e182e-1f4c-4557-9483-d23bb27326ec@50f9d",
+        "015e182e-1f4c-4557-9483-d23bb27326ec@68fc1"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "Bob_new/NPC_TTSummon_001_Mesh.fbx",
+      "uuid": "c19880dd-d35b-446c-89b2-a9b2039cbb69",
+      "ids": [
+        "c19880dd-d35b-446c-89b2-a9b2039cbb69",
+        "c19880dd-d35b-446c-89b2-a9b2039cbb69@e66be",
+        "c19880dd-d35b-446c-89b2-a9b2039cbb69@0809f",
+        "c19880dd-d35b-446c-89b2-a9b2039cbb69@08975",
+        "c19880dd-d35b-446c-89b2-a9b2039cbb69@17318",
+        "c19880dd-d35b-446c-89b2-a9b2039cbb69@c1fef",
+        "c19880dd-d35b-446c-89b2-a9b2039cbb69@900f2",
+        "c19880dd-d35b-446c-89b2-a9b2039cbb69@30732",
+        "c19880dd-d35b-446c-89b2-a9b2039cbb69@f1394",
+        "c19880dd-d35b-446c-89b2-a9b2039cbb69@75ee4",
+        "c19880dd-d35b-446c-89b2-a9b2039cbb69@a72ab",
+        "c19880dd-d35b-446c-89b2-a9b2039cbb69@2224c",
+        "c19880dd-d35b-446c-89b2-a9b2039cbb69@62756",
+        "c19880dd-d35b-446c-89b2-a9b2039cbb69@958b3",
+        "c19880dd-d35b-446c-89b2-a9b2039cbb69@5c895",
+        "c19880dd-d35b-446c-89b2-a9b2039cbb69@dd5b1"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "NPC_Summon/Animation/@Axe_Dead.fbx",
+      "uuid": "8f881b77-6f90-441b-b633-f6a48dd5cb3f",
+      "ids": [
+        "8f881b77-6f90-441b-b633-f6a48dd5cb3f",
+        "8f881b77-6f90-441b-b633-f6a48dd5cb3f@b4dcb",
+        "8f881b77-6f90-441b-b633-f6a48dd5cb3f@25328"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "NPC_Summon/Animation/@Axe_Down_Loop.fbx",
+      "uuid": "57b2a01d-9aaf-4bc8-b789-5a87785eed89",
+      "ids": [
+        "57b2a01d-9aaf-4bc8-b789-5a87785eed89",
+        "57b2a01d-9aaf-4bc8-b789-5a87785eed89@a9a23",
+        "57b2a01d-9aaf-4bc8-b789-5a87785eed89@3927e"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "NPC_Summon/Animation/@One_BT_Move_Attack.fbx",
+      "uuid": "88478bda-c518-4194-b4b8-319413ab81fb",
+      "ids": [
+        "88478bda-c518-4194-b4b8-319413ab81fb",
+        "88478bda-c518-4194-b4b8-319413ab81fb@ef9c3",
+        "88478bda-c518-4194-b4b8-319413ab81fb@6c3ad"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "NPC_Summon/NPC_TTSummon_001_Mesh.fbx",
+      "uuid": "0678ebc1-1fbd-455c-9543-496e0dad81ac",
+      "ids": [
+        "0678ebc1-1fbd-455c-9543-496e0dad81ac",
+        "0678ebc1-1fbd-455c-9543-496e0dad81ac@e66be",
+        "0678ebc1-1fbd-455c-9543-496e0dad81ac@0809f",
+        "0678ebc1-1fbd-455c-9543-496e0dad81ac@08975",
+        "0678ebc1-1fbd-455c-9543-496e0dad81ac@17318",
+        "0678ebc1-1fbd-455c-9543-496e0dad81ac@c1fef",
+        "0678ebc1-1fbd-455c-9543-496e0dad81ac@900f2",
+        "0678ebc1-1fbd-455c-9543-496e0dad81ac@30732",
+        "0678ebc1-1fbd-455c-9543-496e0dad81ac@f1394",
+        "0678ebc1-1fbd-455c-9543-496e0dad81ac@75ee4",
+        "0678ebc1-1fbd-455c-9543-496e0dad81ac@a72ab",
+        "0678ebc1-1fbd-455c-9543-496e0dad81ac@2224c",
+        "0678ebc1-1fbd-455c-9543-496e0dad81ac@62756",
+        "0678ebc1-1fbd-455c-9543-496e0dad81ac@958b3",
+        "0678ebc1-1fbd-455c-9543-496e0dad81ac@5c895",
+        "0678ebc1-1fbd-455c-9543-496e0dad81ac@dd5b1"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "tycoon/models/@Idle.fbx",
+      "uuid": "e1b33957-13e0-4dda-ba76-85551db91294",
+      "ids": [
+        "e1b33957-13e0-4dda-ba76-85551db91294",
+        "e1b33957-13e0-4dda-ba76-85551db91294@5bc43",
+        "e1b33957-13e0-4dda-ba76-85551db91294@c2696"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "tycoon/models/@Move.fbx",
+      "uuid": "b7f70089-a4be-4824-988c-958007d60f3e",
+      "ids": [
+        "b7f70089-a4be-4824-988c-958007d60f3e",
+        "b7f70089-a4be-4824-988c-958007d60f3e@8a187",
+        "b7f70089-a4be-4824-988c-958007d60f3e@2bc6c"
+      ],
+      "hits": []
+    },
+    {
+      "rel": "tycoon/models/@One_BT_Attack01.fbx",
+      "uuid": "bf5e30cb-35c2-4064-806f-f642083d9e4d",
+      "ids": [
+        "bf5e30cb-35c2-4064-806f-f642083d9e4d",
+        "bf5e30cb-35c2-4064-806f-f642083d9e4d@dfdd6",
+        "bf5e30cb-35c2-4064-806f-f642083d9e4d@199a1"
+      ],
+      "hits": []
+    }
+  ]
+}

@@ -1,0 +1,1319 @@
+[
+  {
+    "rel": "Bob_new/NPC_TTSummon_001_Mesh.fbx",
+    "ok": true,
+    "srcUuid": "c19880dd-d35b-446c-89b2-a9b2039cbb69",
+    "splits": [],
+    "animBefore": [],
+    "animAfter": [],
+    "size": 380876,
+    "meshes": 6,
+    "skins": 6,
+    "nodes": 45,
+    "out": "Bob_new/NPC_TTSummon_001_Mesh.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Axe_Attack01.fbx",
+    "ok": true,
+    "srcUuid": "2a53b6c8-17a6-43a6-989c-bfc97106ae5d",
+    "splits": [
+      {
+        "name": "Axe_Attack01",
+        "wrapMode": 2,
+        "previousId": "36e9f"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Axe_Attack01"
+    ],
+    "size": 69884,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 30,
+    "out": "Bob_new/animation/@Axe_Attack01.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Axe_Dead.fbx",
+    "ok": true,
+    "srcUuid": "bbaa0c92-8ad3-4505-9e5a-729e35b7640c",
+    "splits": [
+      {
+        "name": "Axe_Dead",
+        "wrapMode": 2,
+        "previousId": "25328"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Axe_Dead"
+    ],
+    "size": 66812,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 30,
+    "out": "Bob_new/animation/@Axe_Dead.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Axe_Down_Loop.fbx",
+    "ok": true,
+    "srcUuid": "bcc51e8e-16da-4184-b947-901918d84a95",
+    "splits": [
+      {
+        "name": "Axe_Down_Loop",
+        "wrapMode": 2,
+        "previousId": "3927e"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Axe_Down_Loop"
+    ],
+    "size": 78952,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 30,
+    "out": "Bob_new/animation/@Axe_Down_Loop.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Axe_Idle.fbx",
+    "ok": true,
+    "srcUuid": "90591b51-ff75-4601-8bf9-c022101a054f",
+    "splits": [
+      {
+        "name": "Axe_Idle",
+        "wrapMode": 2,
+        "previousId": "6982a"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Axe_Idle"
+    ],
+    "size": 75188,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 30,
+    "out": "Bob_new/animation/@Axe_Idle.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Axe_Move.fbx",
+    "ok": true,
+    "srcUuid": "fdaff03b-dd74-4ff8-9722-8e37f70a5857",
+    "splits": [
+      {
+        "name": "Axe_Move",
+        "wrapMode": 2,
+        "previousId": "6d6d9"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Axe_Move"
+    ],
+    "size": 63660,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 30,
+    "out": "Bob_new/animation/@Axe_Move.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Cheer_01.fbx",
+    "ok": true,
+    "srcUuid": "8e447704-e047-4989-9b59-d7484c327a0f",
+    "splits": [
+      {
+        "name": "Cheer_01",
+        "wrapMode": 2,
+        "previousId": "149af"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Cheer_01"
+    ],
+    "size": 76836,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 34,
+    "out": "Bob_new/animation/@Cheer_01.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Cheer_02.fbx",
+    "ok": true,
+    "srcUuid": "c8a8de94-5f01-4644-b19d-7527b653d94e",
+    "splits": [
+      {
+        "name": "Cheer_02",
+        "wrapMode": 2,
+        "previousId": "230ec"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Cheer_02"
+    ],
+    "size": 74696,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 34,
+    "out": "Bob_new/animation/@Cheer_02.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Chop.fbx",
+    "ok": true,
+    "srcUuid": "153293b0-4113-4c20-b55e-e6669c5d02f7",
+    "splits": [
+      {
+        "name": "Chop",
+        "wrapMode": 2,
+        "previousId": "a7d1f"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Chop"
+    ],
+    "size": 66620,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 30,
+    "out": "Bob_new/animation/@Chop.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Hammer.fbx",
+    "ok": true,
+    "srcUuid": "98065664-b760-4fa6-b979-f065821b5a57",
+    "splits": [
+      {
+        "name": "Hammer",
+        "wrapMode": 2,
+        "previousId": "1bb0f"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Hammer"
+    ],
+    "size": 66740,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 35,
+    "out": "Bob_new/animation/@Hammer.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Hammer_Dead.fbx",
+    "ok": true,
+    "srcUuid": "78be8698-024a-4f03-9522-2a6eac1b69f0",
+    "splits": [
+      {
+        "name": "Hammer_Dead",
+        "wrapMode": 2,
+        "previousId": "3f52c"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Hammer_Dead"
+    ],
+    "size": 77728,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 35,
+    "out": "Bob_new/animation/@Hammer_Dead.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Hammer_Idle.fbx",
+    "ok": true,
+    "srcUuid": "8d83dd23-0ef9-40a1-b2a8-1334462dad3c",
+    "splits": [
+      {
+        "name": "Hammer_Idle",
+        "wrapMode": 2,
+        "previousId": "d3609"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Hammer_Idle"
+    ],
+    "size": 82588,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 35,
+    "out": "Bob_new/animation/@Hammer_Idle.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Hammer_Move.fbx",
+    "ok": true,
+    "srcUuid": "407f8a8a-18bb-4679-bc43-de80f3c26e42",
+    "splits": [
+      {
+        "name": "Hammer_Move",
+        "wrapMode": 2,
+        "previousId": "11e13"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Hammer_Move"
+    ],
+    "size": 74048,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 35,
+    "out": "Bob_new/animation/@Hammer_Move.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Idle.fbx",
+    "ok": true,
+    "srcUuid": "bd23573e-ed35-4427-b1a7-ca4c7d6f5a0c",
+    "splits": [
+      {
+        "name": "Idle",
+        "wrapMode": 2,
+        "previousId": "c2696"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Idle"
+    ],
+    "size": 87040,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 34,
+    "out": "Bob_new/animation/@Idle.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Move.fbx",
+    "ok": true,
+    "srcUuid": "391fbc74-5bb9-4a6d-8b6f-feb88b564e78",
+    "splits": [
+      {
+        "name": "Move",
+        "wrapMode": 2,
+        "previousId": "2bc6c"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Move"
+    ],
+    "size": 71568,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 34,
+    "out": "Bob_new/animation/@Move.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@One_BT_Attack01.fbx",
+    "ok": true,
+    "srcUuid": "8a87cfab-a725-43c7-b614-242bcf0d45f9",
+    "splits": [
+      {
+        "name": "One_BT_Attack01",
+        "wrapMode": 2,
+        "previousId": "199a1"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "One_BT_Attack01"
+    ],
+    "size": 59456,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 32,
+    "out": "Bob_new/animation/@One_BT_Attack01.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@One_BT_Idle.fbx",
+    "ok": true,
+    "srcUuid": "0803384e-3e22-403e-889b-89d2d78b2ea3",
+    "splits": [
+      {
+        "name": "One_BT_Idle",
+        "wrapMode": 2,
+        "previousId": "ed136"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "One_BT_Idle"
+    ],
+    "size": 84544,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 38,
+    "out": "Bob_new/animation/@One_BT_Idle.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@One_BT_Move.fbx",
+    "ok": true,
+    "srcUuid": "c8d7ea04-8248-41dc-b94e-b207b4826814",
+    "splits": [
+      {
+        "name": "One_BT_Move",
+        "wrapMode": 2,
+        "previousId": "68ed9"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "One_BT_Move"
+    ],
+    "size": 71492,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 38,
+    "out": "Bob_new/animation/@One_BT_Move.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@One_BT_Move_Attack.fbx",
+    "ok": true,
+    "srcUuid": "267f8cb6-07c7-436f-94b6-cbe7913f702a",
+    "splits": [
+      {
+        "name": "One_BT_Move_Attack",
+        "wrapMode": 2,
+        "previousId": "6c3ad"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "One_BT_Move_Attack"
+    ],
+    "size": 71676,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 38,
+    "out": "Bob_new/animation/@One_BT_Move_Attack.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@One_Dead.fbx",
+    "ok": true,
+    "srcUuid": "b07f78be-7993-4818-9404-76e1d49ae215",
+    "splits": [
+      {
+        "name": "One_Dead",
+        "wrapMode": 2,
+        "previousId": "b1b1d"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "One_Dead"
+    ],
+    "size": 67228,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 32,
+    "out": "Bob_new/animation/@One_Dead.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Stick_Attack.fbx",
+    "ok": true,
+    "srcUuid": "7b7f184f-3620-49c9-b7ad-91adce292b93",
+    "splits": [
+      {
+        "name": "Stick_Attack",
+        "wrapMode": 2,
+        "previousId": "26f0f"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Stick_Attack"
+    ],
+    "size": 63284,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 30,
+    "out": "Bob_new/animation/@Stick_Attack.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Stick_Dead.fbx",
+    "ok": true,
+    "srcUuid": "34437de4-be28-45ea-aecf-1bb6ed8ecdca",
+    "splits": [
+      {
+        "name": "Stick_Dead",
+        "wrapMode": 2,
+        "previousId": "1e4c1"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Stick_Dead"
+    ],
+    "size": 78940,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 30,
+    "out": "Bob_new/animation/@Stick_Dead.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Stick_Dead_Loop.fbx",
+    "ok": true,
+    "srcUuid": "d44a7cbf-0530-4418-bd24-9ec6e9c63907",
+    "splits": [
+      {
+        "name": "Stick_Dead_Loop",
+        "wrapMode": 2,
+        "previousId": "210c6"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Stick_Dead_Loop"
+    ],
+    "size": 80120,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 30,
+    "out": "Bob_new/animation/@Stick_Dead_Loop.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Stick_Idle.fbx",
+    "ok": true,
+    "srcUuid": "06ae6cfa-50f3-4631-b77b-c2c9d2125a4e",
+    "splits": [
+      {
+        "name": "Stick_Idle",
+        "wrapMode": 2,
+        "previousId": "18007"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Stick_Idle"
+    ],
+    "size": 67224,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 30,
+    "out": "Bob_new/animation/@Stick_Idle.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Stick_Move.fbx",
+    "ok": true,
+    "srcUuid": "c5f21487-d2b7-4657-9827-9e87422b6700",
+    "splits": [
+      {
+        "name": "Stick_Move",
+        "wrapMode": 2,
+        "previousId": "6ca6a"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Stick_Move"
+    ],
+    "size": 63704,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 30,
+    "out": "Bob_new/animation/@Stick_Move.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@TT_BT_Attack.fbx",
+    "ok": true,
+    "srcUuid": "288f8ab3-a2e0-4c8e-9865-f2b3ac292157",
+    "splits": [
+      {
+        "name": "TT_BT_Attack",
+        "wrapMode": 2,
+        "previousId": "40c4c"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "TT_BT_Attack"
+    ],
+    "size": 58284,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 31,
+    "out": "Bob_new/animation/@TT_BT_Attack.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@TT_BT_Move_Attack.fbx",
+    "ok": true,
+    "srcUuid": "c390922f-72cc-45f5-a176-985f5308ee0d",
+    "splits": [
+      {
+        "name": "TT_BT_Move_Attack",
+        "wrapMode": 2,
+        "previousId": "7919e"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "TT_BT_Move_Attack"
+    ],
+    "size": 66440,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 38,
+    "out": "Bob_new/animation/@TT_BT_Move_Attack.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@TT_B_Move.fbx",
+    "ok": true,
+    "srcUuid": "96ac7c84-bd10-4fda-b2b0-39e13252b3ab",
+    "splits": [
+      {
+        "name": "TT_B_Move",
+        "wrapMode": 2,
+        "previousId": "66100"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "TT_B_Move"
+    ],
+    "size": 67328,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 32,
+    "out": "Bob_new/animation/@TT_B_Move.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@TT_L_Move.fbx",
+    "ok": true,
+    "srcUuid": "b1d32c1a-f778-4a30-b624-ff63910d67ac",
+    "splits": [
+      {
+        "name": "TT_L_Move",
+        "wrapMode": 2,
+        "previousId": "95d73"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "TT_L_Move"
+    ],
+    "size": 66872,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 32,
+    "out": "Bob_new/animation/@TT_L_Move.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@TT_R_Move.fbx",
+    "ok": true,
+    "srcUuid": "b7ac6342-d615-49f1-ad69-8c39499f3b6c",
+    "splits": [
+      {
+        "name": "TT_R_Move",
+        "wrapMode": 2,
+        "previousId": "8f562"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "TT_R_Move"
+    ],
+    "size": 66972,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 32,
+    "out": "Bob_new/animation/@TT_R_Move.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Two_BT_Attack01.fbx",
+    "ok": true,
+    "srcUuid": "4549390e-5cc7-41b9-a1d2-68317f805fce",
+    "splits": [
+      {
+        "name": "Two_BT_Attack01",
+        "wrapMode": 2,
+        "previousId": "064fc"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Two_BT_Attack01"
+    ],
+    "size": 64752,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 31,
+    "out": "Bob_new/animation/@Two_BT_Attack01.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Two_BT_Idle.fbx",
+    "ok": true,
+    "srcUuid": "07e523cd-7a6e-4b11-b2a4-20bc8e5c92db",
+    "splits": [
+      {
+        "name": "Two_BT_Idle",
+        "wrapMode": 2,
+        "previousId": "9725c"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Two_BT_Idle"
+    ],
+    "size": 77560,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 31,
+    "out": "Bob_new/animation/@Two_BT_Idle.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Two_BT_Move.fbx",
+    "ok": true,
+    "srcUuid": "84ee6302-5ea7-41e6-8eb7-b736ad498f54",
+    "splits": [
+      {
+        "name": "Two_BT_Move",
+        "wrapMode": 2,
+        "previousId": "5f33c"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Two_BT_Move"
+    ],
+    "size": 71672,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 34,
+    "out": "Bob_new/animation/@Two_BT_Move.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Two_BT_Move_Attack.fbx",
+    "ok": true,
+    "srcUuid": "641a6466-9e87-426c-9cc3-934756ea5664",
+    "splits": [
+      {
+        "name": "Two_BT_Move_Attack",
+        "wrapMode": 2,
+        "previousId": "a2fd6"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Two_BT_Move_Attack"
+    ],
+    "size": 71468,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 34,
+    "out": "Bob_new/animation/@Two_BT_Move_Attack.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Two_Dead.fbx",
+    "ok": true,
+    "srcUuid": "1e3b1501-b4f0-43c0-a2f7-6829c4bdc0a4",
+    "splits": [
+      {
+        "name": "Two_Dead",
+        "wrapMode": 2,
+        "previousId": "b2458"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Two_Dead"
+    ],
+    "size": 74040,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 34,
+    "out": "Bob_new/animation/@Two_Dead.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Wagon_Attack01.fbx",
+    "ok": true,
+    "srcUuid": "d519061b-13d7-4934-b8e4-6f80e0c9384a",
+    "splits": [
+      {
+        "name": "Wagon_Attack01",
+        "wrapMode": 2,
+        "previousId": "905e0"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Wagon_Attack01"
+    ],
+    "size": 90860,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 39,
+    "out": "Bob_new/animation/@Wagon_Attack01.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Wagon_BT_Idle.fbx",
+    "ok": true,
+    "srcUuid": "d6b3baf0-66bb-45eb-a1b4-994bd3b26ad2",
+    "splits": [
+      {
+        "name": "Wagon_BT_Idle",
+        "wrapMode": 2,
+        "previousId": "43721"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Wagon_BT_Idle"
+    ],
+    "size": 84692,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 34,
+    "out": "Bob_new/animation/@Wagon_BT_Idle.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Wagon_BT_Move.fbx",
+    "ok": true,
+    "srcUuid": "379f1dfc-aabd-48cd-98f2-ca37a1251c4a",
+    "splits": [
+      {
+        "name": "Wagon_BT_Move",
+        "wrapMode": 2,
+        "previousId": "24be0"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Wagon_BT_Move"
+    ],
+    "size": 71368,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 34,
+    "out": "Bob_new/animation/@Wagon_BT_Move.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Wagon_Dead.fbx",
+    "ok": true,
+    "srcUuid": "070160d2-3da3-4997-895c-5b77ddec44b3",
+    "splits": [
+      {
+        "name": "Wagon_Dead",
+        "wrapMode": 2,
+        "previousId": "6b154"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Wagon_Dead"
+    ],
+    "size": 91420,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 37,
+    "out": "Bob_new/animation/@Wagon_Dead.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Wagon_Down_Loop.fbx",
+    "ok": true,
+    "srcUuid": "e7338a46-793c-4cc4-8d19-a4db4fd04cb8",
+    "splits": [
+      {
+        "name": "Wagon_Down_Loop",
+        "wrapMode": 2,
+        "previousId": "1f9d0"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Wagon_Down_Loop"
+    ],
+    "size": 93420,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 37,
+    "out": "Bob_new/animation/@Wagon_Down_Loop.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Wagon_Idle.fbx",
+    "ok": true,
+    "srcUuid": "ec5e6918-500d-40af-869e-f814146c8d38",
+    "splits": [
+      {
+        "name": "Wagon_Idle",
+        "wrapMode": 2,
+        "previousId": "3f116"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Wagon_Idle"
+    ],
+    "size": 89472,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 37,
+    "out": "Bob_new/animation/@Wagon_Idle.glb"
+  },
+  {
+    "rel": "Bob_new/animation/@Wagon_Move.fbx",
+    "ok": true,
+    "srcUuid": "015e182e-1f4c-4557-9483-d23bb27326ec",
+    "splits": [
+      {
+        "name": "Wagon_Move",
+        "wrapMode": 2,
+        "previousId": "68fc1"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Wagon_Move"
+    ],
+    "size": 77444,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 37,
+    "out": "Bob_new/animation/@Wagon_Move.glb"
+  },
+  {
+    "rel": "NPC_Summon/Animation/@Axe_Attack01.fbx",
+    "ok": true,
+    "srcUuid": "dfde3a72-4413-40bb-a3b3-fd238286e1e6",
+    "splits": [
+      {
+        "name": "Axe_Attack01",
+        "wrapMode": 2,
+        "previousId": "36e9f"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Axe_Attack01"
+    ],
+    "size": 69884,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 30,
+    "out": "NPC_Summon/Animation/@Axe_Attack01.glb"
+  },
+  {
+    "rel": "NPC_Summon/Animation/@Axe_Dead.fbx",
+    "ok": true,
+    "srcUuid": "8f881b77-6f90-441b-b633-f6a48dd5cb3f",
+    "splits": [
+      {
+        "name": "Axe_Dead",
+        "wrapMode": 2,
+        "previousId": "25328"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Axe_Dead"
+    ],
+    "size": 66812,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 30,
+    "out": "NPC_Summon/Animation/@Axe_Dead.glb"
+  },
+  {
+    "rel": "NPC_Summon/Animation/@Axe_Down_Loop.fbx",
+    "ok": true,
+    "srcUuid": "57b2a01d-9aaf-4bc8-b789-5a87785eed89",
+    "splits": [
+      {
+        "name": "Axe_Down_Loop",
+        "wrapMode": 2,
+        "previousId": "3927e"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Axe_Down_Loop"
+    ],
+    "size": 78952,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 30,
+    "out": "NPC_Summon/Animation/@Axe_Down_Loop.glb"
+  },
+  {
+    "rel": "NPC_Summon/Animation/@Axe_Idle.fbx",
+    "ok": true,
+    "srcUuid": "f0fc9f10-4c5f-4f62-ac42-be4d9a541895",
+    "splits": [
+      {
+        "name": "Axe_Idle",
+        "wrapMode": 2,
+        "previousId": "6982a"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Axe_Idle"
+    ],
+    "size": 75188,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 30,
+    "out": "NPC_Summon/Animation/@Axe_Idle.glb"
+  },
+  {
+    "rel": "NPC_Summon/Animation/@Axe_Move.fbx",
+    "ok": true,
+    "srcUuid": "273df353-fa38-4bc7-91ec-e810db0cf22d",
+    "splits": [
+      {
+        "name": "Axe_Move",
+        "wrapMode": 2,
+        "previousId": "6d6d9"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Axe_Move"
+    ],
+    "size": 63660,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 30,
+    "out": "NPC_Summon/Animation/@Axe_Move.glb"
+  },
+  {
+    "rel": "NPC_Summon/Animation/@Idle.fbx",
+    "ok": true,
+    "srcUuid": "dc9cdc91-3ad1-4b1e-9617-363a4147b6b7",
+    "splits": [
+      {
+        "name": "Idle",
+        "wrapMode": 2,
+        "previousId": "c2696"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Idle"
+    ],
+    "size": 87040,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 34,
+    "out": "NPC_Summon/Animation/@Idle.glb"
+  },
+  {
+    "rel": "NPC_Summon/Animation/@Move.fbx",
+    "ok": true,
+    "srcUuid": "91f7a873-a846-4be6-8048-71cd92997067",
+    "splits": [
+      {
+        "name": "Move",
+        "wrapMode": 2,
+        "previousId": "2bc6c"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Move"
+    ],
+    "size": 71568,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 34,
+    "out": "NPC_Summon/Animation/@Move.glb"
+  },
+  {
+    "rel": "NPC_Summon/Animation/@One_BT_Attack01.fbx",
+    "ok": true,
+    "srcUuid": "4fbe6622-74aa-4e42-8e7a-73d184c35891",
+    "splits": [
+      {
+        "name": "One_BT_Attack01",
+        "wrapMode": 2,
+        "previousId": "199a1"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "One_BT_Attack01"
+    ],
+    "size": 59456,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 32,
+    "out": "NPC_Summon/Animation/@One_BT_Attack01.glb"
+  },
+  {
+    "rel": "NPC_Summon/Animation/@One_BT_Idle.fbx",
+    "ok": true,
+    "srcUuid": "6f192739-6a04-4697-9123-e727f72fe42f",
+    "splits": [
+      {
+        "name": "One_BT_Idle",
+        "wrapMode": 2,
+        "previousId": "ed136"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "One_BT_Idle"
+    ],
+    "size": 84544,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 38,
+    "out": "NPC_Summon/Animation/@One_BT_Idle.glb"
+  },
+  {
+    "rel": "NPC_Summon/Animation/@One_BT_Move.fbx",
+    "ok": true,
+    "srcUuid": "1ca28898-09f7-4703-ab23-77154a14efdf",
+    "splits": [
+      {
+        "name": "One_BT_Move",
+        "wrapMode": 2,
+        "previousId": "68ed9"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "One_BT_Move"
+    ],
+    "size": 71492,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 38,
+    "out": "NPC_Summon/Animation/@One_BT_Move.glb"
+  },
+  {
+    "rel": "NPC_Summon/Animation/@One_BT_Move_Attack.fbx",
+    "ok": true,
+    "srcUuid": "88478bda-c518-4194-b4b8-319413ab81fb",
+    "splits": [
+      {
+        "name": "One_BT_Move_Attack",
+        "wrapMode": 2,
+        "previousId": "6c3ad"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "One_BT_Move_Attack"
+    ],
+    "size": 71676,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 38,
+    "out": "NPC_Summon/Animation/@One_BT_Move_Attack.glb"
+  },
+  {
+    "rel": "NPC_Summon/Mesh/NPC_TTSummon_001_Mesh.fbx",
+    "ok": true,
+    "srcUuid": "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9",
+    "splits": [],
+    "animBefore": [],
+    "animAfter": [],
+    "size": 380876,
+    "meshes": 6,
+    "skins": 6,
+    "nodes": 45,
+    "out": "NPC_Summon/Mesh/NPC_TTSummon_001_Mesh.glb"
+  },
+  {
+    "rel": "NPC_Summon/NPC_TTSummon_001_Mesh.fbx",
+    "ok": true,
+    "srcUuid": "0678ebc1-1fbd-455c-9543-496e0dad81ac",
+    "splits": [],
+    "animBefore": [],
+    "animAfter": [],
+    "size": 380876,
+    "meshes": 6,
+    "skins": 6,
+    "nodes": 45,
+    "out": "NPC_Summon/NPC_TTSummon_001_Mesh.glb"
+  },
+  {
+    "rel": "tycoon/models/@Idle.fbx",
+    "ok": true,
+    "srcUuid": "e1b33957-13e0-4dda-ba76-85551db91294",
+    "splits": [
+      {
+        "name": "Idle",
+        "wrapMode": 2,
+        "previousId": "c2696"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Idle"
+    ],
+    "size": 87040,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 34,
+    "out": "tycoon/models/@Idle.glb"
+  },
+  {
+    "rel": "tycoon/models/@Move.fbx",
+    "ok": true,
+    "srcUuid": "b7f70089-a4be-4824-988c-958007d60f3e",
+    "splits": [
+      {
+        "name": "Move",
+        "wrapMode": 2,
+        "previousId": "2bc6c"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "Move"
+    ],
+    "size": 71568,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 34,
+    "out": "tycoon/models/@Move.glb"
+  },
+  {
+    "rel": "tycoon/models/@One_BT_Attack01.fbx",
+    "ok": true,
+    "srcUuid": "bf5e30cb-35c2-4064-806f-f642083d9e4d",
+    "splits": [
+      {
+        "name": "One_BT_Attack01",
+        "wrapMode": 2,
+        "previousId": "199a1"
+      }
+    ],
+    "animBefore": [
+      "Take 001"
+    ],
+    "animAfter": [
+      "One_BT_Attack01"
+    ],
+    "size": 59456,
+    "meshes": 0,
+    "skins": 0,
+    "nodes": 32,
+    "out": "tycoon/models/@One_BT_Attack01.glb"
+  },
+  {
+    "rel": "tycoon/models/NPC_TTSummon_001_Mesh.fbx",
+    "ok": true,
+    "srcUuid": "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a",
+    "splits": [],
+    "animBefore": [],
+    "animAfter": [],
+    "size": 380876,
+    "meshes": 6,
+    "skins": 6,
+    "nodes": 45,
+    "out": "tycoon/models/NPC_TTSummon_001_Mesh.glb"
+  }
+]

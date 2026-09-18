@@ -1,0 +1,26 @@
+{
+  "meshes": {
+    "Fence_Decorative_Post": {
+      "vertices": 280,
+      "triangles": 540
+    },
+    "Fence_Connection_3m": {
+      "vertices": 392,
+      "triangles": 756
+    }
+  },
+  "span": 3,
+  "sun_euler": [
+    0,
+    -27,
+    20
+  ],
+  "camera_down": 45,
+  "export_axes": "GLB Y-up; Blender Z-up",
+  "directions": [
+    45,
+    135,
+    225,
+    315
+  ]
+}

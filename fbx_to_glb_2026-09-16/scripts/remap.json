@@ -1,0 +1,508 @@
+{
+  "map": {
+    "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9": "11881c2c-4d6e-4608-bc28-95858934f3da",
+    "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@e66be": "11881c2c-4d6e-4608-bc28-95858934f3da@e66be",
+    "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@0809f": "11881c2c-4d6e-4608-bc28-95858934f3da@0809f",
+    "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@08975": "11881c2c-4d6e-4608-bc28-95858934f3da@08975",
+    "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@17318": "11881c2c-4d6e-4608-bc28-95858934f3da@17318",
+    "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@c1fef": "11881c2c-4d6e-4608-bc28-95858934f3da@c1fef",
+    "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@900f2": "11881c2c-4d6e-4608-bc28-95858934f3da@900f2",
+    "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@30732": "11881c2c-4d6e-4608-bc28-95858934f3da@30732",
+    "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@f1394": "11881c2c-4d6e-4608-bc28-95858934f3da@f1394",
+    "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@75ee4": "11881c2c-4d6e-4608-bc28-95858934f3da@75ee4",
+    "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@a72ab": "11881c2c-4d6e-4608-bc28-95858934f3da@a72ab",
+    "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@2224c": "11881c2c-4d6e-4608-bc28-95858934f3da@2224c",
+    "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@62756": "11881c2c-4d6e-4608-bc28-95858934f3da@62756",
+    "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@958b3": "11881c2c-4d6e-4608-bc28-95858934f3da@958b3",
+    "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@5c895": "11881c2c-4d6e-4608-bc28-95858934f3da@5c895",
+    "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@dd5b1": "11881c2c-4d6e-4608-bc28-95858934f3da@dd5b1",
+    "dc9cdc91-3ad1-4b1e-9617-363a4147b6b7": "c2af453e-7d94-4a6c-b3ea-1b588fd47d78",
+    "dc9cdc91-3ad1-4b1e-9617-363a4147b6b7@5bc43": "c2af453e-7d94-4a6c-b3ea-1b588fd47d78@5bc43",
+    "dc9cdc91-3ad1-4b1e-9617-363a4147b6b7@c2696": "c2af453e-7d94-4a6c-b3ea-1b588fd47d78@c2696",
+    "91f7a873-a846-4be6-8048-71cd92997067": "e09d8e88-440f-4865-b971-c019c217b868",
+    "91f7a873-a846-4be6-8048-71cd92997067@8a187": "e09d8e88-440f-4865-b971-c019c217b868@8a187",
+    "91f7a873-a846-4be6-8048-71cd92997067@2bc6c": "e09d8e88-440f-4865-b971-c019c217b868@2bc6c",
+    "4fbe6622-74aa-4e42-8e7a-73d184c35891": "6413e268-280f-4938-9a5d-d77037a86e63",
+    "4fbe6622-74aa-4e42-8e7a-73d184c35891@dfdd6": "6413e268-280f-4938-9a5d-d77037a86e63@dfdd6",
+    "4fbe6622-74aa-4e42-8e7a-73d184c35891@199a1": "6413e268-280f-4938-9a5d-d77037a86e63@199a1",
+    "6f192739-6a04-4697-9123-e727f72fe42f": "2a0c6817-9471-4c28-bab9-e4026d508167",
+    "6f192739-6a04-4697-9123-e727f72fe42f@8b8c2": "2a0c6817-9471-4c28-bab9-e4026d508167@8b8c2",
+    "6f192739-6a04-4697-9123-e727f72fe42f@ed136": "2a0c6817-9471-4c28-bab9-e4026d508167@ed136",
+    "1ca28898-09f7-4703-ab23-77154a14efdf": "b37cb565-8571-45b9-94f1-f1faa1ff5866",
+    "1ca28898-09f7-4703-ab23-77154a14efdf@42178": "b37cb565-8571-45b9-94f1-f1faa1ff5866@42178",
+    "1ca28898-09f7-4703-ab23-77154a14efdf@68ed9": "b37cb565-8571-45b9-94f1-f1faa1ff5866@68ed9",
+    "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a": "02344e9b-bf8b-4e18-affd-1764d3d315a6",
+    "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@e66be": "02344e9b-bf8b-4e18-affd-1764d3d315a6@e66be",
+    "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@0809f": "02344e9b-bf8b-4e18-affd-1764d3d315a6@0809f",
+    "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@08975": "02344e9b-bf8b-4e18-affd-1764d3d315a6@08975",
+    "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@17318": "02344e9b-bf8b-4e18-affd-1764d3d315a6@17318",
+    "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@c1fef": "02344e9b-bf8b-4e18-affd-1764d3d315a6@c1fef",
+    "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@900f2": "02344e9b-bf8b-4e18-affd-1764d3d315a6@900f2",
+    "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@30732": "02344e9b-bf8b-4e18-affd-1764d3d315a6@30732",
+    "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@f1394": "02344e9b-bf8b-4e18-affd-1764d3d315a6@f1394",
+    "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@75ee4": "02344e9b-bf8b-4e18-affd-1764d3d315a6@75ee4",
+    "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@a72ab": "02344e9b-bf8b-4e18-affd-1764d3d315a6@a72ab",
+    "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@2224c": "02344e9b-bf8b-4e18-affd-1764d3d315a6@2224c",
+    "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@62756": "02344e9b-bf8b-4e18-affd-1764d3d315a6@62756",
+    "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@958b3": "02344e9b-bf8b-4e18-affd-1764d3d315a6@958b3",
+    "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@5c895": "02344e9b-bf8b-4e18-affd-1764d3d315a6@5c895",
+    "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@dd5b1": "02344e9b-bf8b-4e18-affd-1764d3d315a6@dd5b1",
+    "dfde3a72-4413-40bb-a3b3-fd238286e1e6": "0e9f87a2-a25d-4124-a88b-0b7d1647527e",
+    "dfde3a72-4413-40bb-a3b3-fd238286e1e6@1b32f": "0e9f87a2-a25d-4124-a88b-0b7d1647527e@1b32f",
+    "dfde3a72-4413-40bb-a3b3-fd238286e1e6@36e9f": "0e9f87a2-a25d-4124-a88b-0b7d1647527e@36e9f",
+    "f0fc9f10-4c5f-4f62-ac42-be4d9a541895": "1c438b1b-8772-4b9e-a3bc-0148a39a5206",
+    "f0fc9f10-4c5f-4f62-ac42-be4d9a541895@a51b4": "1c438b1b-8772-4b9e-a3bc-0148a39a5206@a51b4",
+    "f0fc9f10-4c5f-4f62-ac42-be4d9a541895@6982a": "1c438b1b-8772-4b9e-a3bc-0148a39a5206@6982a",
+    "273df353-fa38-4bc7-91ec-e810db0cf22d": "edfa53b2-a6db-48af-859a-13674c2ce2f2",
+    "273df353-fa38-4bc7-91ec-e810db0cf22d@bddd6": "edfa53b2-a6db-48af-859a-13674c2ce2f2@bddd6",
+    "273df353-fa38-4bc7-91ec-e810db0cf22d@6d6d9": "edfa53b2-a6db-48af-859a-13674c2ce2f2@6d6d9"
+  },
+  "rows": [
+    {
+      "tag": "씬1·2 메시",
+      "kind": "asset",
+      "old": "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9",
+      "new": "11881c2c-4d6e-4608-bc28-95858934f3da",
+      "name": "NPC_TTSummon_001_Mesh.fbx"
+    },
+    {
+      "tag": "씬1·2 메시",
+      "kind": "meshes",
+      "idx": 0,
+      "old": "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@e66be",
+      "new": "11881c2c-4d6e-4608-bc28-95858934f3da@e66be",
+      "name": "NPC_Summon_001.mesh"
+    },
+    {
+      "tag": "씬1·2 메시",
+      "kind": "meshes",
+      "idx": 1,
+      "old": "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@0809f",
+      "new": "11881c2c-4d6e-4608-bc28-95858934f3da@0809f",
+      "name": "Prop_Axe01.mesh"
+    },
+    {
+      "tag": "씬1·2 메시",
+      "kind": "meshes",
+      "idx": 2,
+      "old": "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@08975",
+      "new": "11881c2c-4d6e-4608-bc28-95858934f3da@08975",
+      "name": "Wagon.mesh"
+    },
+    {
+      "tag": "씬1·2 메시",
+      "kind": "meshes",
+      "idx": 3,
+      "old": "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@17318",
+      "new": "11881c2c-4d6e-4608-bc28-95858934f3da@17318",
+      "name": "Hammer.mesh"
+    },
+    {
+      "tag": "씬1·2 메시",
+      "kind": "meshes",
+      "idx": 4,
+      "old": "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@c1fef",
+      "new": "11881c2c-4d6e-4608-bc28-95858934f3da@c1fef",
+      "name": "crossbow001.mesh"
+    },
+    {
+      "tag": "씬1·2 메시",
+      "kind": "meshes",
+      "idx": 5,
+      "old": "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@900f2",
+      "new": "11881c2c-4d6e-4608-bc28-95858934f3da@900f2",
+      "name": "crossbow002.mesh"
+    },
+    {
+      "tag": "씬1·2 메시",
+      "kind": "skeletons",
+      "idx": 0,
+      "old": "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@30732",
+      "new": "11881c2c-4d6e-4608-bc28-95858934f3da@30732",
+      "name": "UnnamedSkeleton-0.skeleton"
+    },
+    {
+      "tag": "씬1·2 메시",
+      "kind": "skeletons",
+      "idx": 1,
+      "old": "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@f1394",
+      "new": "11881c2c-4d6e-4608-bc28-95858934f3da@f1394",
+      "name": "UnnamedSkeleton-1.skeleton"
+    },
+    {
+      "tag": "씬1·2 메시",
+      "kind": "skeletons",
+      "idx": 2,
+      "old": "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@75ee4",
+      "new": "11881c2c-4d6e-4608-bc28-95858934f3da@75ee4",
+      "name": "UnnamedSkeleton-2.skeleton"
+    },
+    {
+      "tag": "씬1·2 메시",
+      "kind": "skeletons",
+      "idx": 3,
+      "old": "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@a72ab",
+      "new": "11881c2c-4d6e-4608-bc28-95858934f3da@a72ab",
+      "name": "UnnamedSkeleton-3.skeleton"
+    },
+    {
+      "tag": "씬1·2 메시",
+      "kind": "skeletons",
+      "idx": 4,
+      "old": "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@2224c",
+      "new": "11881c2c-4d6e-4608-bc28-95858934f3da@2224c",
+      "name": "UnnamedSkeleton-4.skeleton"
+    },
+    {
+      "tag": "씬1·2 메시",
+      "kind": "skeletons",
+      "idx": 5,
+      "old": "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@62756",
+      "new": "11881c2c-4d6e-4608-bc28-95858934f3da@62756",
+      "name": "UnnamedSkeleton-5.skeleton"
+    },
+    {
+      "tag": "씬1·2 메시",
+      "kind": "materials",
+      "idx": 0,
+      "old": "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@958b3",
+      "new": "11881c2c-4d6e-4608-bc28-95858934f3da@958b3",
+      "name": "Material #1.material"
+    },
+    {
+      "tag": "씬1·2 메시",
+      "kind": "materials",
+      "idx": 1,
+      "old": "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@5c895",
+      "new": "11881c2c-4d6e-4608-bc28-95858934f3da@5c895",
+      "name": "Material #2.material"
+    },
+    {
+      "tag": "씬1·2 메시",
+      "kind": "scenes",
+      "idx": 0,
+      "old": "9e93cbfa-f1b0-436c-a4a1-d8cc4a17e8d9@dd5b1",
+      "new": "11881c2c-4d6e-4608-bc28-95858934f3da@dd5b1",
+      "name": "NPC_TTSummon_001_Mesh.prefab"
+    },
+    {
+      "tag": "씬1·2 클립",
+      "kind": "asset",
+      "old": "dc9cdc91-3ad1-4b1e-9617-363a4147b6b7",
+      "new": "c2af453e-7d94-4a6c-b3ea-1b588fd47d78",
+      "name": "@Idle.fbx"
+    },
+    {
+      "tag": "씬1·2 클립",
+      "kind": "scenes",
+      "idx": 0,
+      "old": "dc9cdc91-3ad1-4b1e-9617-363a4147b6b7@5bc43",
+      "new": "c2af453e-7d94-4a6c-b3ea-1b588fd47d78@5bc43",
+      "name": "@Idle.prefab"
+    },
+    {
+      "tag": "씬1·2 클립",
+      "kind": "animation",
+      "idx": 0,
+      "old": "dc9cdc91-3ad1-4b1e-9617-363a4147b6b7@c2696",
+      "new": "c2af453e-7d94-4a6c-b3ea-1b588fd47d78@c2696",
+      "name": "Idle",
+      "wrapMode": 2
+    },
+    {
+      "tag": "씬1·2 클립",
+      "kind": "asset",
+      "old": "91f7a873-a846-4be6-8048-71cd92997067",
+      "new": "e09d8e88-440f-4865-b971-c019c217b868",
+      "name": "@Move.fbx"
+    },
+    {
+      "tag": "씬1·2 클립",
+      "kind": "scenes",
+      "idx": 0,
+      "old": "91f7a873-a846-4be6-8048-71cd92997067@8a187",
+      "new": "e09d8e88-440f-4865-b971-c019c217b868@8a187",
+      "name": "@Move.prefab"
+    },
+    {
+      "tag": "씬1·2 클립",
+      "kind": "animation",
+      "idx": 0,
+      "old": "91f7a873-a846-4be6-8048-71cd92997067@2bc6c",
+      "new": "e09d8e88-440f-4865-b971-c019c217b868@2bc6c",
+      "name": "Move",
+      "wrapMode": 2
+    },
+    {
+      "tag": "씬1·2 클립",
+      "kind": "asset",
+      "old": "4fbe6622-74aa-4e42-8e7a-73d184c35891",
+      "new": "6413e268-280f-4938-9a5d-d77037a86e63",
+      "name": "@One_BT_Attack01.fbx"
+    },
+    {
+      "tag": "씬1·2 클립",
+      "kind": "scenes",
+      "idx": 0,
+      "old": "4fbe6622-74aa-4e42-8e7a-73d184c35891@dfdd6",
+      "new": "6413e268-280f-4938-9a5d-d77037a86e63@dfdd6",
+      "name": "@One_BT_Attack01.prefab"
+    },
+    {
+      "tag": "씬1·2 클립",
+      "kind": "animation",
+      "idx": 0,
+      "old": "4fbe6622-74aa-4e42-8e7a-73d184c35891@199a1",
+      "new": "6413e268-280f-4938-9a5d-d77037a86e63@199a1",
+      "name": "One_BT_Attack01",
+      "wrapMode": 2
+    },
+    {
+      "tag": "씬1·2 클립",
+      "kind": "asset",
+      "old": "6f192739-6a04-4697-9123-e727f72fe42f",
+      "new": "2a0c6817-9471-4c28-bab9-e4026d508167",
+      "name": "@One_BT_Idle.fbx"
+    },
+    {
+      "tag": "씬1·2 클립",
+      "kind": "scenes",
+      "idx": 0,
+      "old": "6f192739-6a04-4697-9123-e727f72fe42f@8b8c2",
+      "new": "2a0c6817-9471-4c28-bab9-e4026d508167@8b8c2",
+      "name": "@One_BT_Idle.prefab"
+    },
+    {
+      "tag": "씬1·2 클립",
+      "kind": "animation",
+      "idx": 0,
+      "old": "6f192739-6a04-4697-9123-e727f72fe42f@ed136",
+      "new": "2a0c6817-9471-4c28-bab9-e4026d508167@ed136",
+      "name": "One_BT_Idle",
+      "wrapMode": 2
+    },
+    {
+      "tag": "씬1·2 클립",
+      "kind": "asset",
+      "old": "1ca28898-09f7-4703-ab23-77154a14efdf",
+      "new": "b37cb565-8571-45b9-94f1-f1faa1ff5866",
+      "name": "@One_BT_Move.fbx"
+    },
+    {
+      "tag": "씬1·2 클립",
+      "kind": "scenes",
+      "idx": 0,
+      "old": "1ca28898-09f7-4703-ab23-77154a14efdf@42178",
+      "new": "b37cb565-8571-45b9-94f1-f1faa1ff5866@42178",
+      "name": "@One_BT_Move.prefab"
+    },
+    {
+      "tag": "씬1·2 클립",
+      "kind": "animation",
+      "idx": 0,
+      "old": "1ca28898-09f7-4703-ab23-77154a14efdf@68ed9",
+      "new": "b37cb565-8571-45b9-94f1-f1faa1ff5866@68ed9",
+      "name": "One_BT_Move",
+      "wrapMode": 2
+    },
+    {
+      "tag": "씬3 메시",
+      "kind": "asset",
+      "old": "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a",
+      "new": "02344e9b-bf8b-4e18-affd-1764d3d315a6",
+      "name": "NPC_TTSummon_001_Mesh.fbx"
+    },
+    {
+      "tag": "씬3 메시",
+      "kind": "meshes",
+      "idx": 0,
+      "old": "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@e66be",
+      "new": "02344e9b-bf8b-4e18-affd-1764d3d315a6@e66be",
+      "name": "NPC_Summon_001.mesh"
+    },
+    {
+      "tag": "씬3 메시",
+      "kind": "meshes",
+      "idx": 1,
+      "old": "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@0809f",
+      "new": "02344e9b-bf8b-4e18-affd-1764d3d315a6@0809f",
+      "name": "Prop_Axe01.mesh"
+    },
+    {
+      "tag": "씬3 메시",
+      "kind": "meshes",
+      "idx": 2,
+      "old": "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@08975",
+      "new": "02344e9b-bf8b-4e18-affd-1764d3d315a6@08975",
+      "name": "Wagon.mesh"
+    },
+    {
+      "tag": "씬3 메시",
+      "kind": "meshes",
+      "idx": 3,
+      "old": "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@17318",
+      "new": "02344e9b-bf8b-4e18-affd-1764d3d315a6@17318",
+      "name": "Hammer.mesh"
+    },
+    {
+      "tag": "씬3 메시",
+      "kind": "meshes",
+      "idx": 4,
+      "old": "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@c1fef",
+      "new": "02344e9b-bf8b-4e18-affd-1764d3d315a6@c1fef",
+      "name": "crossbow001.mesh"
+    },
+    {
+      "tag": "씬3 메시",
+      "kind": "meshes",
+      "idx": 5,
+      "old": "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@900f2",
+      "new": "02344e9b-bf8b-4e18-affd-1764d3d315a6@900f2",
+      "name": "crossbow002.mesh"
+    },
+    {
+      "tag": "씬3 메시",
+      "kind": "skeletons",
+      "idx": 0,
+      "old": "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@30732",
+      "new": "02344e9b-bf8b-4e18-affd-1764d3d315a6@30732",
+      "name": "UnnamedSkeleton-0.skeleton"
+    },
+    {
+      "tag": "씬3 메시",
+      "kind": "skeletons",
+      "idx": 1,
+      "old": "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@f1394",
+      "new": "02344e9b-bf8b-4e18-affd-1764d3d315a6@f1394",
+      "name": "UnnamedSkeleton-1.skeleton"
+    },
+    {
+      "tag": "씬3 메시",
+      "kind": "skeletons",
+      "idx": 2,
+      "old": "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@75ee4",
+      "new": "02344e9b-bf8b-4e18-affd-1764d3d315a6@75ee4",
+      "name": "UnnamedSkeleton-2.skeleton"
+    },
+    {
+      "tag": "씬3 메시",
+      "kind": "skeletons",
+      "idx": 3,
+      "old": "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@a72ab",
+      "new": "02344e9b-bf8b-4e18-affd-1764d3d315a6@a72ab",
+      "name": "UnnamedSkeleton-3.skeleton"
+    },
+    {
+      "tag": "씬3 메시",
+      "kind": "skeletons",
+      "idx": 4,
+      "old": "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@2224c",
+      "new": "02344e9b-bf8b-4e18-affd-1764d3d315a6@2224c",
+      "name": "UnnamedSkeleton-4.skeleton"
+    },
+    {
+      "tag": "씬3 메시",
+      "kind": "skeletons",
+      "idx": 5,
+      "old": "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@62756",
+      "new": "02344e9b-bf8b-4e18-affd-1764d3d315a6@62756",
+      "name": "UnnamedSkeleton-5.skeleton"
+    },
+    {
+      "tag": "씬3 메시",
+      "kind": "materials",
+      "idx": 0,
+      "old": "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@958b3",
+      "new": "02344e9b-bf8b-4e18-affd-1764d3d315a6@958b3",
+      "name": "Material #1.material"
+    },
+    {
+      "tag": "씬3 메시",
+      "kind": "materials",
+      "idx": 1,
+      "old": "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@5c895",
+      "new": "02344e9b-bf8b-4e18-affd-1764d3d315a6@5c895",
+      "name": "Material #2.material"
+    },
+    {
+      "tag": "씬3 메시",
+      "kind": "scenes",
+      "idx": 0,
+      "old": "add93f0a-c01f-47b2-b7f7-1a9f0a4ec81a@dd5b1",
+      "new": "02344e9b-bf8b-4e18-affd-1764d3d315a6@dd5b1",
+      "name": "NPC_TTSummon_001_Mesh.prefab"
+    },
+    {
+      "tag": "씬3 클립 (분기)",
+      "kind": "asset",
+      "old": "dfde3a72-4413-40bb-a3b3-fd238286e1e6",
+      "new": "0e9f87a2-a25d-4124-a88b-0b7d1647527e",
+      "name": "@Axe_Attack01.fbx"
+    },
+    {
+      "tag": "씬3 클립 (분기)",
+      "kind": "scenes",
+      "idx": 0,
+      "old": "dfde3a72-4413-40bb-a3b3-fd238286e1e6@1b32f",
+      "new": "0e9f87a2-a25d-4124-a88b-0b7d1647527e@1b32f",
+      "name": "@Axe_Attack01.prefab"
+    },
+    {
+      "tag": "씬3 클립 (분기)",
+      "kind": "animation",
+      "idx": 0,
+      "old": "dfde3a72-4413-40bb-a3b3-fd238286e1e6@36e9f",
+      "new": "0e9f87a2-a25d-4124-a88b-0b7d1647527e@36e9f",
+      "name": "Axe_Attack01",
+      "wrapMode": 2
+    },
+    {
+      "tag": "씬3 클립 (분기)",
+      "kind": "asset",
+      "old": "f0fc9f10-4c5f-4f62-ac42-be4d9a541895",
+      "new": "1c438b1b-8772-4b9e-a3bc-0148a39a5206",
+      "name": "@Axe_Idle.fbx"
+    },
+    {
+      "tag": "씬3 클립 (분기)",
+      "kind": "scenes",
+      "idx": 0,
+      "old": "f0fc9f10-4c5f-4f62-ac42-be4d9a541895@a51b4",
+      "new": "1c438b1b-8772-4b9e-a3bc-0148a39a5206@a51b4",
+      "name": "@Axe_Idle.prefab"
+    },
+    {
+      "tag": "씬3 클립 (분기)",
+      "kind": "animation",
+      "idx": 0,
+      "old": "f0fc9f10-4c5f-4f62-ac42-be4d9a541895@6982a",
+      "new": "1c438b1b-8772-4b9e-a3bc-0148a39a5206@6982a",
+      "name": "Axe_Idle",
+      "wrapMode": 2
+    },
+    {
+      "tag": "씬3 클립 (분기)",
+      "kind": "asset",
+      "old": "273df353-fa38-4bc7-91ec-e810db0cf22d",
+      "new": "edfa53b2-a6db-48af-859a-13674c2ce2f2",
+      "name": "@Axe_Move.fbx"
+    },
+    {
+      "tag": "씬3 클립 (분기)",
+      "kind": "scenes",
+      "idx": 0,
+      "old": "273df353-fa38-4bc7-91ec-e810db0cf22d@bddd6",
+      "new": "edfa53b2-a6db-48af-859a-13674c2ce2f2@bddd6",
+      "name": "@Axe_Move.prefab"
+    },
+    {
+      "tag": "씬3 클립 (분기)",
+      "kind": "animation",
+      "idx": 0,
+      "old": "273df353-fa38-4bc7-91ec-e810db0cf22d@6d6d9",
+      "new": "edfa53b2-a6db-48af-859a-13674c2ce2f2@6d6d9",
+      "name": "Axe_Move",
+      "wrapMode": 2
+    }
+  ]
+}
